@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "5b5ab5683bf25a6b",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb9ffee14238506a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "696ff7fcbca64dc3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "0cee144dde9a885f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "5f273efb4aa2c003",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "722da8e846eca0e8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "44888cbda58fac91",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1670fca7ad68cc17",
+    "type": "split",
+    "children": [
+      {
+        "id": "16e8d760cf212f43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e06407869e78b7ca",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d6d82f4f933e8149",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f1cf70d3537044d4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "74a7fd4d7e57ff2c",
+    "type": "split",
+    "children": [
+      {
+        "id": "50a9f83edf4ac27f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb9f02f56ab33fd2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1546f4ad0c499f23",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2836bfd05ed36ef0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "515d9afba5415174",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e06407869e78b7ca",
+  "lastOpenFiles": [
+    "Backend/dot net/Code sharing.md",
+    "Backend/dot net/dot Net Core.md",
+    "Targetting multiple frameworks in ASp.net core.md",
+    "Backend/dot net/Middleware.md",
+    "Frontend/Networking/Networking.md",
+    "Backend/dot net/Middleware Exception Handling.md",
+    "Backend/dot net/Custom middleware.md",
+    "Backend/dot net/Ioc container.md",
+    "Backend/dot net/images/Pasted image 20231119014225.png",
+    "Backend/dot net/images",
+    "Backend/dot net/Hosting Environments in .NET Core.md",
+    "Frontend/Javascript/algorithm/intermediate algorithm",
+    "Frontend/Javascript/algorithm/basic algorithm",
+    "Frontend/Javascript/algorithm/Untitled.md",
+    "Frontend/Javascript/algorithm",
+    "Backend/dot net/Routing configuration.md",
+    "Backend/dot net/Session and state management.md",
+    "Backend/dot net/MVC communication.md",
+    "Backend/dot net/Understand MVC pattern.md",
+    "Backend/dot net/ASP.NET Core project folder structure.md",
+    "Backend/dot net/ASP.NET Core.md",
+    "Backend/dot net/NET Command-Line Interface (CLI).md",
+    "Frontend/React/React Animation.md",
+    "Backend/dot net",
+    "Untitled.canvas",
+    "Frontend/Networking/Fetch API.md",
+    "Frontend/Javascript/JavaScript roadmap.md",
+    "Frontend/Javascript/Promises.md",
+    "Untitled mindmap.md",
+    "excalibrain.md",
+    "Frontend/Networking/URL ( Uniform Resource Locator).md",
+    "Excalidraw/ExcaliBrain Snapshot - JavaScript roadmap.excalidraw.md",
+    "Excalidraw",
+    "Frontend/React/State.md",
+    "Frontend/Javascript",
+    "Frontend/Networking/images/Pasted image 20231104135510.png",
+    "Frontend/Networking/images/Pasted image 20231104135404.png",
+    "Frontend/Networking/images/Pasted image 20231104135329.png",
+    "Frontend/Networking/images/Pasted image 20231104135230.png",
+    "Frontend/Networking/images",
+    "Frontend/Networking",
+    "Frontend/React/images/ReduxDataFlowDiagram-49fa8c3968371d9ef6f2a1486bd40a26-1.gif",
+    "Frontend/React/images",
+    "Pasted image 20231102031238.png",
+    "Pasted image 20231103062754.png",
+    "ReduxDataFlowDiagram-49fa8c3968371d9ef6f2a1486bd40a26-1.gif"
+  ]
+}

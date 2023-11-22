@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "9ab2534d02960988",
+    "type": "split",
+    "children": [
+      {
+        "id": "9571fd8dfc0ba082",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ddc0a11e23047ae3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Devops and cloud computing/AWS/AWS Learning Roadmap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dbf70a98c101f85a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9fc14cd551456cf9",
+    "type": "split",
+    "children": [
+      {
+        "id": "d43c17c18b5f46fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76387a59a3bd7594",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "89016e1070b3db37",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "404083ef11de73d3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 474.5
+  },
+  "right": {
+    "id": "c34a49a3e33ebf3f",
+    "type": "split",
+    "children": [
+      {
+        "id": "967b68d14f118c51",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a64b9ae2f816723",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f7cff785f0b085ff",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "139a83be30a40720",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6fa429b4b0ddb100",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "dbf70a98c101f85a",
+  "lastOpenFiles": [
+    "Devops and cloud computing/AWS/What is AWS.md",
+    "Devops and cloud computing/AWS/AWS Learning Roadmap.md",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/Security and the AWS Shared Responsibility Model.md",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/Role Based Access in AWS.md",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/IAM sign-in URL.md",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/AWS Identity and Access Management (IAM).md",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/AWS IAM Policy configuration in YAML.md",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/AWS Global Infrastructure.md",
+    "Devops and cloud computing/AWS/definition/VPC definition.md",
+    "Devops and cloud computing/AWS/definition/AWS IAM Role definition.md",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/How to protect the AWS Root User.md",
+    "Devops and cloud computing/AWS/definition/Multi-Factor Authentication (MFA) Definition.md",
+    "Devops and cloud computing/AWS/definition/API Definition.md",
+    "Devops and cloud computing/AWS/definition/Cluster definition.md",
+    "Devops and cloud computing/AWS/definition/Login Credential Definition.md",
+    "Devops and cloud computing/AWS/definition/Policy Definition.md",
+    "Devops and cloud computing/AWS/AWS services",
+    "Devops and cloud computing/AWS/definition",
+    "Full stack developer/Frontend/React/State.md",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/images/Pasted image 20231121051333.png",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/images",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY",
+    "Devops and cloud computing/AWS/images/Pasted image 20231121021406.png",
+    "Devops and cloud computing/AWS/images/markmap (1).svg",
+    "Devops and cloud computing/AWS",
+    "Devops and cloud computing/AWS/images",
+    "markmap.svg.md",
+    "markmap.svg",
+    "Pasted image 20231121014830.png",
+    "Devops and cloud computing"
+  ]
+}
