@@ -9,10 +9,10 @@ AWS Identity and Access Management (IAM) is a service provided by Amazon Web Ser
 ### 2. Groups
    - Groups are collections of IAM users. Instead of attaching policies directly to users, you can assign permissions to groups, making it easier to manage access for multiple users with similar roles.
 
-### 3. Roles
+### 3. [[AWS IAM Role definition|Roles]]
    - IAM roles define a set of permissions for making AWS service requests. Unlike users or groups, roles do not have credentials associated with them. Instead, IAM users or AWS services assume a role to obtain temporary security credentials.
 
-### 4. Policies [[Policy Definition]]
+### 4.[[Policy Definition | Policies]]
    - IAM policies are JSON documents that define permissions. Policies can be attached to users, groups, or roles, specifying what actions are allowed or denied on which resources.
 
 ### 5. Permissions
@@ -23,7 +23,7 @@ AWS Identity and Access Management (IAM) is a service provided by Amazon Web Ser
 
 ## Key Features
 
-### 1. Multi-Factor Authentication (MFA) [[Multi-Factor Authentication (MFA) Definition]]
+### 1.  [[Multi-Factor Authentication (MFA) Definition | Multi-Factor Authentication (MFA)]]
    - IAM supports the use of Multi-Factor Authentication, providing an additional layer of security by requiring users to present two or more forms of identification.
 
 ### 2. Identity Federation

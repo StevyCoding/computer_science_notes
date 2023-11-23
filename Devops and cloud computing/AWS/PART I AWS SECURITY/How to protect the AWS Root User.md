@@ -1,4 +1,4 @@
-
+#security #aws #MFA 
 The AWS root user has significant privileges and controls access to the entire AWS account. It is crucial to implement security measures to protect the root user and prevent unauthorized access. Here are recommended steps:
 
 ## 1. **Enable Multi-Factor Authentication (MFA):**

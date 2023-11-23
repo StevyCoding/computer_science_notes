@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Devops and cloud computing/AWS/AWS Learning Roadmap.md",
+                "file": "Devops and cloud computing/AWS/AWS services/AWS services.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,12 +23,28 @@
             "id": "dbf70a98c101f85a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Devops and cloud computing/AWS/definition/Amazon Machine Image (AMI).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a710ee6f206b0917",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Devops and cloud computing/AWS/PART II AWS Compute/EC2 lifecyle  detailed.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Devops and cloud computing/AWS/PART II AWS Compute/EC2 lifecyle  detailed.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Devops and cloud computing/AWS/PART II AWS Compute/EC2 lifecyle  detailed.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Devops and cloud computing/AWS/PART II AWS Compute/EC2 lifecyle  detailed.md"
+              }
             }
           }
         ]
@@ -152,24 +172,31 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dbf70a98c101f85a",
+  "active": "a710ee6f206b0917",
   "lastOpenFiles": [
-    "Devops and cloud computing/AWS/What is AWS.md",
-    "Devops and cloud computing/AWS/AWS Learning Roadmap.md",
-    "Devops and cloud computing/AWS/PART I AWS SECURITY/Security and the AWS Shared Responsibility Model.md",
+    "Devops and cloud computing/AWS/PART II AWS Compute/Amazon Elastic Compute Cloud (Amazon EC2).md",
+    "Devops and cloud computing/AWS/PART II AWS Compute/EC2 lifecyle  detailed.md",
+    "Devops and cloud computing/AWS/PART II AWS Compute/EC2 instance lifecycle.md",
+    "Devops and cloud computing/AWS/definition/Amazon Machine Image (AMI).md",
+    "Devops and cloud computing/AWS/PART II AWS Compute",
+    "Devops and cloud computing/AWS/AWS services/AWS services.md",
+    "Devops and cloud computing/AWS/definition/API Definition.md",
+    "Devops and cloud computing/AWS/definition/Policy Definition.md",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/AWS IAM Policy configuration in YAML.md",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/AWS Identity and Access Management (IAM).md",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/AWS Global Infrastructure.md",
     "Devops and cloud computing/AWS/PART I AWS SECURITY/Role Based Access in AWS.md",
     "Devops and cloud computing/AWS/PART I AWS SECURITY/IAM sign-in URL.md",
-    "Devops and cloud computing/AWS/PART I AWS SECURITY/AWS Identity and Access Management (IAM).md",
-    "Devops and cloud computing/AWS/PART I AWS SECURITY/AWS IAM Policy configuration in YAML.md",
-    "Devops and cloud computing/AWS/PART I AWS SECURITY/AWS Global Infrastructure.md",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/How to protect the AWS Root User.md",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/Security and the AWS Shared Responsibility Model.md",
+    "Devops and cloud computing/AWS/AWS Learning Roadmap.md",
+    "Policy.md",
+    "Devops and cloud computing/AWS/What is AWS.md",
     "Devops and cloud computing/AWS/definition/VPC definition.md",
     "Devops and cloud computing/AWS/definition/AWS IAM Role definition.md",
-    "Devops and cloud computing/AWS/PART I AWS SECURITY/How to protect the AWS Root User.md",
     "Devops and cloud computing/AWS/definition/Multi-Factor Authentication (MFA) Definition.md",
-    "Devops and cloud computing/AWS/definition/API Definition.md",
     "Devops and cloud computing/AWS/definition/Cluster definition.md",
     "Devops and cloud computing/AWS/definition/Login Credential Definition.md",
-    "Devops and cloud computing/AWS/definition/Policy Definition.md",
     "Devops and cloud computing/AWS/AWS services",
     "Devops and cloud computing/AWS/definition",
     "Full stack developer/Frontend/React/State.md",
