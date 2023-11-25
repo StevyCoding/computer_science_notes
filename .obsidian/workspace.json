@@ -25,26 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Devops and cloud computing/AWS/definition/Amazon Machine Image (AMI).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a710ee6f206b0917",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Devops and cloud computing/AWS/PART II AWS Compute/EC2 lifecyle  detailed.md",
+                "file": "Devops and cloud computing/AWS/PART III AWS Network/Amazon Virtual Private Cloud (VPC).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "container services aws",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Devops and cloud computing/AWS/PART II AWS Compute/EC2 lifecyle  detailed.md",
+                "file": "Devops and cloud computing/AWS/PART III AWS Network/Amazon Virtual Private Cloud (VPC).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,9 +115,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Devops and cloud computing/AWS/PART II AWS Compute/EC2 lifecyle  detailed.md",
+                "file": "Devops and cloud computing/AWS/PART III AWS Network/Amazon Virtual Private Cloud (VPC).md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -150,16 +138,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops and cloud computing/AWS/PART II AWS Compute/EC2 lifecyle  detailed.md"
+                "file": "Devops and cloud computing/AWS/PART III AWS Network/Amazon Virtual Private Cloud (VPC).md"
               }
             }
+          },
+          {
+            "id": "55f290fca13fb858",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,44 +168,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a710ee6f206b0917",
+  "active": "dbf70a98c101f85a",
   "lastOpenFiles": [
-    "Devops and cloud computing/AWS/PART II AWS Compute/Amazon Elastic Compute Cloud (Amazon EC2).md",
-    "Devops and cloud computing/AWS/PART II AWS Compute/EC2 lifecyle  detailed.md",
-    "Devops and cloud computing/AWS/PART II AWS Compute/EC2 instance lifecycle.md",
-    "Devops and cloud computing/AWS/definition/Amazon Machine Image (AMI).md",
-    "Devops and cloud computing/AWS/PART II AWS Compute",
-    "Devops and cloud computing/AWS/AWS services/AWS services.md",
-    "Devops and cloud computing/AWS/definition/API Definition.md",
-    "Devops and cloud computing/AWS/definition/Policy Definition.md",
-    "Devops and cloud computing/AWS/PART I AWS SECURITY/AWS IAM Policy configuration in YAML.md",
-    "Devops and cloud computing/AWS/PART I AWS SECURITY/AWS Identity and Access Management (IAM).md",
-    "Devops and cloud computing/AWS/PART I AWS SECURITY/AWS Global Infrastructure.md",
-    "Devops and cloud computing/AWS/PART I AWS SECURITY/Role Based Access in AWS.md",
-    "Devops and cloud computing/AWS/PART I AWS SECURITY/IAM sign-in URL.md",
-    "Devops and cloud computing/AWS/PART I AWS SECURITY/How to protect the AWS Root User.md",
-    "Devops and cloud computing/AWS/PART I AWS SECURITY/Security and the AWS Shared Responsibility Model.md",
-    "Devops and cloud computing/AWS/AWS Learning Roadmap.md",
-    "Policy.md",
+    "Devops and cloud computing/AWS/PART III AWS Network/Amazon VPC Routing.md",
+    "Devops and cloud computing/AWS/PART III AWS Network/Hybrid Connectivity with AWS.md",
+    "Devops and cloud computing/AWS/PART III AWS Network/Introduction to Amazon VPC.md",
+    "Devops and cloud computing/AWS/PART III AWS Network/Networking in AWS.md",
+    "Devops and cloud computing/AWS/PART III AWS Network/Secure Amazon VPC.md",
     "Devops and cloud computing/AWS/What is AWS.md",
-    "Devops and cloud computing/AWS/definition/VPC definition.md",
-    "Devops and cloud computing/AWS/definition/AWS IAM Role definition.md",
-    "Devops and cloud computing/AWS/definition/Multi-Factor Authentication (MFA) Definition.md",
-    "Devops and cloud computing/AWS/definition/Cluster definition.md",
-    "Devops and cloud computing/AWS/definition/Login Credential Definition.md",
-    "Devops and cloud computing/AWS/AWS services",
-    "Devops and cloud computing/AWS/definition",
-    "Full stack developer/Frontend/React/State.md",
+    "Full stack developer/Frontend/Networking/images/Pasted image 20231104135230.png",
+    "Full stack developer/Frontend/Networking/images/Pasted image 20231104135510.png",
+    "Full stack developer/Frontend/Networking/images/Pasted image 20231104135404.png",
+    "Full stack developer/Frontend/Networking/images/Pasted image 20231104135329.png",
+    "Full stack developer/Backend/dot net/images/Pasted image 20231119014225.png",
+    "Full stack developer/Frontend/Networking/Networking.md",
+    "Full stack developer/Backend/dot net/Custom middleware.md",
+    "Full stack developer/Backend/dot net/Middleware.md",
+    "Full stack developer/Backend/dot net/Routing configuration.md",
+    "Full stack developer/Backend/dot net/Hosting Environments in .NET Core.md",
+    "Full stack developer/Backend/dot net/MVC communication.md",
+    "Full stack developer/Backend/dot net/ASP.NET Core project folder structure.md",
+    "Full stack developer/Backend/dot net/Ioc container.md",
+    "Full stack developer/Backend/dot net/ASP.NET Core.md",
+    "Full stack developer/Backend/dot net/Session and state management.md",
+    "Full stack developer/Backend/dot net/dot Net Core.md",
+    "Full stack developer/Frontend/Networking/URI( Uniform Resource Indicator).md",
+    "Full stack developer/Backend/dot net/Code sharing.md",
+    "Full stack developer/Backend/dot net/images",
+    "Full stack developer/Frontend/Networking/images",
+    "Devops and cloud computing/AWS/PART II AWS Compute/EC2 lifecyle  detailed.md",
+    "Full stack developer/Backend/dot net",
+    "Full stack developer/Frontend/Networking",
+    "Full stack developer/Excalidraw",
+    "Devops and cloud computing/AWS/AWS Learning Roadmap.md",
+    "Devops and cloud computing/AWS/images/Pasted image 20231124144300.png",
+    "Devops and cloud computing/AWS/PART III AWS Network/Amazon Virtual Private Cloud (VPC).md",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/AWS IAM Policy configuration in YAML.md",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/AWS Global Infrastructure.md",
+    "Full stack developer/Backend/Spring/Spring History.md",
+    "Full stack developer/Backend/Spring/Spring Boot/Spring Boot History.md",
+    "Full stack developer/Backend/Spring/Spring Batch",
+    "Full stack developer/Backend/Spring/Spring Boot",
+    "Full stack developer/Backend/Spring",
+    "Untitled.canvas",
+    "Networking/Internet Protocol (IP)",
+    "programming language/object oriented concept",
     "Devops and cloud computing/AWS/PART I AWS SECURITY/images/Pasted image 20231121051333.png",
-    "Devops and cloud computing/AWS/PART I AWS SECURITY/images",
-    "Devops and cloud computing/AWS/PART I AWS SECURITY",
     "Devops and cloud computing/AWS/images/Pasted image 20231121021406.png",
     "Devops and cloud computing/AWS/images/markmap (1).svg",
-    "Devops and cloud computing/AWS",
-    "Devops and cloud computing/AWS/images",
-    "markmap.svg.md",
-    "markmap.svg",
-    "Pasted image 20231121014830.png",
-    "Devops and cloud computing"
+    "markmap.svg"
   ]
 }

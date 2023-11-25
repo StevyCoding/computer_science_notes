@@ -1,4 +1,5 @@
 {
   "newLinkFormat": "shortest",
-  "attachmentFolderPath": "./images"
+  "attachmentFolderPath": "./images",
+  "alwaysUpdateLinks": true
 }

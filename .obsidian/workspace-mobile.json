@@ -17,8 +17,8 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Full stack developer/Backend/dot net/ASP.NET Core project folder structure.md",
-                    "mode": "source",
+                    "file": "Devops and cloud computing/AWS/PART II AWS Compute/EC2 instance lifecycle.md",
+                    "mode": "preview",
                     "source": false
                   }
                 }
@@ -106,7 +106,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Full stack developer/Backend/dot net/ASP.NET Core project folder structure.md",
+            "file": "Devops and cloud computing/AWS/PART II AWS Compute/EC2 instance lifecycle.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Full stack developer/Backend/dot net/ASP.NET Core project folder structure.md",
+            "file": "Devops and cloud computing/AWS/PART II AWS Compute/EC2 instance lifecycle.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -135,12 +135,20 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Full stack developer/Backend/dot net/ASP.NET Core project folder structure.md"
+            "file": "Devops and cloud computing/AWS/PART II AWS Compute/EC2 instance lifecycle.md"
           }
+        }
+      },
+      {
+        "id": "4c4e1998005227db",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {}
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,18 +162,44 @@
   },
   "active": "bec5b39a6ccbca44",
   "lastOpenFiles": [
-    "Full stack developer/Backend/dot net/dot Net Core.md",
-    "Full stack developer/Backend/dot net/ASP.NET Core.md",
-    "Full stack developer/Excalidraw/ExcaliBrain Snapshot - JavaScript roadmap.excalidraw.md",
-    "Boxing training/Learn Boxing.md",
-    "Full stack developer/Frontend/Javascript/Promises.md",
-    "Boxing training",
-    "Full stack developer/Frontend/Javascript/JavaScript roadmap.md",
-    "Full stack developer/Frontend/Networking/Networking.md",
-    "Full stack developer/Frontend/React/State.md.tacitpart",
-    "Full stack developer/Frontend/Javascript/JavaScript roadmap.md.tacitpart",
-    "Full stack developer/Excalidraw/ExcaliBrain Snapshot - JavaScript roadmap.excalidraw.md.tacitpart",
-    "Full stack developer/Excalidraw",
-    "Full stack developer/Frontend/Networking/URI( Uniform Resource Indicator).md"
+    "Full stack developer/Backend/Spring/Spring Boot/Untitled.md",
+    "Full stack developer/Backend/Spring/Spring Boot/Untitled.md.tacitpart",
+    "Full stack developer/Backend/Spring/Spring Boot/Spring Boot History.md",
+    "Full stack developer/Backend/Spring/Spring Boot/Spring Boot History.md.tacitpart",
+    "Full stack developer/Backend/Spring/Spring Boot",
+    "Full stack developer/Backend/Spring/Spring Batch/Spring batch.md",
+    "Full stack developer/Backend/Spring/Spring Batch/Spring batch.md.tacitpart",
+    "Full stack developer/Backend/Spring/Spring Batch",
+    "Full stack developer/Backend/Net Core/images/Pasted image 20231119014225.png",
+    "Full stack developer/Backend/Net Core/images/Pasted image 20231119014225.png.tacitpart",
+    "Full stack developer/Backend/Net Core/images",
+    "Full stack developer/Backend/Spring/Spring History.md",
+    "Full stack developer/Backend/Spring",
+    "Full stack developer/Backend/Net Core/Understand MVC pattern.md",
+    "Full stack developer/Backend/Net Core/Understand MVC pattern.md.tacitpart",
+    "Full stack developer/Backend/Net Core/Session and state management.md",
+    "Full stack developer/Backend/Net Core/Session and state management.md.tacitpart",
+    "Full stack developer/Backend/Net Core/Routing configuration.md",
+    "Full stack developer/Backend/Net Core/NET Command-Line Interface (CLI).md",
+    "Full stack developer/Backend/Net Core/MVC communication.md",
+    "Full stack developer/Backend/Net Core/Middleware.md",
+    "Full stack developer/Backend/Net Core/Middleware Exception Handling.md",
+    "Full stack developer/Backend/Net Core/Ioc container.md",
+    "Full stack developer/Backend/Net Core/Hosting Environments in .NET Core.md",
+    "Full stack developer/Backend/Net Core/dot Net Core.md",
+    "Full stack developer/Backend/Net Core/Custom middleware.md",
+    "Full stack developer/Backend/Net Core/Code sharing.md",
+    "Full stack developer/Backend/Net Core/ASP.NET Core.md",
+    "Full stack developer/Backend/Net Core/ASP.NET Core project folder structure.md",
+    "Devops and cloud computing/AWS/PART III AWS Network/Secure Amazon VPC.md",
+    "Devops and cloud computing/AWS/PART III AWS Network/Networking in AWS.md",
+    "Devops and cloud computing/AWS/PART III AWS Network/Introduction to Amazon VPC.md",
+    "Devops and cloud computing/AWS/PART III AWS Network/Hybrid Connectivity with AWS.md",
+    "Devops and cloud computing/AWS/PART III AWS Network/Amazon VPC Routing.md",
+    "Devops and cloud computing/AWS/PART III AWS Network/Amazon Virtual Private Cloud (VPC).md",
+    "Devops and cloud computing/AWS/PART II AWS Compute/Introduction to Serverless on AWS.md",
+    "Devops and cloud computing/AWS/PART II AWS Compute/EC2 instance lifecycle  detailed.md",
+    "Devops and cloud computing/AWS/images/Pasted image 20231124144300.png",
+    "Untitled.canvas"
   ]
 }
