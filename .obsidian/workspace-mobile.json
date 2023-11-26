@@ -17,8 +17,8 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Devops and cloud computing/AWS/PART II AWS Compute/EC2 instance lifecycle.md",
-                    "mode": "preview",
+                    "file": "Networking/Internet Protocol (IP)/IPV4 Configuration.md",
+                    "mode": "source",
                     "source": false
                   }
                 }
@@ -106,7 +106,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Devops and cloud computing/AWS/PART II AWS Compute/EC2 instance lifecycle.md",
+            "file": "Networking/Internet Protocol (IP)/IPV4 Configuration.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Devops and cloud computing/AWS/PART II AWS Compute/EC2 instance lifecycle.md",
+            "file": "Networking/Internet Protocol (IP)/IPV4 Configuration.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -135,7 +135,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Devops and cloud computing/AWS/PART II AWS Compute/EC2 instance lifecycle.md"
+            "file": "Networking/Internet Protocol (IP)/IPV4 Configuration.md"
           }
         }
       },
@@ -162,6 +162,10 @@
   },
   "active": "bec5b39a6ccbca44",
   "lastOpenFiles": [
+    "Devops and cloud computing/AWS/PART III AWS Network/Hybrid Connectivity with AWS.md",
+    "Full stack developer/Frontend/Javascript/Promises.md",
+    "Devops and cloud computing/AWS/PART II AWS Compute/EC2 instance lifecycle.md",
+    "Devops and cloud computing/AWS/PART III AWS Network/Amazon Virtual Private Cloud (VPC).md",
     "Full stack developer/Backend/Spring/Spring Boot/Untitled.md",
     "Full stack developer/Backend/Spring/Spring Boot/Untitled.md.tacitpart",
     "Full stack developer/Backend/Spring/Spring Boot/Spring Boot History.md",
@@ -194,11 +198,7 @@
     "Devops and cloud computing/AWS/PART III AWS Network/Secure Amazon VPC.md",
     "Devops and cloud computing/AWS/PART III AWS Network/Networking in AWS.md",
     "Devops and cloud computing/AWS/PART III AWS Network/Introduction to Amazon VPC.md",
-    "Devops and cloud computing/AWS/PART III AWS Network/Hybrid Connectivity with AWS.md",
     "Devops and cloud computing/AWS/PART III AWS Network/Amazon VPC Routing.md",
-    "Devops and cloud computing/AWS/PART III AWS Network/Amazon Virtual Private Cloud (VPC).md",
-    "Devops and cloud computing/AWS/PART II AWS Compute/Introduction to Serverless on AWS.md",
-    "Devops and cloud computing/AWS/PART II AWS Compute/EC2 instance lifecycle  detailed.md",
     "Devops and cloud computing/AWS/images/Pasted image 20231124144300.png",
     "Untitled.canvas"
   ]

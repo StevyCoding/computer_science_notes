@@ -2,7 +2,7 @@ Certainly, let's focus on IPv4, which is the most widely used version of the Int
 
 ### 1. **IPv4 Address Format:**
 
-- IPv4 addresses are 32-bit numerical labels, usually expressed in dotted-decimal format, consisting of four octets (8 bits each). Example: 192.168.0.1.
+- IPv4 addresses are ==32-bit numerical labels==, usually expressed in dotted-decimal format, consisting of four octets (8 bits each). Example: 192.168.0.1.
 
 ### 2. **Classes of IPv4 Addresses:**
 
@@ -22,6 +22,7 @@ Certainly, let's focus on IPv4, which is the most widely used version of the Int
 ### 5. **Static vs. Dynamic IPv4 Address Assignment:**
 
 - **Static IPv4 Address:** Manually configured on a device and remains unchanged unless modified by an administrator.
+
 - **Dynamic IPv4 Address:** Automatically assigned by a DHCP server. Dynamic addressing is common in scenarios where devices frequently join and leave a network.
 
 ### 6. **Subnetting in IPv4:**
