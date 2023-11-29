@@ -1,0 +1,1 @@
+**Abstraction :** L'abstraction consiste à simplifier la complexité du système en modélisant les entités pertinentes de manière à ignorer les détails non essentiels. Les classes abstraites et les interfaces sont des éléments clés de l'abstraction en OOP.
