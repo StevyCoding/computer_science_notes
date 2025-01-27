@@ -5,18 +5,75 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
-  "showArrow": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"programming language\" path:\"programming language/Java\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"Devops and cloud computing/Ansible\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:\"programming language/Design Pattern\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:\"project management/Agile coursera course\" path:\"UI Design/zero to mastery channel\" path:\"Full stack developer/Frontend/Angular\" path:\"programming language/Typescript\" path:\"Full stack developer/Frontend/React\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:\"Full stack developer/Frontend/React\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:\"Full stack developer/Backend/dot net\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16675149
+      }
+    },
+    {
+      "query": "path:\"Networking/Internet Protocol (IP)\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "path:\"Devops and cloud computing/Puppet\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "lineSizeMultiplier": 2.32268041237113,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.885498954315046,
-  "close": true
+  "centerStrength": 0.494845360824742,
+  "repelStrength": 2.98969072164948,
+  "linkStrength": 0.530927835051546,
+  "linkDistance": 202,
+  "scale": 0.32133638605038084,
+  "close": false
 }

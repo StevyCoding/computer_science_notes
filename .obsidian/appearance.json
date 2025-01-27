@@ -1,5 +1,11 @@
 {
-  "accentColor": "",
-  "cssTheme": "Blue Topaz",
-  "baseFontSize": 21
+  "accentColor": "#10ebe6",
+  "cssTheme": "Things",
+  "baseFontSize": 22,
+  "theme": "obsidian",
+  "monospaceFontFamily": "Fira Code",
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "default"
+  ]
 }

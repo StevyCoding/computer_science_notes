@@ -1,0 +1,4 @@
+- format string in python
+- list operation
+- mot clé pass
+- mot clé yield

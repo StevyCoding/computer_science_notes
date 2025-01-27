@@ -17,10 +17,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Networking/Internet Protocol (IP)/IPV4 Configuration.md",
-                    "mode": "source",
+                    "file": "programming language/Java/OCP preparation/6. Chapter 5 Methods.md",
+                    "mode": "preview",
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "6. Chapter 5 Methods"
                 }
               }
             ]
@@ -34,7 +36,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "mindmap",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               }
             ]
@@ -56,7 +60,9 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical"
-          }
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
         }
       },
       {
@@ -71,7 +77,9 @@
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
-          }
+          },
+          "icon": "lucide-search",
+          "title": "Search"
         }
       },
       {
@@ -82,7 +90,9 @@
           "state": {
             "sortOrder": "frequency",
             "useHierarchy": true
-          }
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
         }
       },
       {
@@ -90,7 +100,9 @@
         "type": "leaf",
         "state": {
           "type": "bookmarks",
-          "state": {}
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
         }
       }
     ],
@@ -106,7 +118,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Networking/Internet Protocol (IP)/IPV4 Configuration.md",
+            "file": "programming language/Java/OCA preparation/9. Chapter 8 Lambdas and Functional Interfaces.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -114,7 +126,9 @@
             "searchQuery": "",
             "backlinkCollapsed": false,
             "unlinkedCollapsed": true
-          }
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
         }
       },
       {
@@ -123,10 +137,12 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Networking/Internet Protocol (IP)/IPV4 Configuration.md",
+            "file": "programming language/Java/OCA preparation/9. Chapter 8 Lambdas and Functional Interfaces.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
-          }
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
         }
       },
       {
@@ -135,8 +151,10 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Networking/Internet Protocol (IP)/IPV4 Configuration.md"
-          }
+            "file": "programming language/Java/OCP preparation/6. Chapter 5 Methods.md"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
         }
       },
       {
@@ -144,7 +162,19 @@
         "type": "leaf",
         "state": {
           "type": "git-view",
-          "state": {}
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
+      },
+      {
+        "id": "e5246f3e8b8db718",
+        "type": "leaf",
+        "state": {
+          "type": "khoj-chat-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "Plugin no longer active"
         }
       }
     ],
@@ -152,54 +182,58 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "copilot:Copilot Chat": false,
+      "obsidian-git:Open Git source control": false,
+      "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "bec5b39a6ccbca44",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "programming language/Java/OCP preparation/6. Chapter 5 Methods.md",
+    "Untitled.md",
+    "programming language/Java/OCP preparation/15. Chapter 14 IO.md",
+    "programming language/Java/OCP preparation/cheatsheet/Java Stream cheatsheet.md",
+    "programming language/Java/OCP preparation/cheatsheet/Java beyond classes cheat sheet.md",
+    "programming language/Java/OCP preparation/cheatsheet/Java IO cheat sheet.md",
+    "programming language/Java/course/collections/Collections Framework.md",
+    "programming language/Java/OCP preparation/12. Chapter 11  Exceptions and Localization.md",
+    "Devops and cloud computing/SheetCheats/Kubernetes.md",
+    "programming language/Java/OCP preparation/9. Chapter 8 Lambdas and Functional Interfaces.md",
+    "programming language/Java/OCP preparation/8. Chapter 7 beyond classes.md",
+    "programming language/Java/OCP preparation/5. Chapter 4 Core APIs.md",
+    "programming language/Java/OCP preparation/4. Chapter 3 Making Decision.md",
+    "programming language/Java/OCA preparation/11. Chapter 10 Streams.md",
+    "programming language/Java/OCA preparation/12. Chapter 11  Exceptions and Localization.md",
+    "programming language/Java/OCA preparation/1. OCA exam objectives.md",
+    "Compétences/Java.md",
+    "articles/2024/november/Using Oracle to Build My Personal IT Infrastructure Insights and Reflections.md",
+    "programming language/Java/OCA preparation/5. Chapter 4 Core APIs.md",
+    "Untitled",
+    "programming language/Java/OCA preparation/3. Chapter 2 Operators.md",
+    "programming language/Java/OCA preparation/2. Chapter 1.md",
+    "programming language/Java/OCA preparation/9. Chapter 8 Lambdas and Functional Interfaces.md",
+    "programming language/Java/OCA preparation/4. Chapter 3 Making Decision.md",
+    "Networking/Internet Protocol (IP)/IPV4 Configuration.md",
     "Devops and cloud computing/AWS/PART III AWS Network/Hybrid Connectivity with AWS.md",
-    "Full stack developer/Frontend/Javascript/Promises.md",
-    "Devops and cloud computing/AWS/PART II AWS Compute/EC2 instance lifecycle.md",
-    "Devops and cloud computing/AWS/PART III AWS Network/Amazon Virtual Private Cloud (VPC).md",
-    "Full stack developer/Backend/Spring/Spring Boot/Untitled.md",
     "Full stack developer/Backend/Spring/Spring Boot/Untitled.md.tacitpart",
-    "Full stack developer/Backend/Spring/Spring Boot/Spring Boot History.md",
     "Full stack developer/Backend/Spring/Spring Boot/Spring Boot History.md.tacitpart",
     "Full stack developer/Backend/Spring/Spring Boot",
-    "Full stack developer/Backend/Spring/Spring Batch/Spring batch.md",
     "Full stack developer/Backend/Spring/Spring Batch/Spring batch.md.tacitpart",
     "Full stack developer/Backend/Spring/Spring Batch",
     "Full stack developer/Backend/Net Core/images/Pasted image 20231119014225.png",
     "Full stack developer/Backend/Net Core/images/Pasted image 20231119014225.png.tacitpart",
     "Full stack developer/Backend/Net Core/images",
-    "Full stack developer/Backend/Spring/Spring History.md",
     "Full stack developer/Backend/Spring",
-    "Full stack developer/Backend/Net Core/Understand MVC pattern.md",
     "Full stack developer/Backend/Net Core/Understand MVC pattern.md.tacitpart",
-    "Full stack developer/Backend/Net Core/Session and state management.md",
-    "Full stack developer/Backend/Net Core/Session and state management.md.tacitpart",
-    "Full stack developer/Backend/Net Core/Routing configuration.md",
-    "Full stack developer/Backend/Net Core/NET Command-Line Interface (CLI).md",
-    "Full stack developer/Backend/Net Core/MVC communication.md",
-    "Full stack developer/Backend/Net Core/Middleware.md",
-    "Full stack developer/Backend/Net Core/Middleware Exception Handling.md",
-    "Full stack developer/Backend/Net Core/Ioc container.md",
-    "Full stack developer/Backend/Net Core/Hosting Environments in .NET Core.md",
-    "Full stack developer/Backend/Net Core/dot Net Core.md",
-    "Full stack developer/Backend/Net Core/Custom middleware.md",
-    "Full stack developer/Backend/Net Core/Code sharing.md",
-    "Full stack developer/Backend/Net Core/ASP.NET Core.md",
-    "Full stack developer/Backend/Net Core/ASP.NET Core project folder structure.md",
-    "Devops and cloud computing/AWS/PART III AWS Network/Secure Amazon VPC.md",
-    "Devops and cloud computing/AWS/PART III AWS Network/Networking in AWS.md",
-    "Devops and cloud computing/AWS/PART III AWS Network/Introduction to Amazon VPC.md",
-    "Devops and cloud computing/AWS/PART III AWS Network/Amazon VPC Routing.md",
-    "Devops and cloud computing/AWS/images/Pasted image 20231124144300.png",
-    "Untitled.canvas"
+    "Devops and cloud computing/AWS/images/Pasted image 20231124144300.png"
   ]
 }

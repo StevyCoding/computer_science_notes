@@ -4,22 +4,133 @@
     "type": "split",
     "children": [
       {
-        "id": "9571fd8dfc0ba082",
+        "id": "70ae796ef4444bd7",
         "type": "tabs",
         "children": [
           {
-            "id": "ddc0a11e23047ae3",
+            "id": "d37f438ca15872fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Devops and cloud computing/AWS/PART V Database in AWS/Choose the Right AWS Database Service.md",
+                "file": "programming language/Java/OCA preparation/10. Chapter 9 Collections and Generics.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "10. Chapter 9 Collections and Generics"
+            }
+          },
+          {
+            "id": "2471518bb3ba42a7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "b56ae892f53dec17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programming language/Java/OCP preparation/15. Chapter 14 IO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "15. Chapter 14 IO"
+            }
+          },
+          {
+            "id": "c31c08d704fd4c71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programming language/Java/OCP preparation/16. Chapter 15 JDBC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "16. Chapter 15 JDBC"
+            }
+          },
+          {
+            "id": "7a9ca6df0854649d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programming language/Java/OCP preparation/16. Chapter 15 JDBC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "16. Chapter 15 JDBC"
+            }
+          },
+          {
+            "id": "11986be26bd8f500",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programming language/Java/OCP preparation/cheatsheet/JDB cheatsheet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JDB cheatsheet"
+            }
+          },
+          {
+            "id": "1514731050c93cba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programming language/Java/OCP preparation/7. chapter 6 class design.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7. chapter 6 class design"
+            }
+          },
+          {
+            "id": "d8d2a4a3630b316d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programming language/Java/OCP preparation/7. chapter 6 class design.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7. chapter 6 class design"
+            }
+          },
+          {
+            "id": "3af5730f87808fc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Computer Networks, Fifth Edition/1.Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.Introduction"
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -39,7 +150,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -48,13 +161,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "lambdas",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,14 +177,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 394.5
   },
   "right": {
     "id": "c34a49a3e33ebf3f",
@@ -85,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Devops and cloud computing/AWS/PART V Database in AWS/Choose the Right AWS Database Service.md",
+                "file": "programming language/Java/OCA preparation/4. Chapter 3 Making Decision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +210,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 4. Chapter 3 Making Decision"
             }
           },
           {
@@ -102,10 +221,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Devops and cloud computing/AWS/PART V Database in AWS/Choose the Right AWS Database Service.md",
+                "file": "programming language/Java/OCA preparation/4. Chapter 3 Making Decision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 4. Chapter 3 Making Decision"
             }
           },
           {
@@ -116,7 +237,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +248,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops and cloud computing/AWS/PART V Database in AWS/Choose the Right AWS Database Service.md"
-              }
+                "file": "Networking/Computer Networks, Fifth Edition/1.Introduction.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 1.Introduction"
             }
           },
           {
@@ -134,75 +259,92 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "54bfc23a39039972",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-git:Open Git source control": false,
+      "copilot:Copilot Chat": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ddc0a11e23047ae3",
+  "active": "3af5730f87808fc6",
   "lastOpenFiles": [
-    "Devops and cloud computing/AWS/PART V Database in AWS/Introduction To Amazon DynamoDB.md",
-    "Devops and cloud computing/AWS/PART V Database in AWS/Choose the Right AWS Database Service.md",
-    "Devops and cloud computing/AWS/PART V Database in AWS/Amazon Relational Database Service.md",
-    "Devops and cloud computing/AWS/PART V Database in AWS/Explore Databases on AWS.md",
-    "Devops and cloud computing/AWS/Part IV AWS Storage/Summary.md",
-    "Devops and cloud computing/AWS/Part IV AWS Storage/Object Storage with Amazon S3.md",
-    "Devops and cloud computing/AWS/PART V Database in AWS",
-    "Devops and cloud computing/AWS/Part IV AWS Storage/Amazon EFS Elastic File System 📁.md",
-    "Devops and cloud computing/AWS/Part IV AWS Storage/Amazon EC2 Store.md",
-    "Devops and cloud computing/AWS/AWS Learning Roadmap.md",
-    "Devops and cloud computing/AWS/Part IV AWS Storage/Amazon EC2 Instance Storage and Amazon Elastic Block Store.md",
-    "Devops and cloud computing/AWS/Part IV AWS Storage/AWS storage type.md",
-    "programming language/object oriented concept/Héritage.md",
-    "programming language/object oriented concept/Encapsulation.md",
-    "programming language/object oriented concept/Polymorphisme.md",
-    "programming language/object oriented concept/Abstraction.md",
-    "Devops and cloud computing/AWS/AWS services/AWS services.md",
-    "Devops and cloud computing/AWS/Part IV AWS Storage",
-    "Devops and cloud computing/AWS/definition/Cluster definition.md",
-    "Full stack developer/Frontend/Networking/images/Pasted image 20231104135510.png",
-    "Full stack developer/Frontend/Networking/images/Pasted image 20231104135404.png",
-    "Full stack developer/Frontend/Networking/images/Pasted image 20231104135329.png",
-    "Full stack developer/Frontend/Networking/images/Pasted image 20231104135230.png",
-    "Full stack developer/Frontend/Networking/images",
-    "Full stack developer/Frontend/Networking/URN (Unifor Resource Name).md",
-    "Full stack developer/Frontend/Networking/URL ( Uniform Resource Locator).md",
-    "Full stack developer/Frontend/Networking/URI( Uniform Resource Indicator).md",
-    "Full stack developer/Frontend/Networking/REST (Representational State Transfer).md",
-    "Full stack developer/Frontend/Networking/Networking.md",
-    "Full stack developer/Frontend/Networking/Fetch API.md",
-    "Full stack developer/Frontend/Networking",
-    "Devops and cloud computing/AWS/PART III AWS Network/Secure Amazon VPC.md",
-    "Devops and cloud computing/AWS/PART III AWS Network/Amazon VPC Routing.md",
-    "Full stack developer/Backend/Net Core/ASP.NET Core.md",
-    "Full stack developer/Backend/dot net/images/Pasted image 20231119014225.png",
-    "Full stack developer/Backend/dot net/images",
-    "Full stack developer/Backend/dot net",
-    "Full stack developer/Excalidraw",
-    "Devops and cloud computing/AWS/images/Pasted image 20231124144300.png",
-    "Full stack developer/Backend/Spring/Spring Batch",
-    "Full stack developer/Backend/Spring/Spring Boot",
-    "Full stack developer/Backend/Spring",
-    "Untitled.canvas",
-    "Devops and cloud computing/AWS/PART I AWS SECURITY/images/Pasted image 20231121051333.png",
-    "Devops and cloud computing/AWS/images/Pasted image 20231121021406.png",
-    "Devops and cloud computing/AWS/images/markmap (1).svg",
-    "markmap.svg"
+    "Networking/Computer Networks, Fifth Edition/1.Introduction.md",
+    "Networking/Computer Networks, Fifth Edition",
+    "Devops and cloud computing/Untitled",
+    "programming language/Java/OCP preparation/cheatsheet/assets/Java I_O Cheatsheet for OCP 17 Exam.png",
+    "programming language/Java/OCP preparation/cheatsheet/Java beyond classes cheat sheet.md",
+    "programming language/Java/OCP preparation/cheatsheet/Java IO cheat sheet.md",
+    "programming language/Java/OCP preparation/cheatsheet/Java Stream cheatsheet.md",
+    "programming language/Java/OCP preparation/8. Chapter 7 beyond classes.md",
+    "programming language/Java/OCP preparation/cheatsheet/Java class design cheat sheet.md",
+    "programming language/Java/OCP preparation/cheatsheet/JDB cheatsheet.md",
+    "programming language/Java/OCP preparation/cheatsheet/Java Collection CheatSheet.md",
+    "programming language/Java/OCP preparation/6. Chapter 5 Methods.md",
+    "programming language/Java/OCP preparation/7. chapter 6 class design.md",
+    "programming language/Java/OCP preparation/10. Chapter 9 Collections and Generics.md",
+    "programming language/Java/OCP preparation/11. Chapter 10 Streams.md",
+    "programming language/Java/OCP preparation/13. Chapter 12 Modules.md",
+    "programming language/Java/OCP preparation/15. Chapter 14 IO.md",
+    "programming language/Java/OCP preparation/12. Chapter 11  Exceptions and Localization.md",
+    "programming language/Java/OCP preparation/cheatsheet/assets/Java Stream Cheatsheet for Java 17 OCP 1.png",
+    "programming language/Java/OCP preparation/cheatsheet/assets/Java Stream Cheatsheet for Java 17 OCP.png",
+    "programming language/Java/OCP preparation/16. Chapter 15 JDBC.md",
+    "programming language/Java/OCP preparation/cheatsheet/assets/Java JDBC Cheatsheet for Java 17 OCP Exam.png",
+    "programming language/Java/OCP preparation/cheatsheet/assets/Pasted image 20250104111107.png",
+    "programming language/Java/OCP preparation/cheatsheet/assets",
+    "programming language/Java/OCP preparation/cheatsheet",
+    "programming language/Java/OCP preparation/assets/Pasted image 20250104011409.png",
+    "programming language/Java/OCP preparation/assets/Pasted image 20250104010619.png",
+    "programming language/Java/OCP preparation/assets/Java JDBC-roadmap.jpg",
+    "programming language/Java/OCP preparation/assets/Pasted image 20250103155929.png",
+    "programming language/Java/OCP preparation/assets/Pasted image 20250103155837.png",
+    "programming language/Java/OCP preparation/Weakness.md",
+    "programming language/Java/OCP preparation/Udemy/Section 15 sealed classes.md",
+    "programming language/Java/OCP preparation/1. OCP exam objectives.md",
+    "programming language/Java/OCP preparation/Udemy/Untitled.md",
+    "programming language/Java/OCP preparation/Udemy/Section 5 Concurrency.md",
+    "programming language/Java/OCP preparation/Udemy/section 13 - Java 11 Modules.md",
+    "programming language/Java/OCP preparation/Udemy",
+    "programming language/Java/OCP preparation/9. Chapter 8 Lambdas and Functional Interfaces.md",
+    "Devops and cloud computing/SheetCheats/Kubernetes.md",
+    "Devops and cloud computing/SheetCheats/Terraform.md",
+    "Devops and cloud computing/SheetCheats/Puppet.md",
+    "Devops and cloud computing/SheetCheats",
+    "programming language/Clean Code",
+    "programming language/Design Pattern/refactoring.guru/Creational pattern",
+    "programming language/Design Pattern/refactoring.guru",
+    "Untitled",
+    "Untitled.canvas"
   ]
 }

@@ -1,0 +1,4 @@
+- Iptables : filtre
+- Debsum : vériife l'intégralité
+- umask :  
+- lowatch 

@@ -1,0 +1,5 @@
+ ![[Pasted image 20240208095957.png]]
+ # QUELLE DIFFÉRENCE FAITES-VOUS ENTRE "PROCESSUS", "PROCÉDURE" et "MODE OPÉRATOIRE" ?
+ ![[Pasted image 20240208101242.png]]
+ ![[Pasted image 20240208110044.png]]
+ ![[Pasted image 20240208121649.png]]

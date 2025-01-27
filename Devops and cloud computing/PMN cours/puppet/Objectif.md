@@ -1,0 +1,12 @@
+- **Apprendre qu'est-ce que c'est l'outil Puppet, quelle est sa fonction [[Système de gestion centralisée des configurations (SCM)]]**
+    - *Apprendre le jargon utilisé autour de l'outil pour représenter certains concepts*
+- **Situer Puppet dans l'écosystème d'outils avec lequel on peut l'intégrer pour permettre la gestion d'infrastructures complexes**
+- **Se familiariser avec le client Puppet et ses différentes facettes**
+    - *Modifier directement une machine avec Puppet sans script*
+- **Avoir un contact avec le format du code Puppet**
+- **Écrire un script (manifeste) qui permet**
+    - *d'installer un logiciel à l'aide d'un package de la distribution Linux*
+    - *de créer un fichier de configuration*
+    - *de s'assurer qu'un certain service est bien démarré*
+- **Utiliser Puppet en mode client/serveur**
+- **Utiliser Puppet avec Git**

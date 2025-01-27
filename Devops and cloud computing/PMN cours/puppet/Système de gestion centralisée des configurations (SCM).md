@@ -1,0 +1,2 @@
+La gestion de configuration consiste à gérer la description technique d'un système (et de ses divers composants), ainsi qu'à gérer l'ensemble des modifications apportées au cours de l'évolution du système. En d'autres termes, il s'agit de l'ensemble des processus permettant d'assurer la conformité d'un produit aux exigences, tout au long de son cycle de vie. La gestion de configuration est utilisée pour la configuration de systèmes complexes.
+
