@@ -4,133 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "70ae796ef4444bd7",
+        "id": "96d7bdab9b49b670",
         "type": "tabs",
         "children": [
           {
-            "id": "d37f438ca15872fd",
+            "id": "7f47d4191d485cf6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming language/Java/OCA preparation/10. Chapter 9 Collections and Generics.md",
+                "file": "interview questions/Java and spring boot/Grokking the Java Developer Interview  - More than 200 Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10. Chapter 9 Collections and Generics"
+              "title": "Grokking the Java Developer Interview  - More than 200 Questions"
             }
           },
           {
-            "id": "2471518bb3ba42a7",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "b56ae892f53dec17",
+            "id": "34012fb0c531955b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming language/Java/OCP preparation/15. Chapter 14 IO.md",
+                "file": "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/1. Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "15. Chapter 14 IO"
-            }
-          },
-          {
-            "id": "c31c08d704fd4c71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming language/Java/OCP preparation/16. Chapter 15 JDBC.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "16. Chapter 15 JDBC"
-            }
-          },
-          {
-            "id": "7a9ca6df0854649d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming language/Java/OCP preparation/16. Chapter 15 JDBC.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "16. Chapter 15 JDBC"
-            }
-          },
-          {
-            "id": "11986be26bd8f500",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming language/Java/OCP preparation/cheatsheet/JDB cheatsheet.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JDB cheatsheet"
-            }
-          },
-          {
-            "id": "1514731050c93cba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming language/Java/OCP preparation/7. chapter 6 class design.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "7. chapter 6 class design"
-            }
-          },
-          {
-            "id": "d8d2a4a3630b316d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming language/Java/OCP preparation/7. chapter 6 class design.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "7. chapter 6 class design"
-            }
-          },
-          {
-            "id": "3af5730f87808fc6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Computer Networks, Fifth Edition/1.Introduction.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.Introduction"
+              "title": "1. Introduction"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -149,7 +55,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -202,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming language/Java/OCA preparation/4. Chapter 3 Making Decision.md",
+                "file": "interview questions/Java and spring boot/Grokking the Java Developer Interview  - More than 200 Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 4. Chapter 3 Making Decision"
+              "title": "Backlinks for Grokking the Java Developer Interview  - More than 200 Questions"
             }
           },
           {
@@ -221,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming language/Java/OCA preparation/4. Chapter 3 Making Decision.md",
+                "file": "interview questions/Java and spring boot/Grokking the Java Developer Interview  - More than 200 Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 4. Chapter 3 Making Decision"
+              "title": "Outgoing links from Grokking the Java Developer Interview  - More than 200 Questions"
             }
           },
           {
@@ -248,10 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Computer Networks, Fifth Edition/1.Introduction.md"
+                "file": "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/1. Introduction.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1.Introduction"
+              "title": "Outline of 1. Introduction"
             }
           },
           {
@@ -289,16 +199,33 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "audio-recorder:Start/stop recording": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
       "copilot:Copilot Chat": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3af5730f87808fc6",
+  "active": "34012fb0c531955b",
   "lastOpenFiles": [
+    "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/0. Table of content.md",
+    "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/2. Installation and setup.md",
+    "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/1. Introduction.md",
+    "Devops and cloud computing/Ansible/1. Getting start with Ansible.md",
+    "Devops and cloud computing/Ansible/cheat sheets/playbook yaml properties.md",
+    "Devops and cloud computing/Ansible/cheat sheets",
+    "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/assets/image.png",
+    "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/assets",
+    "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition",
+    "Devops and cloud computing/Ansible/books",
     "Networking/Computer Networks, Fifth Edition/1.Introduction.md",
+    "programming language/Clean Code/Single responsability.md",
+    "interview questions/Java and spring boot/Grokking the Java Developer Interview  - More than 200 Questions.md",
+    "AI/AI agent",
+    "AI",
+    "programming language/Java/OCP preparation/7. chapter 6 class design.md",
+    "programming language/Java/OCP preparation/cheatsheet/JDB cheatsheet.md",
+    "programming language/Java/OCP preparation/16. Chapter 15 JDBC.md",
     "Networking/Computer Networks, Fifth Edition",
     "Devops and cloud computing/Untitled",
     "programming language/Java/OCP preparation/cheatsheet/assets/Java I_O Cheatsheet for OCP 17 Exam.png",
@@ -307,10 +234,8 @@
     "programming language/Java/OCP preparation/cheatsheet/Java Stream cheatsheet.md",
     "programming language/Java/OCP preparation/8. Chapter 7 beyond classes.md",
     "programming language/Java/OCP preparation/cheatsheet/Java class design cheat sheet.md",
-    "programming language/Java/OCP preparation/cheatsheet/JDB cheatsheet.md",
     "programming language/Java/OCP preparation/cheatsheet/Java Collection CheatSheet.md",
     "programming language/Java/OCP preparation/6. Chapter 5 Methods.md",
-    "programming language/Java/OCP preparation/7. chapter 6 class design.md",
     "programming language/Java/OCP preparation/10. Chapter 9 Collections and Generics.md",
     "programming language/Java/OCP preparation/11. Chapter 10 Streams.md",
     "programming language/Java/OCP preparation/13. Chapter 12 Modules.md",
@@ -318,7 +243,6 @@
     "programming language/Java/OCP preparation/12. Chapter 11  Exceptions and Localization.md",
     "programming language/Java/OCP preparation/cheatsheet/assets/Java Stream Cheatsheet for Java 17 OCP 1.png",
     "programming language/Java/OCP preparation/cheatsheet/assets/Java Stream Cheatsheet for Java 17 OCP.png",
-    "programming language/Java/OCP preparation/16. Chapter 15 JDBC.md",
     "programming language/Java/OCP preparation/cheatsheet/assets/Java JDBC Cheatsheet for Java 17 OCP Exam.png",
     "programming language/Java/OCP preparation/cheatsheet/assets/Pasted image 20250104111107.png",
     "programming language/Java/OCP preparation/cheatsheet/assets",
@@ -327,23 +251,9 @@
     "programming language/Java/OCP preparation/assets/Pasted image 20250104010619.png",
     "programming language/Java/OCP preparation/assets/Java JDBC-roadmap.jpg",
     "programming language/Java/OCP preparation/assets/Pasted image 20250103155929.png",
-    "programming language/Java/OCP preparation/assets/Pasted image 20250103155837.png",
     "programming language/Java/OCP preparation/Weakness.md",
     "programming language/Java/OCP preparation/Udemy/Section 15 sealed classes.md",
     "programming language/Java/OCP preparation/1. OCP exam objectives.md",
-    "programming language/Java/OCP preparation/Udemy/Untitled.md",
-    "programming language/Java/OCP preparation/Udemy/Section 5 Concurrency.md",
-    "programming language/Java/OCP preparation/Udemy/section 13 - Java 11 Modules.md",
-    "programming language/Java/OCP preparation/Udemy",
-    "programming language/Java/OCP preparation/9. Chapter 8 Lambdas and Functional Interfaces.md",
-    "Devops and cloud computing/SheetCheats/Kubernetes.md",
-    "Devops and cloud computing/SheetCheats/Terraform.md",
-    "Devops and cloud computing/SheetCheats/Puppet.md",
-    "Devops and cloud computing/SheetCheats",
-    "programming language/Clean Code",
-    "programming language/Design Pattern/refactoring.guru/Creational pattern",
-    "programming language/Design Pattern/refactoring.guru",
-    "Untitled",
     "Untitled.canvas"
   ]
 }

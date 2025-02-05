@@ -8,7 +8,7 @@ Yes we can write a try block with  finally, but we cannot write tr block alone
 > - throw is a keywork used to explicitly throw an exception in a program, inside a function or inside a block of code.
 > - throws is a keyword which is used with the method signature to declare an exception which my get throw by the method while executing the code
 
- 
+
 >[!question]- Question 22  Exception handling with method oveririding
 >parent child must have declared a throw exception to override the method with a throw exception
 >if parent class declare an exception the child can declare no exception, declare same exception, declare narrower exception (more broader exception declaration than parent one is not allowed)
