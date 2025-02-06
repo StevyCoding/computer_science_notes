@@ -17,12 +17,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "programming language/Java/OCP preparation/6. Chapter 5 Methods.md",
+                    "file": "programming language/Java/OCP preparation/cheatsheet/Java beyond classes cheat sheet.md",
                     "mode": "preview",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "6. Chapter 5 Methods"
+                  "title": "Java beyond classes cheat sheet"
                 }
               }
             ]
@@ -59,7 +59,8 @@
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "alphabetical"
+            "sortOrder": "alphabetical",
+            "autoReveal": false
           },
           "icon": "lucide-folder-closed",
           "title": "Files"
@@ -151,7 +152,10 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "programming language/Java/OCP preparation/6. Chapter 5 Methods.md"
+            "file": "programming language/Java/OCP preparation/cheatsheet/Java beyond classes cheat sheet.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
           },
           "icon": "lucide-list",
           "title": "Outline"
@@ -197,8 +201,8 @@
   },
   "active": "bec5b39a6ccbca44",
   "lastOpenFiles": [
-    "Untitled.canvas",
     "programming language/Java/OCP preparation/6. Chapter 5 Methods.md",
+    "Untitled.canvas",
     "Untitled.md",
     "programming language/Java/OCP preparation/15. Chapter 14 IO.md",
     "programming language/Java/OCP preparation/cheatsheet/Java Stream cheatsheet.md",
