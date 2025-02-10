@@ -11,14 +11,8 @@
             "id": "7f47d4191d485cf6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/2. Your First Vagrant Machine.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2. Your First Vagrant Machine"
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -40,11 +34,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -59,9 +50,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
+              }
             }
           },
           {
@@ -69,9 +58,7 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "state": {}
             }
           }
         ]
@@ -94,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/2. Your First Vagrant Machine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +88,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for 2. Your First Vagrant Machine"
+              }
             }
           },
           {
@@ -113,12 +97,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/2. Your First Vagrant Machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from 2. Your First Vagrant Machine"
+              }
             }
           },
           {
@@ -128,12 +109,8 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+                "useHierarchy": true
+              }
             }
           },
           {
@@ -142,13 +119,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/2. Your First Vagrant Machine.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of 2. Your First Vagrant Machine"
+                "file": "interview questions/Java and spring boot/Grokking the Java Developer Interview  - More than 200 Questions.md"
+              }
             }
           },
           {
@@ -156,9 +128,7 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "state": {}
             }
           },
           {
@@ -166,9 +136,7 @@
             "type": "leaf",
             "state": {
               "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "state": {}
             }
           }
         ],
@@ -176,7 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 650.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,23 +157,19 @@
       "audio-recorder:Start/stop recording": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
-      "copilot:Copilot Chat": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "copilot:Copilot Chat": false
     }
   },
-  "active": "7f47d4191d485cf6",
+  "active": "76387a59a3bd7594",
   "lastOpenFiles": [
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/Pasted image 20250210060703.png",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/Pasted image 20250210060501.png",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/1. An Introduction to Vagrant.md",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/2. Your First Vagrant Machine.md",
-    "programming language/Javascript/text.md",
-    "interview questions/Java and spring boot/Grokking the Java Developer Interview  - More than 200 Questions.md",
     "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/assets/image.png",
+    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/2. Your First Vagrant Machine.md",
+    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/1. An Introduction to Vagrant.md",
     "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/0. Table of content.md",
     "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/assets",
     "Devops and cloud computing/Vagrant/books/Vagrant Up and Running",
+    "programming language/Javascript/text.md",
     "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/2. Installation and setup.md",
     "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/0. Table of content.md",
     "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/1. Introduction.md",
@@ -217,6 +181,7 @@
     "Devops and cloud computing/Ansible/cheat sheets",
     "Devops and cloud computing/Ansible/books",
     "AI/AI agent",
+    "AI",
     "Networking/Computer Networks, Fifth Edition/1.Introduction.md",
     "programming language/Java/OCP preparation/7. chapter 6 class design.md",
     "programming language/Java/OCP preparation/cheatsheet/JDB cheatsheet.md",
@@ -241,6 +206,9 @@
     "programming language/Java/OCP preparation/assets/Pasted image 20250104011409.png",
     "programming language/Java/OCP preparation/assets/Pasted image 20250104010619.png",
     "programming language/Java/OCP preparation/assets/Java JDBC-roadmap.jpg",
+    "programming language/Java/OCP preparation/assets/Pasted image 20250103155929.png",
+    "programming language/Java/OCP preparation/assets/Pasted image 20250103155837.png",
+    "programming language/Java/OCP preparation/Weakness.md",
     "Untitled.canvas"
   ]
 }
