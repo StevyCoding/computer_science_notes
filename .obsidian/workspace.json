@@ -193,8 +193,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7f47d4191d485cf6",
+  "active": "55f290fca13fb858",
   "lastOpenFiles": [
+    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/image.png",
+    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/4. Networking in Vagrant.md",
+    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/3. Provisioning Your Vagrant VM.md",
     "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/Pasted image 20250210060703.png",
     "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/Pasted image 20250210060501.png",
     "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets",
@@ -232,15 +235,12 @@
     "programming language/Java/OCP preparation/10. Chapter 9 Collections and Generics.md",
     "programming language/Java/OCP preparation/11. Chapter 10 Streams.md",
     "programming language/Java/OCP preparation/13. Chapter 12 Modules.md",
-    "programming language/Java/OCP preparation/15. Chapter 14 IO.md",
-    "programming language/Java/OCP preparation/12. Chapter 11  Exceptions and Localization.md",
     "programming language/Java/OCP preparation/cheatsheet/assets/Java Stream Cheatsheet for Java 17 OCP 1.png",
     "programming language/Java/OCP preparation/cheatsheet/assets/Java Stream Cheatsheet for Java 17 OCP.png",
     "programming language/Java/OCP preparation/cheatsheet/assets/Java JDBC Cheatsheet for Java 17 OCP Exam.png",
     "programming language/Java/OCP preparation/cheatsheet/assets/Pasted image 20250104111107.png",
     "programming language/Java/OCP preparation/assets/Pasted image 20250104011409.png",
     "programming language/Java/OCP preparation/assets/Pasted image 20250104010619.png",
-    "programming language/Java/OCP preparation/assets/Java JDBC-roadmap.jpg",
     "Untitled.canvas"
   ]
 }
