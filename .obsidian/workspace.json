@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "4. Networking in Vagrant"
             }
+          },
+          {
+            "id": "6f8eaf1ce873077b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/4. Networking in Vagrant.md",
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 4. Networking in Vagrant"
+              "title": "Outline of conflict-files-obsidian-git"
             }
           },
           {
@@ -193,10 +208,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7f47d4191d485cf6",
+  "active": "6f8eaf1ce873077b",
   "lastOpenFiles": [
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/3. Provisioning Your Vagrant VM.md",
     "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/4. Networking in Vagrant.md",
+    "conflict-files-obsidian-git.md",
+    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/{027CB93D-AA57-4A94-95BD-40B87CDCAC35}.png",
+    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/3. Provisioning Your Vagrant VM.md",
     "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/2. Your First Vagrant Machine.md",
     "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/0. Table of content.md",
     "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/Pasted image 20250213185326.png",
@@ -239,7 +256,6 @@
     "programming language/Java/OCP preparation/11. Chapter 10 Streams.md",
     "programming language/Java/OCP preparation/13. Chapter 12 Modules.md",
     "programming language/Java/OCP preparation/cheatsheet/assets/Java Stream Cheatsheet for Java 17 OCP 1.png",
-    "programming language/Java/OCP preparation/cheatsheet/assets/Java Stream Cheatsheet for Java 17 OCP.png",
     "Untitled.canvas"
   ]
 }
