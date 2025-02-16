@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/2. Your First Vagrant Machine.md",
+                "file": "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/4. Networking in Vagrant.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Your First Vagrant Machine"
+              "title": "4. Networking in Vagrant"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/2. Your First Vagrant Machine.md",
+                "file": "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/4. Networking in Vagrant.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2. Your First Vagrant Machine"
+              "title": "Outline of 4. Networking in Vagrant"
             }
           },
           {
@@ -193,20 +193,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "55f290fca13fb858",
+  "active": "7f47d4191d485cf6",
   "lastOpenFiles": [
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/image.png",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/4. Networking in Vagrant.md",
     "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/3. Provisioning Your Vagrant VM.md",
+    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/4. Networking in Vagrant.md",
+    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/2. Your First Vagrant Machine.md",
+    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/0. Table of content.md",
+    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/Pasted image 20250213185326.png",
+    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/Pasted image 20250213185306.png",
+    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/mermaid-diagram-2025-02-13-184953.svg",
+    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/image.png",
     "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/Pasted image 20250210060703.png",
     "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/Pasted image 20250210060501.png",
     "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets",
     "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/1. An Introduction to Vagrant.md",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/2. Your First Vagrant Machine.md",
     "programming language/Javascript/text.md",
     "interview questions/Java and spring boot/Grokking the Java Developer Interview  - More than 200 Questions.md",
     "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/assets/image.png",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/0. Table of content.md",
     "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/assets",
     "Devops and cloud computing/Vagrant/books/Vagrant Up and Running",
     "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/2. Installation and setup.md",
@@ -237,10 +240,6 @@
     "programming language/Java/OCP preparation/13. Chapter 12 Modules.md",
     "programming language/Java/OCP preparation/cheatsheet/assets/Java Stream Cheatsheet for Java 17 OCP 1.png",
     "programming language/Java/OCP preparation/cheatsheet/assets/Java Stream Cheatsheet for Java 17 OCP.png",
-    "programming language/Java/OCP preparation/cheatsheet/assets/Java JDBC Cheatsheet for Java 17 OCP Exam.png",
-    "programming language/Java/OCP preparation/cheatsheet/assets/Pasted image 20250104111107.png",
-    "programming language/Java/OCP preparation/assets/Pasted image 20250104011409.png",
-    "programming language/Java/OCP preparation/assets/Pasted image 20250104010619.png",
     "Untitled.canvas"
   ]
 }
