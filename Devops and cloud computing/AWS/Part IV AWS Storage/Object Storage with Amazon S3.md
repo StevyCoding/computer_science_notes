@@ -25,6 +25,7 @@ S3 supports versioning, enabling the preservation, retrieval, and restoration of
 To enhance data security, S3 supports server-side encryption options. Users can choose from S3 managed keys (SSE-S3), AWS Key Management Service (SSE-KMS), or provide their own keys (SSE-C). Additionally, data transfer over the network is secured using HTTPS.
 
 ## Data Transfer Acceleration `ris:Flashlight`
+
 Amazon S3 Transfer Acceleration facilitates fast `ris:Flashlight`, secure transfers of files to and from S3. This feature leverages the globally distributed edge locations of CloudFront, AWS's content delivery network.
 
 ## Integration and Compatibility
@@ -32,7 +33,6 @@ Amazon S3 Transfer Acceleration facilitates fast `ris:Flashlight`, secure transf
 S3 seamlessly integrates with various AWS services, serving as a central storage location for cloud-based applications. Its versatility makes it suitable for backup and restore operations, big data analytics, content distribution, mobile and web application hosting, as well as archival purposes.
 
 Object storage with Amazon S3 provides a reliable, scalable, and cost-effective solution for storing and retrieving data in the cloud. It serves as a foundational service for numerous AWS applications.
-
 
 **reading more**  `ris:ArrowDown`
 

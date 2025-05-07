@@ -1,4 +1,3 @@
-
 Networking in AWS refers to the ==infrastructure and services that enable communication between different components of your applications==, data centers, and AWS services. AWS provides a comprehensive set of networking services that allow you to build, configure, and manage your network infrastructure in the cloud. Here are some key aspects of networking in AWS:
 
 ### [[Amazon Virtual Private Cloud (VPC)|Virtual Private Cloud (VPC)]]

@@ -1,6 +1,4 @@
-
 # Java modules  command
-
 
 In Java, the `java` command-line tool includes a `--module` option to support the **Java Platform Module System** introduced in Java 9. This system allows developers to group related classes and interfaces into modules for better encapsulation and maintainability. Modules also help control dependencies and reduce runtime overhead.
 
@@ -57,7 +55,6 @@ This command instructs the Java launcher to run the specified `mainClass` in the
 The modular system provides flexibility and control over dependencies, making it a key feature for large-scale Java applications.
 
 # Modular Jar
-
 
 A **modular JAR** is a JAR file that includes a **module descriptor** (`module-info.class`) in its root directory. This descriptor defines the module's name, dependencies, and other metadata, making the JAR file part of the **Java Platform Module System** introduced in Java 9.
 
@@ -152,8 +149,6 @@ When compiled, it becomes `module-info.class` and is included in the root of the
     
 
 Now, `com.example.app.jar` is a modular JAR file that can be used with the `module-path`.
-
-
 
 Here’s a comprehensive list of all possible directives that can be used in a `module-info.java` file, covering every functionality, including **module relationships**, **exports**, **opens**, and **service-related directives**.
 
@@ -320,7 +315,6 @@ module com.example.app {
 
 This exhaustive breakdown ensures you understand the full potential of `module-info.java`.
 
-
 # Operation in a Module
 
 Here’s a detailed explanation of the operations and tools related to Java modules:
@@ -393,7 +387,9 @@ module com.example.module {
     jar --describe-module --file=module.jar
     ```
     
+
     Output includes:
+
     - Module name
     - Exports
     - Dependencies (`requires`)
@@ -496,9 +492,6 @@ jmod describe com.example.module.jmod
 |Building runtime images|`jlink`|Create a custom Java runtime containing only the required modules.|
 
 This modular approach ensures encapsulation, dependency management, and optimized runtime environments.
-
-
-
 
 # Services 
 
@@ -715,9 +708,7 @@ Starting with ElectricMotor
 
 Would you like to explore adding multiple providers or prioritizing them?
 
-
 # Types of module Java
-
 
 ### **1. Named Modules**
 
@@ -728,11 +719,17 @@ Would you like to explore adding multiple providers or prioritizing them?
     - Helps in encapsulating and organizing code.
 - **Example**:
     
+
     java
+
     
+
     Copy code
+
     
+
     `// module-info.java module com.example.myapp {     requires java.sql;     exports com.example.myapp.service; }`
+
     
 - **Usage**:
     - The `module-info.java` file is mandatory.

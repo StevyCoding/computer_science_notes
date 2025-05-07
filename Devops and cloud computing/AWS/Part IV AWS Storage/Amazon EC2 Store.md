@@ -1,4 +1,3 @@
-
 Amazon EC2 Store 🔄
 
 ## Instance Store (Ephemeral Storage) 🚀

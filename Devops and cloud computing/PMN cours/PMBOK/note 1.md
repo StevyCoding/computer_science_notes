@@ -1,8 +1,11 @@
 PMI mondialement reconnu, siège aux états unis.
 
 projet
+
 portefeuille
+
 programme
+
 cycle de vie d'un projet
 
 Un projet est un ensemble d'activités temporaires et coordonnées entreprises dans le but d'atteindre un objectif spécifique. Il est caractérisé par :

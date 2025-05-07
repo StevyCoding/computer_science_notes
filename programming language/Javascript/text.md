@@ -1,7 +1,4 @@
-
-
 # sort algorithm 
-
 
 ```dataviewjs
 const container = this.container;

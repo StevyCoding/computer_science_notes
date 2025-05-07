@@ -1,10 +1,12 @@
 ![[Pasted image 20240308092747.png]]
 
 C'est quoi un feedback ?
-Comment formuler un feedback ?
-Les difficultés d'un feedback
-![[Pasted image 20240308140940.png]]
 
+Comment formuler un feedback ?
+
+Les difficultés d'un feedback
+
+![[Pasted image 20240308140940.png]]
 
 **Phrase d'approche**
 Bonjour Alexandra,

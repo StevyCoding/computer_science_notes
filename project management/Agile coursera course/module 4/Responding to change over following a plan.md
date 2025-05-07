@@ -1,4 +1,3 @@
-
 As we learned in the beginning of this course, Agile dedicates one of its four values to “Responding to change over following a plan.” This reading aims to clarify some important considerations when implementing a change to the release plan.
 
 The best way to think about changing your plan is to break it down into three stages:

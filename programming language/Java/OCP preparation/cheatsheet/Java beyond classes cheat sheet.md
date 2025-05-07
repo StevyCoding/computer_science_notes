@@ -5,6 +5,7 @@ Here's a **Java OCP 17 Cheat Sheet** covering all the requested concepts. This g
 ### 1. Creating Enums
 
 #### Basic Enum Declaration
+
 - Enums are a special type of class that can hold a fixed set of constants.
 
 ```java
@@ -14,6 +15,7 @@ enum Day {
 ```
 
 #### Enum Methods
+
 - Enums are classes that can have fields, methods, and constructors.
 
 ```java
@@ -27,6 +29,7 @@ enum Day {
 ```
 
 #### Using Enums in Switch Statement
+
 - Enums can be used in `switch` statements.
 
 ```java
@@ -44,6 +47,7 @@ switch (day) {
 ```
 
 #### Adding Constructors, Fields, and Methods
+
 - Enums can have constructors, fields, and methods.
 
 ```java
@@ -65,6 +69,7 @@ enum Day {
 ```
 
 #### Specifying the Subclass Modifier
+
 - Enums can have different types of classes. You can specify subclass behavior.
 
 ```java
@@ -76,6 +81,7 @@ enum Status {
 ```
 
 #### Referencing Nested Subclasses
+
 - Nested classes can be referenced and used inside enums.
 
 ```java
@@ -100,6 +106,7 @@ enum Vehicle {
 ### 2. Encapsulating Data with Records
 
 #### Applying Records
+
 - Records are a special kind of class used for storing immutable data.
 
 ```java
@@ -107,6 +114,7 @@ public record Person(String name, int age) {}
 ```
 
 #### Understanding Record Immutability
+
 - Records are implicitly `final`, and their fields are implicitly `private` and `final`.
 
 ```java
@@ -115,6 +123,7 @@ System.out.println(person.name()); // Getter method for name
 ```
 
 #### Declaringb Constructors
+
 - Records can have custom constructors, and they automatically generate the constructor matching the fields.
 
 ```java
@@ -126,6 +135,7 @@ public record Person(String name, int age) {
 ```
 
 #### The Long Constructor
+
 - Records automatically generate a canonical constructor, but you can add validation or custom behavior.
 
 ```java
@@ -137,6 +147,7 @@ public record Employee(String name, double salary) {
 ```
 
 #### Compact Constructors
+
 - Records allow compact constructors where field validation is embedded.
 
 ```java
@@ -146,6 +157,7 @@ public record Product(String name, double price) {
 ```
 
 #### Overloaded Constructors
+
 - You can overload constructors within records.
 
 ```java
@@ -161,6 +173,7 @@ public record Address(String street, String city, String zip) {
 ### 3. Declaring Constructors and Inner Classes
 
 #### Declaring an Inner Class
+
 - Inner classes are classes defined within another class.
 
 ```java
@@ -172,6 +185,7 @@ class Outer {
 ```
 
 #### Referencing Members of an Inner Class
+
 - You can reference members of the outer class from the inner class.
 
 ```java
@@ -185,6 +199,7 @@ class Outer {
 ```
 
 #### Inner Class Requires an Instance
+
 - Non-static inner classes require an instance of the outer class.
 
 ```java
@@ -193,6 +208,7 @@ Outer.Inner inner = outer.new Inner();
 ```
 
 #### Creating a Static Nested Class
+
 - Static nested classes don’t require an instance of the outer class.
 
 ```java
@@ -204,6 +220,7 @@ class Outer {
 ```
 
 #### Writing a Local Class
+
 - Local classes are defined within methods.
 
 ```java
@@ -215,6 +232,7 @@ void method() {
 ```
 
 #### Defining an Anonymous Class
+
 - Anonymous classes are used to create class instances in place.
 
 ```java
@@ -224,6 +242,7 @@ Runnable r = new Runnable() {
 ```
 
 #### Anonymous Classes and Lambda Expressions
+
 - Anonymous classes are often replaced by lambdas.
 
 ```java
@@ -235,6 +254,7 @@ Runnable r = () -> System.out.println("Lambda expression");
 ### 4. Understanding Polymorphism
 
 #### Object vs References
+
 - A reference type determines what methods can be called, not the object type.
 
 ```java
@@ -243,6 +263,7 @@ animal.sound();  // Dog's implementation
 ```
 
 #### Casting Objects
+
 - Casting is required to access subclass-specific methods.
 
 ```java
@@ -251,6 +272,7 @@ Dog dog = (Dog) obj;
 ```
 
 #### Casting Interfaces
+
 - Casting can be done between interface types, provided they are compatible.
 
 ```java
@@ -259,6 +281,7 @@ Thread t = (Thread) r;  // Downcasting
 ```
 
 #### The `instanceof` Operator
+
 - `instanceof` checks if an object is an instance of a class or implements an interface.
 
 ```java
@@ -268,6 +291,7 @@ if (animal instanceof Dog) {
 ```
 
 #### Polymorphism and Method Overriding
+
 - Polymorphism allows overridden methods in subclasses to be called via references of the superclass type.
 
 ```java

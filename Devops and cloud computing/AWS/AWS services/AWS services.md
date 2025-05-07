@@ -19,5 +19,3 @@
 | Amazon CloudFormation | Infrastructure as Code (IaC) service                                          |
 | Amazon Kinesis        | Real-time streaming data service                                              |
 | Amazon Redshift       | Fully managed data warehouse service                                          |
-
-

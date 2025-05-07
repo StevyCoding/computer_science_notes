@@ -1,9 +1,15 @@
 ![[Pasted image 20240306163451.png]]
+
 ![[Pasted image 20240308090035.png]]
+
 ![[Pasted image 20240308090900.png]]
+
 ![[Pasted image 20240308090919.png]]
+
 ![[Pasted image 20240308091133.png]]
+
 ![[Pasted image 20240308091315.png]]
+
 La machine virtuelle Standard B2s sur Azure est une option **économique** adaptée aux charges de travail à **faible et moyenne utilisation du CPU**, avec la possibilité de monter en puissance ponctuellement. Voici un résumé de ses caractéristiques et de son utilisation idéale :
 
 **Caractéristiques principales**

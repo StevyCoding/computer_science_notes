@@ -26,7 +26,6 @@
 - [[#Key Steps in the Example:|Key Steps in the Example:]]
 - [[#Conclusion|Conclusion]]
 
-
 # JDBC architecture
 
 ```mermaid
@@ -39,6 +38,7 @@ graph TD
     E -->|Returns Result| F
     F -->|Sends Result| A
 ```
+
 Here’s a breakdown of each part of the JDBC architecture:
 
 1. **Application**:
@@ -79,8 +79,8 @@ Here’s a breakdown of each part of the JDBC architecture:
 
 This is the standard flow in JDBC for querying and retrieving data from a relational database.
 
-
 # SQL exection 
+
 Here’s an example of how to execute different types of SQL queries (e.g., `SELECT`, `INSERT`, `UPDATE`, and `DELETE`) using different methods provided by JDBC. Each query type requires a different approach in terms of how the SQL is executed and how the results are handled.
 
 ### Java Example with Different Query Execution Methods
@@ -318,7 +318,9 @@ public class ResultSetExample {
     Statement stmt = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
     ```
     
+
     This allows you to move the cursor backward or randomly within the result set.
+
     
 - **Updating Results**: If your `ResultSet` is updatable (created with `ResultSet.CONCUR_UPDATABLE`), you can modify the data in the result set and then update the database:
     
@@ -332,9 +334,10 @@ public class ResultSetExample {
 
 `ResultSet` is a powerful object for navigating and extracting data from a query result. You can use it to read values of different data types, move the cursor, and even update the database when appropriate. Always ensure to close your resources (like `ResultSet`, `Statement`, and `Connection`) to avoid potential memory leaks and database connection issues.
 
-
 # Transaction 
+
 Here's the updated JDBC code with the addition of a **Savepoint** to provide finer control over rolling back to a certain point in the transaction, rather than rolling back the entire transaction.
+
 -  atomicity
 - savepoint
 - rollback
@@ -553,7 +556,6 @@ This metadata is especially useful when you don't know the structure of the resu
 ### Conclusion
 
 Metadata in JDBC allows you to retrieve essential information about the database and result sets. The two primary types of metadata—`DatabaseMetaData` and `ResultSetMetaData`—enable dynamic, flexible, and database-agnostic programming. By leveraging these features, you can make your Java database applications more robust, adaptable, and efficient.
-
 
 # Batch Processing in JDBC
 

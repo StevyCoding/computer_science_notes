@@ -1,4 +1,3 @@
-
 ### **Sealed Classes in Java**
 
 Sealed classes, introduced in **Java 15** (as a preview feature, finalized in Java 17), restrict which other classes or interfaces can extend or implement them. They help enforce a strict hierarchy and provide better control over the inheritance model.

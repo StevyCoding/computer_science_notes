@@ -1,4 +1,3 @@
-
 In Amazon Web Services (AWS), databases play a critical role in supporting various applications and services by storing, organizing, and managing data. AWS provides a range of database services catering to different types of data, workloads, and performance requirements. Here are some key database services in AWS:
 
 ## Amazon RDS: Relational Database Service 🗃️
@@ -40,6 +39,7 @@ Amazon Neptune is a fully managed graph database service that supports two popul
 These are just a few examples of the many database services available in AWS. The choice of a database service depends on factors such as the nature of the data, scalability requirements, and the specific needs of your application. AWS provides a comprehensive set of tools to help you manage and scale your databases efficiently in the cloud. 🚀
 
 Read More  `ris:ArrowDown`
+
 # Explore Databases on AWS
 
 ## UNDERSTANDING THE HISTORY BEHIND ENTERPRISE DATABASES

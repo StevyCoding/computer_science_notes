@@ -1,4 +1,5 @@
 Short, simple descriptions of a feature told from the perspective of the user.
+
 - User
 - Action
 - Benefit

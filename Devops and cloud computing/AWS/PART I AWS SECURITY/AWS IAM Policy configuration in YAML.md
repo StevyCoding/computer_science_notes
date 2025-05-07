@@ -1,4 +1,3 @@
-
 AWS Identity and Access Management (IAM) policies define permissions for AWS entities such as users, groups, and roles. Policies can be written in JSON or YAML format. Here, we'll explore IAM policy configuration using YAML.
 
 ## Basic YAML Structure for IAM Policy:

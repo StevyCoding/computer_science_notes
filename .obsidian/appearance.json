@@ -1,7 +1,7 @@
 {
   "accentColor": "#10ebe6",
   "cssTheme": "Things",
-  "baseFontSize": 16,
+  "baseFontSize": 21,
   "theme": "obsidian",
   "monospaceFontFamily": "Fira Code",
   "baseFontSizeAction": true,

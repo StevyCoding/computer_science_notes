@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🕸",
       "LiDatabase",
       "LiNetwork",
       "🌕",
-      "LiCode2",
-      "LiCloud"
+      "LiCode2"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -31,12 +31,15 @@
     "iconsInLinksEnabled": true,
     "iconIdentifier": ":",
     "lucideIconPackType": "native",
-    "debugMode": false
+    "debugMode": false,
+    "useInternalPlugins": false
   },
   "programming language/Design Pattern/refactoring.guru": "⭐",
   "Devops and cloud computing": "LiCloud",
   "programming language": "LiCode2",
   "Full stack developer": "🌕",
   "Networking": "LiNetwork",
-  "Database": "LiDatabase"
+  "Database": "LiDatabase",
+  "Full stack developer/Backend/Database Design": "LiDatabase",
+  "Devops and cloud computing/Kubernetes": "🕸"
 }

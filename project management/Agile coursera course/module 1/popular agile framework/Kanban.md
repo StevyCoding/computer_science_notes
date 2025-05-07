@@ -1,5 +1,7 @@
 Kan = sign
+
 ban =  board
+
 Kanban is a popular agile methodology that originated in manufacturing, particularly at Toyota, and has since been adapted for various industries, including software development and project management. The primary focus of Kanban is on visualizing work, limiting work in progress, and maximizing flow to improve efficiency and deliver value continuously. Here are the key principles and practices of the Kanban methodology:
 
 1. **Visualization:** The Kanban board is a visual representation of the work process. It consists of columns representing different stages of the workflow, and each column contains cards representing individual tasks or work items. This visualization provides a clear and shared understanding of the work in progress.

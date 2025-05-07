@@ -1,7 +1,7 @@
-
 Here’s a list of essential **Java packages** to know for the Java exam:
 
 ### **Core Packages**:
+
 1. **`java.lang`**  
    - Automatically imported.
    - Includes core classes like `String`, `Math`, `System`, `Object`, `Thread`, `Exception`, etc.
@@ -31,6 +31,7 @@ Here’s a list of essential **Java packages** to know for the Java exam:
      - `BigDecimal`, `BigInteger`, `MathContext`.
 
 ### **Concurrency and Multithreading**:
+
 8. **`java.util.concurrent`**  
    - For concurrency utilities:
      - `ExecutorService`, `Future`, `CompletableFuture`, `CountDownLatch`, `Semaphore`.
@@ -40,16 +41,19 @@ Here’s a list of essential **Java packages** to know for the Java exam:
      - `Stream`, `Collectors`, `IntStream`, `Optional`.
 
 ### **Annotations**:
+
 10. **`java.lang.annotation`**  
    - For creating and managing annotations:
      - `Annotation`, `Retention`, `Target`.
 
 ### **Exceptions and Error Handling**:
+
 11. **`java.lang.reflect`**  
    - For reflection (inspecting classes, methods at runtime):
      - `Field`, `Method`, `Constructor`.
 
 ### **Packages to Focus on for the Exam**:
+
 - **`java.lang`** (core classes, exceptions)
 - **`java.util`** (collections, streams)
 - **`java.time`** (date/time handling)

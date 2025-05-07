@@ -1,5 +1,3 @@
-
-
 Here's a more polished and formatted version of your cheat sheet for Java Class Design, optimized for clarity and structure:
 
 ---

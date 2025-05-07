@@ -1,4 +1,3 @@
-
 # A
 
 **abstract**
@@ -772,8 +771,6 @@ A Java keyword used in a method or variable declaration. It signifies that the m
 
 A Java keyword used in a method or variable declaration. It signifies that the method or variable can be accessed by elements residing in other classes.
 
-
-
 #  R
 
 **raster**
@@ -1043,4 +1040,3 @@ World Wide Web. The web of systems and the data in them that is the Internet. Se
 **XML**
 
 Extensible Markup Language. A markup language that allows you to define the tags (markup) needed to identify the data and text in XML documents.
-

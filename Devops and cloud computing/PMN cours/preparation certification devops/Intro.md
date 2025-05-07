@@ -1,12 +1,17 @@
  # Books 
+
 Devops perspective
+
 Devops Handbook
+
 Devops best pratice
 
 # Lean IT
+
 - supprimer le  gaspillage  de ressource (humaine,temps, argent, energie..)
 
 # Cartographie des flux de valeur
+
  - Qu'est-ce que la cartographie de valeur ?
  - Que fournit une analyse VSM ?
 
@@ -15,6 +20,7 @@ Devops best pratice
 - lead Time Temps de processsus
 - Pourcentage complet et precit (%C/A)
 ![[Pasted image 20240725135247.png]]
+
 ## Choisissez la meuilleur solution pour optimiser le flux de valeur
 
 Implémenter la méthode Lean ligne par ligne implique plusieurs étapes clés :
@@ -44,15 +50,14 @@ En suivant ces étapes de manière systématique, une organisation peut progress
 
 ## Pipeline de déploiment
 
-
 Le ddéveloppementy est complet quand il est Déployé en opération
-
 
 Les origines ?
 
 ![[Pasted image 20240725140649.png]]
 
 ## Controle de version
+
 La gestion de configution de l'environnement
 
 infrastructure as a code

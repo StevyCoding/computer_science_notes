@@ -1,4 +1,3 @@
-
 A **policy** is a set of rules, guidelines, or principles that define how a particular system, organization, or entity operates. Policies are designed to guide decision-making, shape behavior, and ensure consistency in various contexts, including governance, security, and management. In the realm of information technology and cybersecurity, policies play a crucial role in defining acceptable practices, standards, and procedures to maintain a secure and well-managed environment.
 
 ## Key Characteristics of Policies:

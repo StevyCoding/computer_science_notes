@@ -11,6 +11,7 @@ public static void  cube(int n){System.out.println(n*n*n);}
 ```
 
 to generate de doc use this command
+
 ```cmd
 javadoc M.jva
 ```

@@ -4,7 +4,7 @@
   "openAIOrgId": "",
   "huggingfaceApiKey": "",
   "cohereApiKey": "",
-  "anthropicApiKey": "",
+  "anthropicApiKey": "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",
   "azureOpenAIApiKey": "",
   "azureOpenAIApiInstanceName": "",
   "azureOpenAIApiDeploymentName": "",
@@ -13,10 +13,10 @@
   "googleApiKey": "AIzaSyDjdf8kxIL5eJaTfnrPI7pSt36w6Rfv7B0",
   "openRouterAiApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "gemini-1.5-pro|google",
+  "defaultModelKey": "claude-3-haiku-20240307|anthropic",
   "embeddingModelKey": "text-embedding-004|google",
-  "temperature": 0.1,
-  "maxTokens": 1000,
+  "temperature": 0.65,
+  "maxTokens": 4000,
   "contextTurns": 15,
   "userSystemPrompt": "",
   "openAIProxyBaseUrl": "",
@@ -38,11 +38,25 @@
   "groqApiKey": "",
   "activeModels": [
     {
+      "name": "copilot-plus-flash",
+      "provider": "copilot-plus",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "plusExclusive": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
       "name": "gpt-4o",
       "provider": "openai",
       "enabled": true,
       "isBuiltIn": true,
       "core": true,
+      "capabilities": [
+        "vision"
+      ],
       "baseUrl": "",
       "apiKey": ""
     },
@@ -52,8 +66,22 @@
       "enabled": true,
       "isBuiltIn": true,
       "core": true,
+      "capabilities": [
+        "vision"
+      ],
       "baseUrl": "",
       "apiKey": ""
+    },
+    {
+      "name": "claude-3-5-sonnet-latest",
+      "provider": "anthropic",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ],
+      "enableCors": true
     },
     {
       "name": "gpt-4-turbo",
@@ -69,7 +97,8 @@
       "enabled": true,
       "isBuiltIn": true,
       "baseUrl": "",
-      "apiKey": ""
+      "apiKey": "",
+      "enableCors": true
     },
     {
       "name": "claude-3-haiku-20240307",
@@ -77,7 +106,8 @@
       "enabled": true,
       "isBuiltIn": true,
       "baseUrl": "",
-      "apiKey": ""
+      "apiKey": "",
+      "enableCors": true
     },
     {
       "name": "command-r",
@@ -128,9 +158,68 @@
       "isBuiltIn": false,
       "enableCors": false,
       "isEmbeddingModel": false
+    },
+    {
+      "name": "claude-3-7-sonnet-20250219",
+      "provider": "anthropic",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "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",
+      "isEmbeddingModel": false,
+      "capabilities": [
+        "reasoning",
+        "websearch"
+      ],
+      "stream": true,
+      "enableCors": true
+    },
+    {
+      "name": "deepseek-chat",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "https://api.deepseek.com/v1",
+      "apiKey": "sk-ce63a2d13bde4bbe8550e63c4dc2abce",
+      "isEmbeddingModel": false,
+      "capabilities": [],
+      "stream": true,
+      "openAIOrgId": "",
+      "displayName": "deepseek",
+      "enableCors": true
     }
   ],
   "activeEmbeddingModels": [
+    {
+      "name": "copilot-plus-small",
+      "provider": "copilot-plus",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "plusExclusive": true
+    },
+    {
+      "name": "copilot-plus-large",
+      "provider": "copilot-plus-jina",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "plusExclusive": true,
+      "believerExclusive": true,
+      "dimensions": 1024
+    },
+    {
+      "name": "copilot-plus-multilingual",
+      "provider": "copilot-plus-jina",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "plusExclusive": true,
+      "dimensions": 512
+    },
     {
       "name": "text-embedding-3-small",
       "provider": "openai",
@@ -158,11 +247,12 @@
       "provider": "google",
       "enabled": true,
       "isBuiltIn": true,
-      "isEmbeddingModel": true
+      "isEmbeddingModel": true,
+      "enableCors": true
     },
     {
       "name": "azure-openai",
-      "provider": "azure_openai",
+      "provider": "azure openai",
       "enabled": true,
       "isBuiltIn": true,
       "isEmbeddingModel": true
@@ -170,6 +260,7 @@
   ],
   "embeddingRequestsPerSecond": 10,
   "disableIndexOnMobile": true,
+  "showSuggestedPrompts": true,
   "enabledCommands": {
     "fix-grammar-prompt": {
       "enabled": true,
@@ -232,5 +323,9 @@
       "name": "Change tone of selection"
     }
   },
-  "promptUsageTimestamps": {}
+  "promptUsageTimestamps": {},
+  "embeddingRequestsPerMin": 90,
+  "embeddingBatchSize": 16,
+  "isPlusUser": false,
+  "showRelevantNotes": true
 }

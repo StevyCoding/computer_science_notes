@@ -1,5 +1,7 @@
 Amazon Web Services (AWS) is a comprehensive, on-demand cloud computing platform provided by Amazon.com. Launched in 2006, AWS offers a vast array of cloud services, including computing power, storage options, networking, databases, machine learning, analytics, security, and more. AWS enables businesses and individuals to access and utilize computing resources without the need to invest in and maintain physical infrastructure.
+
 ![[Pasted image 20231121021406.png]]
+
 ## Compute Services:
 
 - **Amazon EC2 (Elastic Compute Cloud):** Provides scalable virtual servers in the cloud.

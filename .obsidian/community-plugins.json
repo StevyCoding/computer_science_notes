@@ -12,5 +12,7 @@
   "copilot",
   "obsidian-image-toolkit",
   "dataview",
-  "d2-obsidian"
+  "d2-obsidian",
+  "obsidian-linter",
+  "obsidian-autocomplete-plugin"
 ]

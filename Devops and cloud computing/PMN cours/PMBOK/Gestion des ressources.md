@@ -7,6 +7,7 @@ Le porcessus de gestion de essource consiste à identifier affecter et gérer le
 1) Planification des ressources
 2) Obtention des ressources
 3) Gestion des ressources
+
 ## Les outils et techniques de gestion des ressources
 
 - Organigramme du projet

@@ -1,10 +1,11 @@
-
 Here’s the corrected version without bold on titles:
 
 ### Java Streams Cheat Sheet (Java 17 OCP)
 
 ---
+
 ![[Java Stream Cheatsheet for Java 17 OCP.png]]
+
 #### 1. What is a Stream?
 
 - A **Stream** is a sequence of elements that can be processed in parallel or sequentially.

@@ -1,4 +1,5 @@
 The following arethe two ways for JWM shudown :
+
 - **A controlled process**: JVM starts to shut down its process if the [System.exit() method](https://www.tutorialspoint.com/java/lang/system_exit.htm) is called, CTRL+C is pressed, or if the last non-daemon thread terminates.
     
 - **An abrupt manner**: JVM starts to shut down its process if it receives a kill signal, the [Runtime.getRuntime().halt() method](https://www.tutorialspoint.com/java/lang/runtime_halt.htm) is called, or any kind of OS panic.
@@ -10,6 +11,7 @@ pubnlic void addShutdownHook(Thread Hook)
 ```
 
 - **hook** an initalized but unstarted thread object.
+
 ### Exception
 
 - **IllegalArgumentException** − If the specified hook has already been registered, or if it can be determined that the hook is already running or has already been run.
@@ -17,7 +19,6 @@ pubnlic void addShutdownHook(Thread Hook)
 - **IllegalStateException** − If the virtual machine is already in the process of shutting down.
     
 - **SecurityException** − If a security manager is present and it denies RuntimePermission("shutdownHooks").
-
 
 ## Example of JVM Shutdown Hook
 

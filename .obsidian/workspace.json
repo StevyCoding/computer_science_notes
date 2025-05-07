@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/0. Table of content.md",
+                "file": "Devops and cloud computing/Kubernetes/TechWorld with Nana/4. Main K8s Components.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. Table of content"
+              "title": "4. Main K8s Components"
+            }
+          },
+          {
+            "id": "a6a0962a26e2af45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/4. Cluster Installation and Upgrade (complete the chapter home).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Cluster Installation and Upgrade (complete the chapter home)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 394.5
+    "width": 394.5,
+    "collapsed": true
   },
   "right": {
     "id": "c34a49a3e33ebf3f",
@@ -94,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/2. Your First Vagrant Machine.md",
+                "file": "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/4. Storage and Retrival.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2. Your First Vagrant Machine"
+              "title": "Backlinks for 4. Storage and Retrival"
             }
           },
           {
@@ -142,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/0. Table of content.md",
+                "file": "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/3. Data Models and Query Languages.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 0. Table of content"
+              "title": "Outline of 3. Data Models and Query Languages"
             }
           },
           {
@@ -157,8 +173,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -172,11 +188,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 650.5
+    "width": 301.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,58 +206,58 @@
       "audio-recorder:Start/stop recording": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
-      "copilot:Copilot Chat": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "7f47d4191d485cf6",
+  "active": "a6a0962a26e2af45",
   "lastOpenFiles": [
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/4. Networking in Vagrant.md",
-    "conflict-files-obsidian-git.md",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/{027CB93D-AA57-4A94-95BD-40B87CDCAC35}.png",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/3. Provisioning Your Vagrant VM.md",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/2. Your First Vagrant Machine.md",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/0. Table of content.md",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/Pasted image 20250213185326.png",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/Pasted image 20250213185306.png",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/mermaid-diagram-2025-02-13-184953.svg",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/image.png",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/Pasted image 20250210060703.png",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets/Pasted image 20250210060501.png",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/assets",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/1. An Introduction to Vagrant.md",
-    "programming language/Javascript/text.md",
-    "interview questions/Java and spring boot/Grokking the Java Developer Interview  - More than 200 Questions.md",
-    "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/assets/image.png",
-    "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/assets",
-    "Devops and cloud computing/Vagrant/books/Vagrant Up and Running",
-    "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/2. Installation and setup.md",
-    "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/0. Table of content.md",
-    "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition/1. Introduction.md",
-    "Devops and cloud computing/Ansible/books/Ansible Up and Running 3rd Edition",
-    "Devops and cloud computing/Vagrant/books",
-    "programming language/Javascript",
-    "Devops and cloud computing/Ansible/cheat sheets/playbook yaml properties.md",
-    "Devops and cloud computing/Vagrant",
-    "Devops and cloud computing/Ansible/cheat sheets",
-    "Devops and cloud computing/Ansible/books",
-    "AI/AI agent",
-    "Networking/Computer Networks, Fifth Edition/1.Introduction.md",
-    "programming language/Java/OCP preparation/7. chapter 6 class design.md",
-    "programming language/Java/OCP preparation/cheatsheet/JDB cheatsheet.md",
-    "programming language/Java/OCP preparation/16. Chapter 15 JDBC.md",
-    "programming language/Java/OCP preparation/cheatsheet/assets/Java I_O Cheatsheet for OCP 17 Exam.png",
-    "programming language/Java/OCP preparation/cheatsheet/Java beyond classes cheat sheet.md",
-    "programming language/Java/OCP preparation/cheatsheet/Java IO cheat sheet.md",
-    "programming language/Java/OCP preparation/cheatsheet/Java Stream cheatsheet.md",
-    "programming language/Java/OCP preparation/8. Chapter 7 beyond classes.md",
-    "programming language/Java/OCP preparation/cheatsheet/Java class design cheat sheet.md",
-    "programming language/Java/OCP preparation/cheatsheet/Java Collection CheatSheet.md",
-    "programming language/Java/OCP preparation/6. Chapter 5 Methods.md",
-    "programming language/Java/OCP preparation/10. Chapter 9 Collections and Generics.md",
-    "programming language/Java/OCP preparation/11. Chapter 10 Streams.md",
-    "programming language/Java/OCP preparation/13. Chapter 12 Modules.md",
-    "programming language/Java/OCP preparation/cheatsheet/assets/Java Stream Cheatsheet for Java 17 OCP 1.png",
-    "Untitled.canvas"
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250503164857.png",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/3. Interacting with kubernetes.md",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/4. Cluster Installation and Upgrade (complete the chapter home).md",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana/4. Main K8s Components.md",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250503150128.png",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250503142101.png",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/2. Kubernetes In A Nutshell.md",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/0.1. Introduction.md",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/1. Exam Details and Ressources.md",
+    "Excalidraw/Drawing 2025-05-03 12.17.10.excalidraw.md",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250503113007.png",
+    "Excalidraw/Drawing 2025-05-03 09.39.21.excalidraw.md",
+    "Excalidraw/Drawing 2025-05-03 09.30.14.excalidraw.md",
+    "Excalidraw",
+    "Untitled.canvas",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana/6. Minikube and Kubectl - Setup K8s cluster locally.md",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana/5. Kubernetes Configuration.md",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana/3. Node and Pod.md",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250427021351.png",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250427021332.png",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250427021316.png",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250427021244.png",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250427020234.png",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/0. Table of content.md",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana/0.Table of content.md",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana/2. What is Kubernetes.md",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana/6. Volume.md",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana/5. ConfigMap and Secret.md",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana/1.  Intro and course overview.md",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana",
+    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/4. Storage and Retrival.md",
+    "Devops and cloud computing/Kubernetes",
+    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/assets/Pasted image 20250330101230.png",
+    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/3. Data Models and Query Languages.md",
+    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/assets/Pasted image 20250330033439.png",
+    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/2. Defining Nonfunctional Requirements.md",
+    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/1. Trade-Offs in Data Systems Architecture.md",
+    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/assets",
+    "Full stack developer/Backend/Nestjs/Untitled.md",
+    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition",
+    "Full stack developer/Backend/Database Design",
+    "Full stack developer/Frontend/React/Redux.md",
+    "Full stack developer/Backend/Nestjs",
+    "Full stack developer/Frontend/React/react documentation",
+    "Full stack developer/Frontend/React/REST (Representational State Transfer).md"
   ]
 }

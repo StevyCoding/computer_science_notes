@@ -6,12 +6,12 @@ Java Collection means a single unit of objects. Java Collection framework provid
 
 [collections java docuementation](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)
 
-
 ## Hierarchy of Collection Framework
 
 ![[Pasted image 20240412014821.png]]
 
 # Java Collection interface
+
 The collections framework defines several interfaces. This section provides an overview of each interface
 
 |Sr.No.|Interface & Description|
@@ -24,7 +24,9 @@ The collections framework defines several interfaces. This section provides an o
 |6|[The Map.Entry](https://www.tutorialspoint.com/java/java_mapentry_interface.htm)<br><br>This describes an element (a key/value pair) in a map. This is an inner class of Map.|
 |7|[The SortedMap](https://www.tutorialspoint.com/java/java_sortedmap_interface.htm)<br><br>This extends Map so that the keys are maintained in an ascending order.|
 |8|[The Enumeration](https://www.tutorialspoint.com/java/java_enumeration_interface.htm)<br><br>This is legacy interface defines the methods by which you can enumerate (obtain one at a time) the elements in a collection of objects. This legacy interface has been superceded by Iterator.|
+
 ## Java Collection Classes
+
 Java provides a set of standard collection classes that implement Collection interfaces. Some of the classes provide full implementations that can be used as-is and others are abstract class, providing skeletal implementations that are used as starting points for creating concrete collections.
 
 The standard collection classes are summarized in the following table −
@@ -68,6 +70,7 @@ The standard collection classes are summarized in the following table −
 | 15     | **IdentityHashMap**                                                       |
 |        | Extends AbstractMap and uses reference equality when comparing keys       |
 |        | (checks if objects are the same object).                                  |
+
 The _AbstractCollection, AbstractSet, AbstractList, AbstractSequentialList_ and _AbstractMap_ classes provide skeletal implementations of the core collection interfaces, to minimize the effort required to implement them.
 
 The following legacy classes defined by java.util have been discussed in the previous chapter −

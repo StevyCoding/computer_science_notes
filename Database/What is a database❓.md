@@ -1,6 +1,8 @@
 - Any collection of related information
 - Database can be stored in different way
+
 ## crud
+
 - create
 - read
 - update

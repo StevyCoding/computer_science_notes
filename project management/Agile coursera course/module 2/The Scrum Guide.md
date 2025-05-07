@@ -1,4 +1,3 @@
-
 In the last video, you learned that the Scrum Guide acts as the main source of truth for Scrum teams and contains everything you need to know about Scrum. You also learned that Scrum is a framework within the foundational project management philosophy called Agile. The Scrum Guide defines Scrum as “A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value.” This reading will review the Scrum pillars and values and then provide links to the Scrum Guide and further reading about Scrum. 
 
 ## **Pillars and values** 

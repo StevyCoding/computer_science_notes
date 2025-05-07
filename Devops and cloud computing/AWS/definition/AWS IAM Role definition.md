@@ -1,4 +1,3 @@
-
 An **IAM Role** in AWS (Identity and Access Management) is a set of permissions that define what actions are allowed or denied for entities (such as AWS users or AWS services) assuming the role. Roles are used to grant temporary access to AWS resources without the need for sharing long-term security credentials.
 
 ## Key Characteristics of IAM Roles:

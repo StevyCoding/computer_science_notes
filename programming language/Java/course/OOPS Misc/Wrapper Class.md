@@ -9,4 +9,3 @@ The automatic conversion of primitive data type into its corresponding wrapper c
 ## Unboxing
 
 The automatic conversion of wrapper type into its corresponding primitive type is known as unboxing. It is the reverse process of autoboxing. Since Java 5, we do not need to use the intValue() method of wrapper classes to convert the wrapper type into primitives.
-

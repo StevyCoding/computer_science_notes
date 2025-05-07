@@ -1,13 +1,18 @@
 Sketching is a two step process
 
 # first step 
+
 - generate many ideas as possible
 - Sketch
+
 # second step
+
 -  add more detail
 - Refine
 ![[Pasted image 20231230135510.png]]
+
 # Sketching process
+
 - What are your goals
 - Who is the audience
 - Timebox yourself

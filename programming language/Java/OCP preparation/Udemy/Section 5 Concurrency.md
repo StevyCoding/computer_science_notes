@@ -239,9 +239,11 @@ In short:
 - **`invokeAny()`**: Executes a collection of tasks and returns the result of one that completes first.
 
 ---
+
 ##  Future Interface
 
 The **`Future`** interface in Java, part of the `java.util.concurrent` package, represents the result of an asynchronous computation. It's used with the **Executor Framework** to manage and retrieve results of tasks executed asynchronously. Here's a breakdown of its key aspects:
+
 Here are the methods of the `Future` interface in a table format:
 
 | **Method**                                      | **Description**                                                                               |
@@ -287,7 +289,6 @@ executorService.shutdown();  // Gracefully shut down the executor
 - Misconfiguration of thread pools can lead to bottlenecks.
 
 Would you like to see a specific use case?
-
 
 # Atomic classes 
 
@@ -480,8 +481,6 @@ public class AtomicStampedExample {
 ### **Conclusion**
 
 Java's `atomic` classes are powerful tools for handling single-variable thread-safe operations. By leveraging non-blocking algorithms, they enable efficient and scalable solutions in multi-threaded environments. However, understanding their scope and limitations is essential for designing robust concurrent applications.
-
-
 
 # Synchronized Java
 
@@ -687,7 +686,6 @@ Here, the `outerMethod` calls `innerMethod`. Since both methods are synchronized
 |Synchronize class methods only|`synchronized(ClassName.class)`|`Class` object|
 
 Choose the appropriate method depending on whether the resource is shared at the instance or class level and how granular the synchronization needs to be.
-
 
 ## Lock  in Java
 

@@ -1,8 +1,6 @@
-
-
 ### Java I/O Cheat Sheet
-![[Java I_O Cheatsheet for OCP 17 Exam.png]]
 
+![[Java I_O Cheatsheet for OCP 17 Exam.png]]
 
 ---
 

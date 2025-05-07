@@ -1,4 +1,3 @@
-
 ### Java Collections Cheat Sheet for Java 17 OCP
 
 ---

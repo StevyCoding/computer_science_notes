@@ -4,7 +4,6 @@ Within Scrum, self-organizing, cross-functional, and highly productive teams do 
 
 A great Scrum Team consists of a Product Owner, who maximizes value, a Scrum Master, who enables continuous improvement, and a Development Team, that focuses on delivering high-quality product increments.
 
-
 For sure, this sounds great!
 
 But what are the characteristics of such a great Scrum team? This article answers that question. It describes the characteristics and skills of a great Product Owner, Scrum Master, and Development Team.

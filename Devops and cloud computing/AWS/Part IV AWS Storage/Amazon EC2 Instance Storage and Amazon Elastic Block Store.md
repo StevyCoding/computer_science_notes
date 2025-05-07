@@ -1,4 +1,5 @@
   
+
 # Amazon EC2 Instance Storage `ris:Database2`
 
 Amazon EC2 Instance Storage, also known as ephemeral storage, ==is directly attached to the EC2 instance==. It is ideal for temporary data storage, such as buffers, caches, and scratch data that can be recreated if lost. This storage is physically attached to the host machine running the EC2 instance. The data on instance storage is volatile and is lost if the instance is stopped or terminated. Performance is often better than Amazon EBS, as it is directly connected to the instance and not over the network. However, it is specific to the instance type and cannot be resized or attached to another instance.
@@ -12,8 +13,6 @@ Amazon Elastic Block Store (EBS) provides persistent ==block-level storage volum
 ==Consider using EC2 instance storage when you need high-performance==, temporary storage and can afford to lose the data in case of instance termination. ==On the other hand, opt for Amazon EBS when you need persistent and reliable storage that can be detached from one instance and attached to another, and when data durability is critical==.
 
 In summary, the choice between EC2 Instance Storage and Amazon EBS depends on the specific requirements of your application, such as performance needs, data persistence, and the ability to detach and move storage between instances.
-
-
 
 More info  `ris:ArrowDown`
 

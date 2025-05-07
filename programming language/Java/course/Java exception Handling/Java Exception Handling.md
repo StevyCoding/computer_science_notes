@@ -1,6 +1,5 @@
 The **Exception Handling in Java** is one of the powerful _mechanism to handle the runtime errors_ so that the normal flow of the application can be maintained.
 
-
 ## type of exception 
 
 1. Checked Exception 
