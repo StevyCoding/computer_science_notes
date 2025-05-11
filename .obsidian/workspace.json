@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "9ab2534d02960988",
+    "type": "split",
+    "children": [
+      {
+        "id": "96d7bdab9b49b670",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f47d4191d485cf6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Devops and cloud computing/Kubernetes/TechWorld with Nana/4. Main K8s Components.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Main K8s Components"
+            }
+          },
+          {
+            "id": "a6a0962a26e2af45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/4. Cluster Installation and Upgrade (complete the chapter home).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Cluster Installation and Upgrade (complete the chapter home)"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9fc14cd551456cf9",
+    "type": "split",
+    "children": [
+      {
+        "id": "d43c17c18b5f46fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76387a59a3bd7594",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "89016e1070b3db37",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "lambdas",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "404083ef11de73d3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 394.5
+  },
+  "right": {
+    "id": "c34a49a3e33ebf3f",
+    "type": "split",
+    "children": [
+      {
+        "id": "967b68d14f118c51",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a64b9ae2f816723",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/4. Storage and Retrival.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 4. Storage and Retrival"
+            }
+          },
+          {
+            "id": "f7cff785f0b085ff",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/2. Your First Vagrant Machine.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2. Your First Vagrant Machine"
+            }
+          },
+          {
+            "id": "139a83be30a40720",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6fa429b4b0ddb100",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/3. Data Models and Query Languages.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 3. Data Models and Query Languages"
+            }
+          },
+          {
+            "id": "55f290fca13fb858",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "54bfc23a39039972",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 301.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "copilot:Open Copilot Chat": false
+    }
+  },
+  "active": "a6a0962a26e2af45",
+  "lastOpenFiles": [
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/3. Interacting with kubernetes.md",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/4. Cluster Installation and Upgrade (complete the chapter home).md",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250503164857.png",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana/4. Main K8s Components.md",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250503150128.png",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250503142101.png",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/2. Kubernetes In A Nutshell.md",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/0.1. Introduction.md",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/1. Exam Details and Ressources.md",
+    "Excalidraw/Drawing 2025-05-03 12.17.10.excalidraw.md",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250503113007.png",
+    "Excalidraw/Drawing 2025-05-03 09.39.21.excalidraw.md",
+    "Excalidraw/Drawing 2025-05-03 09.30.14.excalidraw.md",
+    "Excalidraw",
+    "Untitled.canvas",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana/6. Minikube and Kubectl - Setup K8s cluster locally.md",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana/5. Kubernetes Configuration.md",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana/3. Node and Pod.md",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250427021351.png",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250427021332.png",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250427021316.png",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250427021244.png",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250427020234.png",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/0. Table of content.md",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana/0.Table of content.md",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana/2. What is Kubernetes.md",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana/6. Volume.md",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana/5. ConfigMap and Secret.md",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana/1.  Intro and course overview.md",
+    "Devops and cloud computing/Kubernetes/TechWorld with Nana",
+    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/4. Storage and Retrival.md",
+    "Devops and cloud computing/Kubernetes",
+    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/assets/Pasted image 20250330101230.png",
+    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/3. Data Models and Query Languages.md",
+    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/2. Defining Nonfunctional Requirements.md",
+    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/1. Trade-Offs in Data Systems Architecture.md",
+    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/assets",
+    "Full stack developer/Backend/Nestjs/Untitled.md",
+    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition",
+    "Full stack developer/Backend/Database Design",
+    "Full stack developer/Frontend/React/Redux.md",
+    "Full stack developer/Backend/Nestjs",
+    "Full stack developer/Frontend/React/react documentation",
+    "Full stack developer/Frontend/React/REST (Representational State Transfer).md"
+  ]
+}
