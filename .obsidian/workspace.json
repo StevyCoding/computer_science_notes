@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 394.5,
-    "collapsed": true
+    "width": 394.5
   },
   "right": {
     "id": "c34a49a3e33ebf3f",
@@ -212,9 +211,9 @@
   },
   "active": "a6a0962a26e2af45",
   "lastOpenFiles": [
-    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250503164857.png",
     "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/3. Interacting with kubernetes.md",
     "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/4. Cluster Installation and Upgrade (complete the chapter home).md",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250503164857.png",
     "Devops and cloud computing/Kubernetes/TechWorld with Nana/4. Main K8s Components.md",
     "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250503150128.png",
     "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250503142101.png",
@@ -248,7 +247,6 @@
     "Devops and cloud computing/Kubernetes",
     "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/assets/Pasted image 20250330101230.png",
     "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/3. Data Models and Query Languages.md",
-    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/assets/Pasted image 20250330033439.png",
     "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/2. Defining Nonfunctional Requirements.md",
     "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/1. Trade-Offs in Data Systems Architecture.md",
     "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/assets",
