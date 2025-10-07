@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "96d7bdab9b49b670",
+        "id": "353cf7a1b5b873a7",
         "type": "tabs",
         "children": [
           {
-            "id": "7f47d4191d485cf6",
+            "id": "cf8654cd7f46548e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Devops and cloud computing/Kubernetes/TechWorld with Nana/4. Main K8s Components.md",
-                "mode": "source",
+                "file": "Devops and cloud computing/Kubernetes/Quick Learning/Ckad Exercices.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Main K8s Components"
+              "title": "Ckad Exercices"
             }
           },
           {
-            "id": "a6a0962a26e2af45",
+            "id": "707c68c66251e058",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/4. Cluster Installation and Upgrade (complete the chapter home).md",
+                "file": "Devops and cloud computing/Kubernetes/Quick Learning/CheatSheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Cluster Installation and Upgrade (complete the chapter home)"
+              "title": "CheatSheet"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/3. Data Models and Query Languages.md",
+                "file": "Devops and cloud computing/Kubernetes/Quick Learning/CheatSheet.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3. Data Models and Query Languages"
+              "title": "Outline of CheatSheet"
             }
           },
           {
@@ -172,8 +172,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -182,20 +182,20 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-ghost",
+              "title": "copilot-chat-view"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 301.5,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
@@ -209,53 +209,54 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "a6a0962a26e2af45",
+  "active": "707c68c66251e058",
   "lastOpenFiles": [
-    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/3. Interacting with kubernetes.md",
-    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/4. Cluster Installation and Upgrade (complete the chapter home).md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/1. Intro  to Kubernetes.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/CheatSheet.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/Ckad Exercices.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/2. Commands/Untitled.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling/Eviction.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling/5. Pod priorities.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling/4. Topology Spread Constraints.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling/3. Taints and Tolerations.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling/2. Scheduling Basic.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling/1. Scheduling.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/6. Jobs.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/5.  StatefulSets.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/4. Deployments.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/AutoSCaling/4. Cluster autoscaling.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/AutoSCaling/3. Vertical Pod Autoscaling (VPA).md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/AutoSCaling/2. Horizontal Pod Autoscaler (HPA).md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/AutoSCaling/1. Autoscaling.md",
+    "Untitled.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Untitled.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging/6. Logs.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/AutoSCaling",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging/5. Metrics.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging/4. Traces.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging/3. Resource Health.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging/2. Obervability Engines.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging/1. Monitoring and Logging.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Security/Role based Access Control.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Security/assets/Pasted image 20250926115910.png",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Security/assets",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Security",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Resource Management/assets/Pasted image 20250925222355.png",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Resource Management/assets",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Resource Management",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Networking/assets/Pasted image 20250924230836.png",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Networking/assets",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Networking/Untitled",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Networking",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/assets/Pasted image 20250924225907.png",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/assets/Pasted image 20250924224151.png",
+    "Devops and cloud computing/Kubernetes/Quick Learning/assets/Pasted image 20250924225833.png",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250622144105.png",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250526155912.png",
+    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250525102901.png",
     "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250503164857.png",
-    "Devops and cloud computing/Kubernetes/TechWorld with Nana/4. Main K8s Components.md",
-    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250503150128.png",
-    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250503142101.png",
-    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/2. Kubernetes In A Nutshell.md",
-    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/0.1. Introduction.md",
-    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/1. Exam Details and Ressources.md",
-    "Excalidraw/Drawing 2025-05-03 12.17.10.excalidraw.md",
-    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250503113007.png",
-    "Excalidraw/Drawing 2025-05-03 09.39.21.excalidraw.md",
-    "Excalidraw/Drawing 2025-05-03 09.30.14.excalidraw.md",
-    "Excalidraw",
-    "Untitled.canvas",
-    "Devops and cloud computing/Kubernetes/TechWorld with Nana/6. Minikube and Kubectl - Setup K8s cluster locally.md",
-    "Devops and cloud computing/Kubernetes/TechWorld with Nana/5. Kubernetes Configuration.md",
-    "Devops and cloud computing/Kubernetes/TechWorld with Nana/3. Node and Pod.md",
-    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250427021351.png",
-    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250427021332.png",
-    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250427021316.png",
-    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250427021244.png",
-    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250427020234.png",
-    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets",
-    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/0. Table of content.md",
-    "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition",
-    "Devops and cloud computing/Kubernetes/TechWorld with Nana/0.Table of content.md",
-    "Devops and cloud computing/Kubernetes/TechWorld with Nana/2. What is Kubernetes.md",
-    "Devops and cloud computing/Kubernetes/TechWorld with Nana/6. Volume.md",
-    "Devops and cloud computing/Kubernetes/TechWorld with Nana/5. ConfigMap and Secret.md",
-    "Devops and cloud computing/Kubernetes/TechWorld with Nana/1.  Intro and course overview.md",
-    "Devops and cloud computing/Kubernetes/TechWorld with Nana",
-    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/4. Storage and Retrival.md",
-    "Devops and cloud computing/Kubernetes",
-    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/assets/Pasted image 20250330101230.png",
-    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/3. Data Models and Query Languages.md",
-    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/2. Defining Nonfunctional Requirements.md",
-    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/1. Trade-Offs in Data Systems Architecture.md",
-    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/assets",
-    "Full stack developer/Backend/Nestjs/Untitled.md",
-    "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition",
-    "Full stack developer/Backend/Database Design",
-    "Full stack developer/Frontend/React/Redux.md",
-    "Full stack developer/Backend/Nestjs",
-    "Full stack developer/Frontend/React/react documentation",
-    "Full stack developer/Frontend/React/REST (Representational State Transfer).md"
+    "Untitled.canvas"
   ]
 }

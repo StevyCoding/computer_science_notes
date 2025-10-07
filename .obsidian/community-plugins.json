@@ -14,5 +14,7 @@
   "dataview",
   "d2-obsidian",
   "obsidian-linter",
-  "obsidian-autocomplete-plugin"
+  "obsidian-autocomplete-plugin",
+  "mermaid-themes",
+  "obsidian-mindmap-nextgen"
 ]

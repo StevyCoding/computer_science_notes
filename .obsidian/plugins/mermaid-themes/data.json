@@ -1,0 +1,20 @@
+{
+  "theme": "default",
+  "tweakStyle": true,
+  "themeTweaks": {
+    "theme": "base",
+    "themeVariables": {
+      "darkMode": true,
+      "background": "#0f172a",
+      "primaryColor": "#3b82f6",
+      "primaryTextColor": "#f8fafc",
+      "primaryBorderColor": "#3b82f6",
+      "lineColor": "#64748b",
+      "textColor": "#f8fafc",
+      "secondaryColor": "#1e293b",
+      "tertiaryColor": "#334155",
+      "fontFamily": "Inter, system-ui, sans-serif",
+      "edgeLabelBackground": "#0f172a"
+    }
+  }
+}
