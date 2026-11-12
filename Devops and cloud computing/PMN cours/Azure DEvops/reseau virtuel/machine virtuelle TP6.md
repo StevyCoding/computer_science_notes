@@ -1,17 +1,28 @@
-![[Pasted image 20240310023145.png]]
+## Project Brainstorming 💡
 
-![[Pasted image 20240310023331.png]]
+**Phase 1: Initial Concepts** 📝
 
-![[Pasted image 20240310023404.png]]
+*   Develop a mobile app for tracking daily habits. 📱
+*   Features:
+    *   Set daily goals 🎯
+    *   Log completed tasks ✅
+    *   Visualize progress with charts 📊
+*   Target Audience: Students and young professionals 🧑‍🎓
 
-![[Pasted image 20240310023914.png]]![[Pasted image 20240310024113.png]]
+**Phase 2: Design Mockups** 🎨
 
-![[Pasted image 20240310024202.png]]
+*   **Wireframe 1:** Simple interface with a central progress tracker. 
+*   **Wireframe 2:** Includes a calendar view for scheduling habits. 🗓️
+*   **Wireframe 3:** Adds a notes section for adding context and reflection. 📝 
 
-![[Pasted image 20240310024308.png]]
+**Phase 3: Technical Considerations** ⚙️
 
-![[Pasted image 20240310024341.png]]
+*   Technology Stack: React Native ⚛️, Firebase ☁️
+*   Database: NoSQL (MongoDB) 🗄️
+*   API Integrations: (Consider later) 🔗
 
-![[Pasted image 20240310024525.png]]
+**Phase 4: User Feedback & Iteration** 🗣️
 
-![[Pasted image 20240310024555.png]]![[Pasted image 20240310024628.png]]
+*   Conduct user testing with a small group of beta testers. 🧪
+*   Gather feedback on usability and feature requests. ➕
+*   Prioritize improvements based on feedback. 💯

@@ -1,0 +1,18 @@
+#autoscaling 
+# Cue
+* What is Horizontal Pod Autoscaler (HPA) in Kubernetes?
+* How does it work?
+* Why is it important?
+# Key Points
+
+* **Horizontal Pod Autoscaler (HPA):**
+  * Automatically scales the **number of replicas** of a pod based on **current demand**.
+  * HPA controller monitors **CPU utilization** or other metrics of the pod.
+  * Adjusts the number of replicas to meet the **specified target**.
+* **Benefits:**
+  * Ensures workloads can handle **traffic spikes**.
+  * Prevents **overloading cluster resources**.
+  * Improves **reliability and performance** of applications.
+# Summary
+The Horizontal Pod Autoscaler in Kubernetes automatically adjusts the number of pod replicas based on resource usage or custom metrics. This ensures that applications scale efficiently under varying workloads, maintaining performance and preventing resource overload.
+

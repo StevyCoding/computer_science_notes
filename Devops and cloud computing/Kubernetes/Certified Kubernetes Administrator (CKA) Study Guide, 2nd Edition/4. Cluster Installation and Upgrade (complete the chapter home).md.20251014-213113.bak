@@ -1,0 +1,138 @@
+This chapter covers core tasks of a Kubernetes administrator: understanding the architecture, setting up a cluster, and maintaining it. 🚀
+By the end, you’ll know how to install and manage a Kubernetes cluster.
+
+This chapter addresses the following curriculum objective:
+
+- Prepare underlying infrastructure for installing a Kubernetes cluster
+- Understand extension interfaces (CNI, CSI, CRI, etc.)
+- Create and manage Kubernetes clusters using kubeadm
+- Manage the lifecycle of Kubernetes clusters
+- Implement and configure a highly-available control plane
+
+---
+# Provisioning the Infrastructure
+
+The infrastructure needed by Kubernetes cluster nodes are:
+- server
+- networks
+- storage
+Provisioning the infrastructure is done by configuring those resources on-premise or in the cloud optimally in an automated way using tools like Ansible and Terraform.
+
+# Understanding Extension Interfaces
+
+- Kubernetes architecture has been designed to be:
+  - flexible
+  - modular
+  - extensible
+- You can extend the cluster using extensions
+- Extensions are components that can be plugged into the platform to support custom functionality not native to Kubernetes (network plugin, device plugin, storage plugin)
+- Critical interfaces you will need to understand as a Kubernetes administrator:
+  - Container Network Interface (CNI)
+  - Container Runtime Interface (CRI)
+  - Container Storage Interface (CSI)
+
+## Container Network Interface (CNI)
+CNI is a spec and library for configuring container networking in Linux. 
+In Kubernetes, it enables Pod-to-Pod communication. 
+A CNI plugin must be installed on control plane nodes for networking to work.
+
+## Container Runtime Interface (CRI)
+The container runtime manages container lifecycles and resources. 
+Kubernetes uses containerd by default but supports others via the CRI, which connects Kubernetes to different runtimes.
+
+## Container Storage Interface (CSI)
+Although Kubernetes provides a Volume plugin system, it was hard to integrate third-party storage solutions. In response, CSI was developed as a standard to implement plugins for integrating arbitrary block and file storage systems to containerized workloads.
+
+# Using Kubeadm
+`kubeadm` is the CLI tool used for bootstrapping Kubernetes clusters (not for provisioning infrastructure). 
+It's usually preinstalled for the CKA exam. 
+The next sections cover high-level cluster setup using `kubeadm`; for details, refer to the official docs.
+
+## Installing a Cluster
+A basic Kubernetes cluster can run on a single node (control plane + worker), as seen in tools like Minikube. 
+This setup is fine for testing but not for scaling or high availability. 
+This section covers installing a cluster with one control plane and one worker node. 
+You can repeat the steps to add more workers—see the official docs for full details.
+![Pasted image 20250503164857.png|Process for a cluster installation process]
+
+## Initializing the Control Plane Node
+
+- Initialize the control plane on the control plane node
+- Responsible to host:
+  - the API server
+  - etcd
+  - the controller manager
+  - and the scheduler
+
+This command targets the control pane:
+bash
+ssh kube-control-plane
+
+- It’s recommended to use the same control plane version as kubeadm
+- It’s important to join the worker node to the cluster
+
+### Installing Flannel
+- You can install Flannel using Helm or kubectl or Helm.
+  - With kubectl, choose the CIDR, install the YAML, and apply the configuration first.
+- Helm provides a convenient way to insert custom values.
+
+## Joining the Worker Nodes
+You can join a worker node to the cluster using these commands:
+- Connect to the worker node first
+- Join the worker nodes using info provided by the control plane:
+bash
+$ ssh kube-worker-1
+$ kubeadm join 'ip:port' --token "token" --discovery-token-ca-cert-hash
+
+- You can repeat the process for other nodes
+
+## Managing HA Cluster
+
+Managing a **high-availability (HA) Kubernetes cluster** involves ensuring the control plane components (`kube-apiserver`, `kube-controller-manager`, `kube-scheduler`, and `etcd`) are redundant across multiple nodes to eliminate single points of failure. This is typically achieved by deploying **multiple control plane nodes** behind a **load balancer** (e.g., HAProxy, Nginx, or cloud-based LB) to distribute traffic to healthy instances, while `etcd` runs in a **clustered mode** with odd-numbered nodes (3, 5, etc.) for quorum. Tools like `kubeadm` automate HA setup with commands like `kubeadm init --control-plane-endpoint=<LB-IP>` and `kubeadm join --control-plane`, and CNI plugins (e.g., Flannel, Calico) ensure pod networking resilience. Monitoring (Prometheus), automated backups (`etcdctl snapshot`), and node health checks (`kubectl get nodes`) are critical for maintaining uptime, while **auto-scaling** (Cluster Autoscaler) and **rolling updates** help manage workloads seamlessly.
+
+### Stacked Etcd Topology
+
+This topology involves:
+
+- Creating two or more control plane nodes where etcd is colocated on the node
+- Each control plane host an API server, the scheduler, the controller manager
+- Worker nodes communicate with the API server through a load balancer
+- Recommended using 3 control plane nodes
+- By default, kubeadm creates etcd when joining a control plane by default.
+
+merm
+graph LR
+    cp1["control plane node 1"]
+    cp2["control plane node 2"]
+    cp3["control plane node 3"]
+
+    subgraph cp1["Control Pane node 1"]
+        etcd1("etcd")
+    end
+
+    subgraph cp2["Control Pane node 2"]
+        etcd2("etcd")
+    end
+
+    subgraph cp3["Control Pane node 3"]
+       etcd3("etc")
+    end
+
+    lp["load balancer"]
+    wn1["worker node 1"]
+    wn2["worker node 2"]
+    wn3["worker node 3"]
+
+    lp --> cp1
+    lp --> cp2
+    lp --> cp3
+
+    wn1 --> lp
+    wn2 --> lp
+    wn3 --> lp
+
+
+### External Etcd Node Topology
+
+- Separate the etcd by running it on a dedicated machine
+- Shows a setup of three control planes which run etcd on different machines.

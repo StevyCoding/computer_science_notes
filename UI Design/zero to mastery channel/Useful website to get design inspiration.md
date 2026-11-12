@@ -1,5 +1,5 @@
-- goodui.org
-- awwwards.com
-- behance.net
-- thenounproject.com
-- unsplash.com
+- **GoodUI**: goodui.org 💡
+- Awwwards: awwwards.com 🏆
+- Behance: behance.net 🎨
+- TheNounProject: thenounproject.com 🖼️
+- Unsplash: unsplash.com 🏞️

@@ -1,0 +1,35 @@
+# Task Description
+
+This is a task description for creating an AI assistant using Python. Here's a list of requirements and steps to follow:
+
+## Requirements
+1. Install the necessary libraries: `pip install numpy pandas`
+2. Create a file named `assistant.py` in your project directory.
+3. Import the required libraries at the beginning of the file:
+
+```python
+import numpy as np
+import pandas as pd
+```
+
+## Steps
+
+1. **User Input**
+   - Create a function to take user input using `input()`.
+   - Store the input in a variable for further processing.
+
+2. **Data Preprocessing**
+   - Load a pre-trained data model (let's say it's named `model`) from a saved file using `joblib.load()`.
+   - If no model is found, inform the user and exit the program.
+
+3. **Model Prediction**
+   - Preprocess the user input using appropriate methods (like tokenization, stemming, lemmatizing).
+   - Use the preprocessed input to make a prediction using the loaded model.
+   - Save the predicted result in a variable for displaying it to the user.
+
+4. **Output**
+   - Display the predicted result to the user.
+   - Provide options for the user to ask another question, save the conversation, or exit the program.
+
+5. **User Loop**
+   - Implement a loop that continues asking and answering questions based on the user's choice until they decide to exit the program.

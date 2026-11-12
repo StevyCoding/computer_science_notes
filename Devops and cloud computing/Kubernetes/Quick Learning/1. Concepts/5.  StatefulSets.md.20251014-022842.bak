@@ -1,0 +1,8 @@
+# What's a StatefulSets
+
+* **Ctrl** managing **deploy & scale** of **stateful Pods** needing **stable network IDs & storage vols**
+* Used for **stateful apps** (e.g., DBs) where **pod order & uniqueness** matter.
+* Provides **unique network IDs & stable storage** → maintains **data consistency** even if **scaled** or **nodes fail/replace**.
+* Defined via **YAML**: includes **Pod template**, **Service**, + other settings.statefullness 
+
+![[Pasted image 20250924225907.png| What is Statefullset  ?]]

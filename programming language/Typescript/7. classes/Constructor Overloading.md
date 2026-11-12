@@ -1,6 +1,8 @@
-In TypeScript, you can achieve constructor overloading by using multiple constructor definitions with different parameter lists in a single class. Given below is the example where we have multiple definitions for the constructor:
+In TypeScript, you can achieve constructor overloading by using multiple constructor definitions with different parameter lists in a single class. 🚀
 
-```ts
+Given below is the example where we have multiple definitions for the constructor:
+
+```typescript
 class Point {
   // Overloads
   constructor(x: number, y: string);

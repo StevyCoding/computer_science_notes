@@ -1,0 +1,4 @@
+- Not NULL: A column cannot be null.
+- Unique: The value of a column must be unique.
+- DEFAULT ' ': Add a default value for a column. 
+- Auto_increment: Increment the primary key automatically 🚀

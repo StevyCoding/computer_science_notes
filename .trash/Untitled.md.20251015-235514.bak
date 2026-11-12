@@ -1,0 +1,39 @@
+## Project Retrospective - Sprint 3 🚀
+
+**Goal:** To identify what went well, what could be improved, and action items for the next sprint.
+
+**Attendees:** John Doe, Jane Smith, David Lee
+
+**Date:** 2023-10-27
+
+---
+
+### What Went Well 🎉
+
+*   ✅  We successfully launched the user authentication feature.
+*   ✅  The team collaborated effectively on the API design.
+*   ✅  Daily stand-ups were concise and productive.
+*   ✅  David’s research on the database schema was invaluable.
+*   ✅  Excellent communication between the frontend and backend teams.
+
+### What Could Be Improved 🤔
+
+*   ⏳  Sprint planning could be more focused to avoid scope creep.
+*   ⏳  Code review process needs to be more rigorous, particularly for complex changes.
+*   ⏳  Documentation for the new API endpoints is lacking.
+*   ⏳  Some team members felt overloaded with tasks.
+*   ⏳  Integration testing needs to be prioritized.
+
+### Action Items 📝
+
+*   John: Create a template for sprint planning meetings. (#sprintplanning)
+*   Jane: Lead a workshop on code review best practices. (#codereview)
+*   David: Draft documentation for the API endpoints. (#apiDocumentation)
+*   Team: Schedule a brief discussion about workload distribution. (#workload)
+*   Team:  Allocate time for integration testing. (#testing)
+
+---
+
+### Overall Sentiment 👍 - Positive
+
+Let's keep the momentum going!

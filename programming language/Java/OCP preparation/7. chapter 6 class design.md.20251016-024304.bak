@@ -1,0 +1,45 @@
+# Key Concepts for the Java Exam (Inheritance & Object Design) 💡
+
+**1. Class Extension & Inheritance:**
+
+*   **Core Idea:** Java employs a single-inheritance model. Every class extends *exactly one* direct parent class. This parent class provides a foundation of methods and variables.
+*   **Exam Focus:** Be prepared to write code that extends existing classes, inheriting their members (public and protected). Understand how `final` classes prevent extension.
+
+**2. References & Access (this, this(), super, super())**
+
+*   **this:** Refers to the *current* object. Used to access the object's own members (fields, methods).
+*   **this():** Called within a constructor to invoke another constructor in the *same* class. Crucially, a class *must* have a no-argument constructor (one without parameters) unless it explicitly calls another constructor.
+*   **super():** Called within a constructor to invoke the constructor of the *parent* class. Also used to access the parent class's members.
+*   **Exam Focus:** You’ll be tested on how to correctly use these references to navigate the inheritance hierarchy and initialize objects properly.
+
+**3. Method Overriding vs. Method Overloading**
+
+*   **Method Overriding:** A subclass provides a *different* implementation of a method that has the *same signature* (name, parameters, return type) as a method in its parent class. It’s about replacing behavior. *Crucially*, the overriding method must be at least as accessible as the original.
+*   **Method Overloading:** Multiple methods in the *same class* have the *same name* but *different parameter lists* (different number of parameters, different types of parameters). This is about offering different *versions* of a method.
+*   **Exam Focus:** Distinguishing between these two is critical. You’ll be asked to identify which situation involves overriding and which involves overloading.
+
+**4. Rules for Method Overriding**
+
+*   **Same Signature:** The method must have the same name, parameter types, and return type.
+*   **Accessibility:** The overriding method must be at least as accessible (e.g., public, protected, package-private).
+*   **No Broader Exceptions:** The overriding method cannot declare exceptions that are more general than those in the parent method.
+*   **Covariant Return Types:** The return type of the overriding method should be covariant with the return type of the parent method (meaning it can be more specific).
+
+**5. Abstract Classes & Interfaces**
+
+*   **Abstract Class:** Declared with the `abstract` keyword. Cannot be instantiated directly. Can contain both abstract methods (without an implementation) and concrete methods (with an implementation). Used to define a common interface and set of behaviors for subclasses.
+*   **Exam Focus:** Be prepared to write abstract classes with appropriate abstract methods and concrete methods. Understand the difference between abstract classes and interfaces.
+
+**6. Immutability** 🛡️
+
+*   **Creating Immutable Objects:**
+    *   **Private Constructor:** Prevents external code from creating new instances of the class.
+    *   **No Setter Methods:** No methods that allow changing the values of instance variables after the object is created.
+    *   **Do not use mutable objects:** Do not use other mutable objects within the class.
+*   **Exam Focus:** Recognizing how to design a class that cannot be modified after object creation, as this is a fundamental concept for writing robust and thread-safe code.
+
+**Key Exam Strategies** 🧠
+
+*   **Focus on the “why”**: Don’t just memorize the rules – understand *why* they are in place (e.g., immutability prevents unintended side effects).
+*   **Practice, Practice, Practice**: Solve coding problems involving inheritance, polymorphism, and immutable object design.
+*   **Pay Attention to Detail**: The exam will test your ability to apply the rules correctly, so accuracy is crucial.

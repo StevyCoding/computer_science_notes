@@ -1,0 +1,18 @@
+# Cue 🚀
+
+- **Question:** What are topology spread constraints in Kubernetes?
+- **Explanation:** How do they work? Why are they important? How can they be applied?
+
+# Key Points
+
+- **Definition:** Topology spread constraints ensure an **even distribution of pods** across a cluster's topology.
+- **Mechanism:** Define rules for how many pods of a type can run on a **node**, **zone**, or **rack**. Customize these constraints to meet workload needs.
+- **Advantages:**
+  - **Single points of failure avoided.** 🛡️
+  - **Improved application resilience.** 💪
+  - **Prevention of resource overloading.** ⚖️
+  - **Balanced workload distribution promoted.** 🎯
+- **Application:** Topology spread constraints can be added via the **Kubernetes API** or **command-line interface (kubectl)**.
+
+# Summary
+Topology spread constraints in Kubernetes are used to distribute pods evenly across nodes, zones, or racks. By preventing single points of failure and resource overloading, they enhance resilience and ensure workloads are balanced across the cluster.

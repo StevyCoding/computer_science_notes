@@ -2,7 +2,7 @@ Decorators are a feature of TypeScript that allow you to modify the behavior of 
 
 Here’s an example of how you might use a decorator in TypeScript:
 
-```ts
+```typescript
 function log(
   target: Object,
   propertyKey: string | symbol,
@@ -31,4 +31,4 @@ calculator.add(1, 2);
 // Output: 3
 ```
 
-In this example, we use the `@log` decorator to modify the behavior of the `add` method in the `Calculator` class. The `log` decorator logs the arguments passed to the method before calling the original method. This allows us to see what arguments are being passed to the method, without having to modify the method’s code.
+In this example, we use the `@log` decorator to modify the behavior of the `add` method in the `Calculator` class. The `log` decorator logs the arguments passed to the method before calling the original method. This allows us to see what arguments are being passed to the method, without having to modify the method’s code. 📝

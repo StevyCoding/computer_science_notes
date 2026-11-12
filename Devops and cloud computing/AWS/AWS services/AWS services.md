@@ -1,3 +1,5 @@
+# Amazon Web Services (AWS) Services 🚀
+
 | Service               | Role                                                                          |
 | --------------------- | ----------------------------------------------------------------------------- |
 | Amazon S3             | Object storage, scalable and durable data storage                             |
@@ -13,7 +15,7 @@
 | AWS IAM               | Identity and Access Management, user and access control                       |
 | Amazon CloudWatch     | Monitoring and observability service                                          |
 | Amazon CloudFront     | Content Delivery Network (CDN) service                                        |
-| Amazon Sagemaker      | Machine learning service for building and deploying ML models                 |
+| Amazon SageMaker      | Machine learning service for building and deploying ML models                 |
 | AWS Elastic Beanstalk | Fully managed service for deploying and scaling web applications              |
 | Amazon Polly          | Text-to-speech service                                                        |
 | Amazon CloudFormation | Infrastructure as Code (IaC) service                                          |

@@ -1,0 +1,5 @@
+A **Controller** ensures a specified number of replicas (identical copies) of a pod is running in a cluster all the time. 🚀
+
+- Ensure high availability and scalability.
+- Defined by a YAML file that specifies the desired number of replicas.
+- Monitor the status of pods, creating or deleting replicas as necessary.

@@ -1,17 +1,27 @@
-# Question :
-- How to achieve network security ?
-- Network policies ?K
-- encryption ?
-- Firewall rules ?
-# Key points 
-- involve securing comm btw different components within the cluster and with external networks.
-- network security mechanism
-	- Network policies => provide fine-grained control over network
-	- Encryption => ensure secure comm btw pods
-	- Authentication => prevent unauthorized access
-	- Authorization => prevent unauthorized access
-	- Firewall rules => protect cluster against external attack by limiting access to specific port and protocols
-	- maintain integrity, confidentiality, availability of the cluster
-# Summary
-Network security in Kubernetes help to secure network comm btwn different component with k8s cluster and with external network. It use various network configuration such as Network policies, encryption, Authentication, authorization, Firewall rules. All these configuration is critical to maintaining the confidentiality, integrity, and availability of the cluster  
+# Question ❓
 
+- How to achieve **Kubernetes** network security?
+- Network policies?
+- Encryption?
+- **Firewall** rules?
+
+# Key Points
+
+1. Securing communication between different components within the cluster and with external networks is essential.
+2. **Kubernetes** Network Security Mechanisms:
+    - **Network Policies**: Provide fine-grained control over network traffic.
+    - **Encryption**: Ensure secure communication between pods.
+    - **Authentication**: Prevent unauthorized access.
+    - **Authorization**: Prevent unauthorized access.
+    - **Firewall** rules: Protect the cluster against external attacks by limiting access to specific ports and protocols.
+    - Maintain Integrity, Confidentiality, Availability of the cluster. 🛡️
+
+# Summary
+
+Achieving network security in **Kubernetes** involves securing network communication between different components within a **Kubernetes** cluster and with external networks. This is achieved through various network configurations such as:
+
+- Network policies
+- Encryption
+- **Authentication**
+- **Authorization**
+- **Firewall** rules. All these configurations are crucial for maintaining the confidentiality, integrity, and availability of the cluster. 🔑

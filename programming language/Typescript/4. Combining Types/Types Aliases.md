@@ -1,8 +1,8 @@
-A Type Alias in TypeScript allows you to create a new name for a type.
+A Type Alias in TypeScript allows you to create a new name for a type. 🚀
 
 Here’s an example:
 
-```ts
+```typescript
 type Name = string;
 type Age = number;
 type User = { name: Name; age: Age };
@@ -10,4 +10,4 @@ type User = { name: Name; age: Age };
 const user: User = { name: 'John', age: 30 };
 ```
 
-In the example above, `Name` and `Age` are type aliases for `string` and `number` respectively. And `User` is a type alias for an object with properties `name` of type `Name` and `age` of type `Age`.
+In the example above, `Name` and `Age` are type aliases for `string` and `number` respectively. `User` is a type alias for an object with properties `name` of type `Name` and `age` of type `Age`.

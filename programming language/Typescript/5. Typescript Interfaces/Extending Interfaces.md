@@ -1,6 +1,6 @@
 In TypeScript, you can extend an interface by creating a new interface that inherits from the original interface using the “extends” keyword. The new interface can include additional properties, methods, or redefine the members of the original interface.
 
-```ts
+```typescript
 interface Shape {
   width: number;
   height: number;
@@ -17,4 +17,4 @@ let square: Square = {
 };
 ```
 
-In this example, the `Square` interface extends the `Shape` interface and adds an additional property `sideLength`. A variable of type `Square` must have all the properties defined in both `Shape` and `Square` interfaces.
+In this example, the `Square` interface extends the `Shape` interface and adds an additional property `sideLength`. A variable of type `Square` must have all the properties defined in both `Shape` and `Square` interfaces. 📐

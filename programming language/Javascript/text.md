@@ -1,6 +1,6 @@
-# sort algorithm 
+# Sort Algorithm 
 
-```dataviewjs
+```javascript
 const container = this.container;
 container.innerHTML = ''; // Clear previous content
 
@@ -29,8 +29,6 @@ sortButton.addEventListener("click", () => {
     data.sort((a, b) => a[0].localeCompare(b[0]));
     
     // Display sorted results
-    outputDiv.innerHTML = "<strong>Sorted Data:</strong><br>" + data.join("<br>");
+    outputDiv.innerHTML = "<strong >Sorted Data:</strong><br>"+data.join("<br>"));
 });
-
 ```
-

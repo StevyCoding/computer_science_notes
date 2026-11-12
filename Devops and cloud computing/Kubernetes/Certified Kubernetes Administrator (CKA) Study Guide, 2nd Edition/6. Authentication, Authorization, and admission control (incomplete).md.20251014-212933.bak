@@ -1,0 +1,203 @@
+The API server is the main entry point to the Kubernetes cluster, handling all HTTPS RESTful requests from users, clients (like kubectl), components, and service accounts. It enables actions such as creating Pods or deleting Services.
+
+This chapter focuses on the API server’s security aspects.
+
+**Processing an API Request**
+The following figure illustrates the stages a request goes through when a call is made to the API server.
+![[Pasted image 20250525102901.png|Figure 6.1 API server request processing]]
+Request processing in Kubernetes has three stages:
+
+1.  **Authentication** – Verifies the caller’s identity using client certificates or bearer tokens, including service accounts.
+2.  **Authorization** – Checks if the authenticated identity has permission to perform the requested action, using Kubernetes RBAC.
+3.  **Admission Control** – Validates and potentially modifies the request. For example, it can enforce that a Pod creation includes a specific label, rejecting it if missing.
+
+**Authentication with Kubectl**
+- Using `kubectl` you can interact with the K8S API.
+- The underlying HTTPS call to the API server needs to authenticate.
+
+## The Kubeconfig
+
+- `kubectl` credentials are stored in `$HOME/.kube/config` (kubeconfig file).
+- The **kubeconfig** file defines:
+    - API server endpoints of clusters.
+    - Registered users and their client certificate credentials.
+- A **context** maps a cluster and user to a namespace.
+- `kubectl` uses the **current context** to determine:
+    - Which cluster to interact with.
+    - Which credentials to use.
+
+- You can set the **`KUBECONFIG`** environment variable to use multiple kubeconfig files.
+- At runtime, **`kubectl` merges** these files.
+- If **`KUBECONFIG` is not set**, it defaults to `$HOME/.kube/config`.
+
+The following code shows a kubeconfig file.
+
+yml
+apiVersion: v1
+kind: Config
+clusters:                   1
+- cluster:
+    certificate-authority: /Users/bmuschko/.minikube/ca.crt
+    extensions:
+    - extension:
+        last-update: Mon, 09 Oct 2023 07:33:01 MDT
+        provider: minikube.sigs.k8s.io
+        version: v1.30.1
+      name: cluster_info
+    server: https://127.0.0.1:63709
+  name: minikube
+contexts:                   2
+- context:
+    cluster: minikube
+    user: bmuschko
+  name: bmuschko
+- context:
+    cluster: minikube
+    extensions:
+    - extension:
+        last-update: Mon, 09 Oct 2023 07:33:01 MDT
+        provider: minikube.sigs.k8s.io
+        version: v1.30.1
+      name: context_info
+    namespace: default
+    user: minikube
+  name: minikube
+current-context: minikube   3
+preferences: {}
+users:                      4
+- name: bmuschko
+  user:
+    client-key-data: <REDACTED>
+- name: minikube
+  user:
+    client-certificate: /Users/bmuschko/.minikube/profiles/minikube/client.crt
+    client-key: /Users/bmuschko/.minikube/profiles/minikube/client.key
+
+- **Kubeconfig** contains:
+    - Cluster names with their API server endpoints.
+    - Contexts (cluster + user combinations).
+    - The currently selected context.
+    - User names with their credentials.
+- **User management** is done by the **cluster admin**, who provides credentials to users.
+- **External identity providers** (e.g., OpenID Connect) can also be used for authentication.
+- **Manual user creation** involves several steps and requires adding the user to the local kubeconfig.
+
+## Managing Kubeconfig using kubectl
+- No need to manually edit **kubeconfig** — use `kubectl config` commands instead.
+- View merged kubeconfig:
+    bash
+    kubectl config view
+    
+- Show current context:
+    bash
+    kubectl config current-context
+    
+- Switch context:
+    bash
+    kubectl config use-context <context-name>
+    
+- Add a user with client cert/key:
+    bash
+    kubectl config set-credentials myuser \
+      --client-key=myuser.key --client-certificate=myuser.crt \
+      --embed-certs=true
+    
+- 📝 **Tip**: Know `kubectl config` well — it’s essential for the exam.
+# Authorization with Role-Based Access Control
+- The **API server** first **authenticates** requests via credentials.
+- After authentication, it **authorizes** the request based on assigned permissions.
+- **RBAC** (Role-Based Access Control) manages these permissions for users, groups, and service accounts.
+- **RBAC** defines what actions are allowed on which resources.
+- **Enabling RBAC** is essential for secure cluster operations.
+- **Cluster admins** are responsible for setting permissions.
+## RBAC Overview
+
+It helps implement a variety of use cases:
+- Establish a system for users with different roles.
+- Control processes; run a pod and perform operations against the k8s API.
+- Limit the visibility of certain resources in a namespace.
+![[Pasted image 20250526155912.png]]
+**subject**: user/service account that wants to access a resource
+
+**Resource**: the k8s API resource type (e.g., deployment or node)
+
+**Verb**: The operation that can be performed on a resource
+
+## Understanding RBAC API Primitives
+
+With these concepts in mind, let’s explore the Kubernetes RBAC API primitives:
+
+**Role**:
+Defines allowed operations (e.g., list, delete, or watch Pods) on specific resources within a namespace. Any action not specified is denied.
+
+**RoleBinding**:
+Associates a Role with a Subject.
+
+## Listing Roles
+You can list roles using
+bash
+kubectl get roles
+
+
+## Rendering Role Details
+You can describe roles using
+bash
+kubectl describe role read-only
+
+
+## Listing RoleBindings
+
+get list of Rolebindings
+
+bash
+kubectl get rolebindings
+
+
+## Rendering RoleBinding Details
+
+Describe a role binding using
+
+bash
+kubectl describe rolebinding read-only-binding
+
+
+### Seeing RBAC Rules in Action
+
+Start with a `Deployment` created using the `minikube` context (which has `cluster-admin` permissions):
+
+bash
+kubectl config current-context
+kubectl create deployment myapp --image=nginx:1.25.2 --port=80 --replicas=2
+
+
+Switch to the `bmuschko-context`:
+
+bash
+kubectl config use-context bmuschko-context
+
+
+Since user `bmuschko` has permission to list Deployments, the following works:
+
+bash
+kubectl get deployments
+
+
+But trying to list resources not allowed by the Role (e.g., ReplicaSets) fails:
+
+bash
+kubectl get replicasets
+# Error: forbidden
+
+
+Trying unauthorized actions like deleting a Deployment also fails:
+
+bash
+kubectl delete deployment myapp
+# Error: forbidden
+
+
+To check what `bmuschko` can do:
+
+bash
+kubectl auth can-i --list --as bmuschko
+kubectl auth can-i list pods --as bmuschko

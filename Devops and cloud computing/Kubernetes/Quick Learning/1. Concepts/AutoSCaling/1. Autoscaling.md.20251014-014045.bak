@@ -1,0 +1,9 @@
+# Autoscaling
+
+## Key Notes
+- **Autoscaling** is the process of adjusting the resources allocated to a deployment or set of pods based on demand.
+
+## Autoscaling Type
+- **Horizontal Pod autoscaling (HPA)** allows for increasing or decreasing replicas, or adjusting replica requirements and limits, respectively.
+- **Vertical pod autoscaling (VPA)** does the same but for scaling up or down within a single pod instance.
+- **Cluster Autoscaling** is used for efficient resource allocation and ensuring application responsiveness. It's useful in handling variable workloads or sudden spikes in traffic.

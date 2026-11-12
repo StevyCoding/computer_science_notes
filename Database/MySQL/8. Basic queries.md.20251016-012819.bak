@@ -1,0 +1,14 @@
+SELECT student.name, student.major FROM student ORDER BY student_id DESC;
+
+sql
+SELECT student.name, student.major FROM student ORDER BY name DESC;
+
+You can order by descending or ascending order.
+
+sql
+SELECT * FROM student LIMIT 2;
+
+![[Pasted image 20231218022316.png]]
+
+sql
+SELECT * FROM student WHERE name IN ('Claire', 'Kate', 'Mike');

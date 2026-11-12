@@ -1,0 +1,1 @@
+'encapsulation consiste à regrouper les données (variables) et les méthodes (fonctions) qui les manipulent au sein d'une même entité appelée classe. Cela permet de limiter l'accès aux données, assurant ainsi la cohérence interne de l'objet. L'idée est de cacher les détails d'implémentation et de ne montrer que ce qui est nécessaire à l'utilisateur.

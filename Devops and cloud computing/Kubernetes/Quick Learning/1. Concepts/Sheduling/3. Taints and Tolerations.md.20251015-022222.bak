@@ -1,0 +1,18 @@
+# Title: Understanding Taints and Tolerations in Kubernetes ☸️
+
+## Question:
+- What are **Taints** and **Tolerations**?
+- Why are they important?
+
+## Key Notes:
+1. **Purpose**: Taints and tolerations in Kubernetes are used to restrict or allow pods to be scheduled on specific nodes based on labels.
+2. **Definition**:
+    - **Taint**: A label applied to a node to indicate certain limitations or requirements.
+    - **Toleration**: A label applied to a pod to indicate that it can tolerate certain taints.
+3. **Use Cases**: This feature is useful for various purposes, such as:
+    - Ensuring separation of critical and non-critical workloads 🚧
+    - Reserving nodes for specific tasks 🎯
+    - Protecting nodes from overloading 🛡️
+
+## Summary:
+Taints and tolerations in Kubernetes are used to restrict or allow pods to be scheduled on specific nodes based on labels (taints, tolerations). Taints indicate certain limitations or requirements, while tolerations enable a pod to run on a node despite those limitations.

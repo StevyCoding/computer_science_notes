@@ -10,11 +10,11 @@ AWS Identity and Access Management (IAM) is a service provided by Amazon Web Ser
 
    - Groups are collections of IAM users. Instead of attaching policies directly to users, you can assign permissions to groups, making it easier to manage access for multiple users with similar roles.
 
-### 3. [[AWS IAM Role definition|Roles]]
+### 3. [Roles](https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-role.html)
 
    - IAM roles define a set of permissions for making AWS service requests. Unlike users or groups, roles do not have credentials associated with them. Instead, IAM users or AWS services assume a role to obtain temporary security credentials.
 
-### 4.[[Policy Definition | Policies]]
+### 4. [Policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/policy-management.html)
 
    - IAM policies are JSON documents that define permissions. Policies can be attached to users, groups, or roles, specifying what actions are allowed or denied on which resources.
 
@@ -28,9 +28,9 @@ AWS Identity and Access Management (IAM) is a service provided by Amazon Web Ser
 
 ## Key Features
 
-### 1.  [[Multi-Factor Authentication (MFA) Definition | Multi-Factor Authentication (MFA)]]
+### 1. [Multi-Factor Authentication (MFA)](https://docs.aws.amazon.com/IAM/latest/UserGuide/MFA.html)
 
-   - IAM supports the use of Multi-Factor Authentication, providing an additional layer of security by requiring users to present two or more forms of identification.
+   - IAM supports the use of Multi-Factor Authentication, providing an additional layer of security by requiring users to present two or more forms of identification. 🔐
 
 ### 2. Identity Federation
 
@@ -42,6 +42,4 @@ AWS Identity and Access Management (IAM) is a service provided by Amazon Web Ser
 
 ### 4. IAM Access Advisor
 
-   - Access Advisor provides information about the last time an IAM user or
-
-IAM is a key component in securing and managing access to AWS resources, and understanding its concepts and features is essential for building a secure and well-managed cloud environment.
+   - Access Advisor provides information about the last time an IAM user or role was accessed. 🚀

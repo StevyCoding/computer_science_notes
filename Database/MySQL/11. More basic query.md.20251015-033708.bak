@@ -1,0 +1,22 @@
+
+```sql
+-- return table with different column name
+Select first_name as forename, last_name as lastname from employee;
+-- Find all the different genders
+Select Distinct sex from employee;
+-- Find the number of employee
+Select count (emp_id) from employee;
+-- Find the number of female born after 1970
+Select count (emp_id) from employee  where sex  = 'F' AND birth_date > '1971-01-01'
+-- Find the average of all employee's salaries
+SELECT AVG(salary) FROM employeee WHERE sex = 'M'
+-- Find the sum of all employee salaries 
+SELECT SUM(SALARY) FROM employee;
+-- Find out how many males and females there are 
+SELECT COUNT(sex), sex FROM employee GROUP BY sex
+
+```
+- AVG()
+- SUM()
+- COUNT()
+- 

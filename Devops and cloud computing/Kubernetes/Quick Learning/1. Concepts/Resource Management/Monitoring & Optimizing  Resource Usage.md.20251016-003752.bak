@@ -1,0 +1,25 @@
+## Note: Monitoring and Optimizing Resource Usage in Kubernetes 🚀
+
+### Questions
+- What is contention? 🤔
+- What are monitoring tools for Kubernetes? (e.g., Metrics Server, Prometheus, CRI)
+- What are optimization techniques for resource management?
+- What types of resources are required?
+
+### Key Points
+#### Topic: Monitoring & Optimizing Resource Usage in Kubernetes
+- Crucial for efficient and effective resource utilization.
+
+#### Monitoring Tools
+- **Metrics Server**: Gathers resource usage data.
+  - Offers metrics and alerting features (Prometheus).
+- **CRI (Container Runtime Interface)**: Monitors container-level data.
+
+#### Optimization Methods
+- Set **requests & limits**. ✅
+- Use **HPA (Horizontal Pod Autoscaler)**.
+- Implement **pod affinity/anti-affinity** rules.
+- Configure **node selection** to reduce contention and optimize resource usage. ✅
+
+### Summary
+Kubernetes monitoring tools track resource usage, while optimization techniques (HPA, requests/limits, affinity rules) balance workloads and prevent contention, ensuring effective use of cluster resources.

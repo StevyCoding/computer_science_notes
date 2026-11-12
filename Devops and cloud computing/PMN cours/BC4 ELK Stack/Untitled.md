@@ -1,7 +1,19 @@
-![[Pasted image 20240624093924.png]]
+## Théorème de CAP 🚀
 
-![[Pasted image 20240624151841.png]]
+Cette note explore le théorème de CAP.
 
-Théorème de CAP
+**Qu'est-ce que le Théorème de CAP ?** 🧐
 
-![[Pasted image 20240625120041.png]]
+Le théorème de CAP stipule qu'un système de base de données distribuée ne peut satisfaire que deux des trois garanties suivantes :
+
+*   **Cohérence (C)** : Toutes les nœuds voient les mêmes données au même moment.
+*   **Disponibilité (A)** : Le système reste opérationnel même en cas de panne de certains nœuds.
+*   **Tolérance aux partitions (P)** : Le système continue de fonctionner malgré les partitions de réseau (où les nœuds ne peuvent pas communiquer entre eux).
+
+**Essentiellement:**
+
+Vous pouvez avoir :
+
+*   Cohérence et Disponibilité (mais pas Tolérance aux partitions)
+*   Disponibilité et Tolérance aux partitions (mais pas Cohérence)
+*   Cohérence et Tolérance aux partitions (mais pas Disponibilité)

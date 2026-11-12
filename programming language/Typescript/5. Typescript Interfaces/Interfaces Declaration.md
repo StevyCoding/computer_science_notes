@@ -1,8 +1,8 @@
-An `interface` in TypeScript is a blueprint for creating objects with specific structure. An `interface` defines a set of properties, methods, and events that a class or object must implement. The interface is a contract between objects and classes and can be used to enforce a specific structure for objects in your code.
+An `interface` in TypeScript is a blueprint for creating objects with a specific structure. It defines a set of properties, methods, and events that a class or object must implement. The interface serves as a contract between objects and classes, enforcing a structure in your code. 
 
 Here is an example of an interface declaration in TypeScript:
 
-```ts
+```typescript
 interface Person {
   firstName: string;
   lastName: string;
@@ -12,4 +12,4 @@ interface Person {
 }
 ```
 
-In this example, the Person interface defines four properties: `firstName`, `lastName`, `age`, and a method `getFullName()`. The age property is optional, indicated by the `?` symbol. Any class or object that implements the `Person` interface must have these properties and method.
+In this example, the `Person` interface defines four properties: `firstName`, `lastName`, `age`, and a method `getFullName()`. The `age` property is optional, indicated by the `?` symbol. Any class or object that implements the `Person` interface must have these properties and method. 🚀

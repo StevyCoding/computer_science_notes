@@ -1,6 +1,6 @@
 ### **Sealed Classes in Java**
 
-Sealed classes, introduced in **Java 15** (as a preview feature, finalized in Java 17), restrict which other classes or interfaces can extend or implement them. They help enforce a strict hierarchy and provide better control over the inheritance model.
+Sealed classes, introduced in Java 15 (as a preview feature, finalized in Java 17), restrict which other classes or interfaces can extend or implement them. They help enforce a strict hierarchy and provide better control over the inheritance model. 🛡️
 
 ---
 
@@ -45,9 +45,9 @@ final class Square extends Rectangle { }
 ### **Use Cases**
 
 1. **Domain Modeling**:
-    - Define strict hierarchies, such as in financial applications (e.g., Account types).
+    - Define strict hierarchies, such as in financial applications (e.g., Account types). 💰
 2. **Enhanced Pattern Matching**:
-    - Combine with pattern matching to provide exhaustive switch-case logic.
+    - Combine with pattern matching to provide exhaustive switch-case logic. 🧩
 
 ---
 
@@ -96,7 +96,7 @@ classDiagram
 ### **Code Example with Pattern Matching**
 
 ```java
-public sealed class Shape permits Circle, Rectangle, Triangle {}
+public sealed class Shape permits Circle, Rectangle, Triangle { }
 
 public final class Circle extends Shape {
     public double radius;
@@ -147,6 +147,4 @@ public class Main {
 
 1. **Controlled Inheritance**: Restricts who can extend or implement the sealed class/interface.
 2. **Enhanced Readability**: Clear and explicit relationships in the hierarchy.
-3. **Better Exhaustiveness Checking**: Especially useful with `switch` expressions and pattern matching.
-
-Let me know if you'd like more examples or further clarification!
+3. **Better Exhaustiveness Checking**: Especially useful with `switch` expressions and pattern matching. ✅

@@ -1,0 +1,11 @@
+#scheduling
+# Cue
+
+# Key points
+- assign pods to worker nodes based on res availability, label, affinity/anti-affinity; taints and toleration.
+- Pods => smallest deployable units in k8s, consisting of 1+container that share the same network namespace.
+- scheduler assign pods to node, while label are used for matching
+- affinity+anti-affinity rules dictate how pods are scheduled based on their relationship with other pods or nodes.
+
+# Summary
+Scheduling is the process to assign pods to worker nodes based on  res availability, label, affinity-anti affinity, taints and toleration.

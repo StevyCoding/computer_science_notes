@@ -1,0 +1,25 @@
+## Update
+
+sql
+UPDATE student SET major = 'comp sci'
+WHERE major = 'computer science'
+
+
+sql
+UPDATE student SET major = 'comp sci'
+WHERE student_id = 4
+
+
+sql
+UPDATE student SET major = 'biochemistry'
+WHERE major = 'bio' OR major = 'chemistry'
+
+
+sql
+UPDATE student SET name = 'Tom', major = 'undecided' WHERE student_id = 1
+
+
+## Delete
+
+sql
+DELETE FROM student WHERE name = 'Tom' AND major = 'undecided'

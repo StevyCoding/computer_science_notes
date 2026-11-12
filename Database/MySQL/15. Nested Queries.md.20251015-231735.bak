@@ -1,0 +1,23 @@
+A nested query is **a SELECT statement that is typically enclosed in parentheses, and embedded within a primary SELECT, INSERT, or DELETE operation**. 
+
+sql
+-- Find names of all employees who have
+--  sold over 30,000 to a single client
+SELECT employee.first_name, employee.last_name
+FROM employee
+WHERE employee.emp_id IN (
+    SELECT works_with.emp_id
+    FROM works_with
+    WHERE works_with.total_sales > 3000
+)
+
+-- Find all clients who are handled by the branch
+-- that PMichael Scott manages
+-- assume you know Michael's ID
+SELECT client.client_name
+FROM client
+WHERE client.branch_id = (
+    SELECT branch.branc_id
+    FROM branch
+    WHERE branch.mgr_id = 102
+)

@@ -1,0 +1,20 @@
+ [[3. Vertical Pod Autoscaling (VPA)]]
+ [[2. Horizontal Pod Autoscaler (HPA)]]
+#autoscaling
+# Cue
+* What is autoscaling in Kubernetes?
+* What types of autoscaling exist?
+* Why is autoscaling important?
+* How does it work with Cluster Autoscaling?
+# Key Points
+* **Autoscaling in Kubernetes:**
+  * Adjusts **resources or replicas** of pods based on demand.
+  * **Horizontal Pod Autoscaler (HPA):** Increases or decreases **pod replicas**.
+  * **Vertical Pod Autoscaler (VPA):** Adjusts **resource requests and limits** for pods.
+* Can be combined with **Cluster Autoscaling** to allocate cluster resources efficiently.
+* **Benefits:**
+  * Handles **variable workloads** and **traffic spikes**.
+  * Ensures **application responsiveness**.
+  * Optimizes **resource utilization** across the cluster.
+# Summary
+Kubernetes autoscaling automatically adjusts pod replicas or resource allocations based on demand. Using HPA, VPA, and Cluster Autoscaling together ensures applications remain responsive, resources are used efficiently, and workloads of varying intensity are handled effectively.

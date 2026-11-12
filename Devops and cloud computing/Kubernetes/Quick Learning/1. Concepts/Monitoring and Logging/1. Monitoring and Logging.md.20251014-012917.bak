@@ -1,0 +1,14 @@
+# Cue (Keywords / Questions)
+* What is monitoring in Kubernetes?
+* What is logging in Kubernetes?
+* Why are monitoring and logging important?
+# Key points
+* **Monitoring**: Tracks health, performance, and resource usage of clusters, nodes, pods, and applications.
+* Ensures reliability, detects issues early, and helps optimize workloads.
+* **Logging**: Collects and stores logs from applications and system components.
+* Provides detailed insights for debugging, troubleshooting, and auditing.
+* Together, they form the foundation of **observability** in Kubernetes.
+* Enable proactive issue detection and faster resolution.
+# Summary
+Monitoring shows the *state and performance* of Kubernetes systems, while logging records the *events and details*. Together, they provide observability, allowing teams to keep systems reliable and solve problems efficiently.
+

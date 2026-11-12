@@ -1,0 +1,14 @@
+# Cue
+- What are traces?
+- utility ?
+# Key points
+- Tracing in k8s
+	- Monitoring the flow of request through different component of the sys
+	- **Tools used**
+		- Jaeger
+		- Zipkin
+	- OpenTracing and OpenCensus => consistent way of capturing traces across different components  & apps.
+	- Tracing help identify perf bottlenecks, debug issues, & optimize the sys for better perf ans scalability.
+	- By monitoring traces, admin can identify issue and take corrective action to ensure efficient sys perf.
+# Summary
+Traces involes monitoring the flow of request in component and app of the sys, using tool like jeager, zipkin, OpenTracing and Opencensus. It allow the admin to detect some issue and apply corrective action to ensure efficient sys perf.

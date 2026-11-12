@@ -1,0 +1,78 @@
+# Obsidian Workflow 🚀
+
+## Core Principles 💡
+
+*   **Simplicity:** Keep things minimal and focused.
+*   **Connection:** Everything is linked.
+*   **Automation:** Leverage plugins and scripts to streamline tasks.
+*   **Evolution:** The system should adapt as your needs change.
+
+## Vault Structure 📁
+
+*   **`_Obsidian`:** Hidden folder for Obsidian's internal files.
+*   **`Archives`:** Store inactive notes and projects.
+*   **`Templates`:** Pre-built note templates.
+*   **`Attachments`:** Store images, PDFs, and other files.
+*   **`Projects`:** Active projects, each with its own folder.
+*   **`Areas of Responsibility (AoR)`:** Broad areas like "Writing" or "Finances".
+*   **`Resources`:** Useful articles, books, and other resources.
+
+## Note-Taking Workflow 📝
+
+1.  **Capture:** Quickly jot down ideas and thoughts.
+2.  **Process:** Review and organize captured notes.
+3.  **Distill:** Extract key information and insights.
+4.  **Connect:** Link notes to create a network of knowledge.
+5.  **Reflect:** Regularly review and refine your notes.
+
+## Templates ✨
+
+*   **Daily Note:** 🗓️  `Templates/Daily Note.md`
+*   **Project:** 🏗️ `Templates/Project.md`
+*   **Area of Responsibility:** 🎯 `Templates/AoR.md`
+*   **Book Note:** 📚 `Templates/Book Note.md`
+*   **Meeting Note:** 🤝 `Templates/Meeting Note.md`
+
+## Plugins 🛠️
+
+*   **Core Plugins:**
+    *   **Daily Notes:** Essential for daily journaling.
+    *   **Backlinks:** Visualize connections between notes.
+    *   **Tags:** Categorize and filter notes.
+    *   **Dataview:** Query and display data from notes.
+*   **Useful Plugins:**
+    *   **Templater:** Advanced templating with dynamic content.
+    *   **QuickAdd:** Capture information from various sources.
+    *   **Periodic Notes:** Automate creation of daily, weekly, monthly notes.
+    *   **Excalidraw:** ✏️ Sketch and visualize ideas.
+
+## Dataview Queries 📊
+
+*   **Projects due this week:**
+    dataview
+    TABLE file.ctime AS "Created", name AS "Project"
+    WHERE due <= date(today) AND due >= date(today - 7)
+    SORT due ASC
+    
+*   **All Book Notes:**
+    dataview
+    LIST
+    FROM "Book Note"
+    
+
+## Keybindings ⌨️
+
+*   `Ctrl+E`: Open Excalidraw.
+*   `Ctrl+Shift+P`: Run command palette.
+*   `Ctrl+Space`: Trigger quick picker.
+
+
+
+## Tags 🏷️
+
+*   #todo
+*   #important
+*   #idea
+*   #project
+*   #book
+*   #quote

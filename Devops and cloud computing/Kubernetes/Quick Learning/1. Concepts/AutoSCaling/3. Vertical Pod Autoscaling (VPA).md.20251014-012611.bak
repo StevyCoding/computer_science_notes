@@ -1,0 +1,18 @@
+#autoscaling 
+# Cue
+
+* What is Vertical Pod Autoscaler (VPA) in Kubernetes?
+* How does it work?
+* How is it different from HPA?
+# Key Points
+* Vertical Pod Autoscaler (VPA):
+  * Automatically adjusts **resource limits** (CPU, memory) for containers in pods.
+  * Unlike HPA, **VPA scales resources**, not the number of replicas.
+  * Modifies **resource requests and limits** based on actual usage of each container.
+* Benefits:
+  * Ensures containers have **enough resources** to perform efficiently.
+  * Prevents **resource starvation** or **over-provisioning**.
+  * Helps maintain **application performance and stability**.
+# Summary
+The Vertical Pod Autoscaler in Kubernetes automatically adjusts the CPU and memory resources allocated to containers in a pod based on actual usage. Unlike HPA, which scales pod replicas, VPA ensures each container has the appropriate resources to maintain performance and stability.
+

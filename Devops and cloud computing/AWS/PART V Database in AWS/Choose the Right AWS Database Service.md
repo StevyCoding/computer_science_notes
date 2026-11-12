@@ -1,29 +1,26 @@
-## AWS Database Services
+## AWS Database Services 🚀
 
-AWS has a variety of different database options for different use cases. Use the table below to get a quick look at the AWS database portfolio.
+AWS offers a variety of database options for diverse use cases. Use the table below for a quick overview of the AWS database portfolio.
 
-|   |   |   |
+| Database Type | Use Cases | AWS Service |
 |---|---|---|
-|Database Type|Use Cases|AWS Service|
-|Relational|Traditional applications, ERP, CRM, e-commerce|Amazon RDS, Amazon Aurora, Amazon Redshift|
-|Key-value|High-traffic web apps, e-commerce systems, gaming applications|Amazon DynamoDB|
-|In-memory|Caching, session management, gaming leaderboards, geospatial applications|Amazon ElastiCache for Memcached, Amazon ElastiCache for Redis|
-|Document|Content management, catalogs, user profiles|Amazon DocumentDB (with MongoDB compatibility)|
-|Wide column|High-scale industrial apps for equipment maintenance, fleet management, and route optimization|Amazon Keyspaces (for Apache Cassandra)|
-|Graph|Fraud detection, social networking, recommendation engines|Amazon Neptune|
-|Time series|IoT applications, DevOps, industrial telemetry|Amazon Timestream|
-|Ledger|Systems of record, supply chain, registrations, banking transactions|Amazon QLDB|
+| Relational | Traditional applications, ERP, CRM, e-commerce | Amazon RDS, Amazon Aurora, Amazon Redshift |
+| Key-value | High-traffic web apps, e-commerce systems, gaming applications | Amazon DynamoDB |
+| In-memory | Caching, session management, gaming leaderboards, geospatial applications | Amazon ElastiCache for Memcached, Amazon ElastiCache for Redis |
+| Document | Content management, catalogs, user profiles | Amazon DocumentDB (with MongoDB compatibility) |
+| Wide column | High-scale industrial apps for equipment maintenance, fleet management, and route optimization | Amazon Keyspaces (for Apache Cassandra) |
+| Graph | Fraud detection, social networking, recommendation engines | Amazon Neptune |
+| Time series | IoT applications, DevOps, industrial telemetry | Amazon Timestream |
+| Ledger | Systems of record, supply chain, registrations, banking transactions | Amazon QLDB |
 
-## Breaking Up Applications and Databases
+## Breaking Up Applications and Databases 🧩
 
-As the industry changes, applications and databases change too. Today, with larger applications, you no longer see just one database supporting it. Instead, these applications are being broken into smaller services, each with their own purpose-built database supporting it.
+As the industry evolves, applications and their associated databases are changing too.  Modern applications are often broken down into smaller services, each supported by a purpose-built database.
 
-This shift removes the idea of a one-size-fits-all database and replaces it with a complimentary database strategy. You can give each database the appropriate functionality, performance, and scale that the workload requires.
+This shift moves away from the concept of a single, monolithic database and embraces a complimentary database strategy. You can then tailor each database to meet the specific functionality, performance, and scale requirements of its workload. 
 
 **Resources**:
 
-- [_External Site:_ AWS: Databases on AWS](https://aws.amazon.com/products/databases/)
-    
-- [_External Site:_ AWS: AWS Database Blog](https://aws.amazon.com/blogs/database/?nc=sn&loc=4)
-    
-- [_External Site:_ AWS: Database Freedom](https://aws.amazon.com/products/databases/freedom/?nc=sn&loc=5)
+- [AWS: Databases on AWS](https://aws.amazon.com/products/databases/)
+- [AWS: AWS Database Blog](https://aws.amazon.com/blogs/database/?nc=sn&loc=4)
+- [AWS: Database Freedom](https://aws.amazon.com/products/databases/freedom/?nc=sn&loc=5)

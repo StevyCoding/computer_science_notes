@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cf8654cd7f46548e",
+            "id": "7fafdaf3e9a9056a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Devops and cloud computing/Kubernetes/Quick Learning/Ckad Exercices.md",
+                "file": "Devops and cloud computing/Kubernetes/CKA/CKA_Fiche_Revision_Obsidian.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ckad Exercices"
-            }
-          },
-          {
-            "id": "707c68c66251e058",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Devops and cloud computing/Kubernetes/Quick Learning/CheatSheet.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CheatSheet"
+              "title": "CKA_Fiche_Revision_Obsidian"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -56,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -68,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lambdas",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 394.5
+    "width": 200
   },
   "right": {
     "id": "c34a49a3e33ebf3f",
@@ -109,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Full stack developer/Backend/Database Design/Designing Data-Intensive Applications, 2nd Edition/4. Storage and Retrival.md",
+                "file": "Devops and cloud computing/Kubernetes/CKA/CKA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 4. Storage and Retrival"
+              "title": "Backlinks for CKA"
             }
           },
           {
@@ -128,12 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Devops and cloud computing/Vagrant/books/Vagrant Up and Running/2. Your First Vagrant Machine.md",
+                "file": "Database/Database design/Relational Database Design - Complete Cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2. Your First Vagrant Machine"
+              "title": "Outgoing links from Relational Database Design - Complete Cheatsheet"
             }
           },
           {
@@ -157,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops and cloud computing/Kubernetes/Quick Learning/CheatSheet.md",
+                "file": "Database/Database design/Relational Database Design - Complete Cheatsheet.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CheatSheet"
+              "title": "Outline of Relational Database Design - Complete Cheatsheet"
             }
           },
           {
@@ -185,13 +172,54 @@
               "icon": "lucide-ghost",
               "title": "copilot-chat-view"
             }
+          },
+          {
+            "id": "96a5b58e6eb4613d",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "a7470a1f4cf0b9a6",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "3dbc72341be974c2",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "bb1f8ac69acd2e6a",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,52 +234,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "707c68c66251e058",
+  "active": "7fafdaf3e9a9056a",
   "lastOpenFiles": [
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/1. Intro  to Kubernetes.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/CheatSheet.md",
+    "Devops and cloud computing/Kubernetes/CKA/CKA.md",
+    "Devops and cloud computing/Kubernetes/CKA/CKA_Fiche_Revision_Obsidian.md",
+    "Devops and cloud computing/Kubernetes/CKA/CKA_Revision_Express_Obsidian.md",
+    "Devops and cloud computing/Kubernetes/CKA/CKA cheatsheet.md",
+    "Devops and cloud computing/Kubernetes/CKA/CKA  Mock Exam.md",
+    "Devops and cloud computing/Kubernetes/CKA",
+    "Database/Database design/Relational Database Design - Complete Cheatsheet.md",
+    "Mobile development/Flutter/Untitled.md",
+    "Mobile development/Flutter/Flutter Complete course.md",
+    "Mobile development/Flutter/flutterMap tutorial/Flutter Tutorial For Beginners In 1 Hour.md",
     "Devops and cloud computing/Kubernetes/Quick Learning/Ckad Exercices.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/2. Commands/Untitled.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling/Eviction.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling/5. Pod priorities.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling/4. Topology Spread Constraints.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling/3. Taints and Tolerations.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling/2. Scheduling Basic.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling/1. Scheduling.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/6. Jobs.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/5.  StatefulSets.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/4. Deployments.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/AutoSCaling/4. Cluster autoscaling.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/AutoSCaling/3. Vertical Pod Autoscaling (VPA).md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/AutoSCaling/2. Horizontal Pod Autoscaler (HPA).md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/AutoSCaling/1. Autoscaling.md",
-    "Untitled.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Untitled.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging/6. Logs.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/AutoSCaling",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging/5. Metrics.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging/4. Traces.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging/3. Resource Health.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging/2. Obervability Engines.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging/1. Monitoring and Logging.md",
+    "Database/Database design",
+    "3D design/Blender Tutorial",
+    "3D design",
+    "Devops and cloud computing/Kubernetes/Quick Learning/CheatSheet.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Resource Management/Assigning Quotas to Namespaces.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Resource Management/Monitoring & Optimizing  Resource Usage.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Resource Management/Setting Resource  Requests  and Limits.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Security/Network Security.md",
     "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Security/Role based Access Control.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Security/assets/Pasted image 20250926115910.png",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Security/assets",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Security",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Resource Management/assets/Pasted image 20250925222355.png",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Resource Management/assets",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Resource Management",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Networking/assets/Pasted image 20250924230836.png",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Networking/assets",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Networking/Untitled",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Networking",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/assets/Pasted image 20250924225907.png",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Security/Security Scanners.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling/1. Scheduling.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling/2. Scheduling Basic.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling/3. Taints and Tolerations.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling/4. Topology Spread Constraints.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling/5. Pod priorities.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/1. Intro  to Kubernetes.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/2. Pods.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/3. Replicaset.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/4. Deployments.md",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/How to protect the AWS Root User.md.20251016-014935.bak",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/Role Based Access in AWS.md.20251016-014844.bak",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/Security and the AWS Shared Responsibility Model.md.20251016-014803.bak",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/AWS IAM Policy configuration in YAML.md.20251016-014629.bak",
+    "Devops and cloud computing/AWS/PART I AWS SECURITY/AWS Identity and Access Management (IAM).md.20251016-014534.bak",
+    "Devops and cloud computing/AWS/PART III AWS Network/Networking in AWS.md.20251016-014438.bak",
     "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/assets/Pasted image 20250924224151.png",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Security/assets/Pasted image 20250926115910.png",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Resource Management/assets/Pasted image 20250925222355.png",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Networking/assets/Pasted image 20250924230836.png",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/assets/Pasted image 20250924225907.png",
     "Devops and cloud computing/Kubernetes/Quick Learning/assets/Pasted image 20250924225833.png",
     "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250622144105.png",
     "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250526155912.png",

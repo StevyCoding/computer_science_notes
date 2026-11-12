@@ -1,0 +1,25 @@
+# Container Security Scanners 🛡️
+
+## Questions
+- What is a container security scanner?
+- Why use security scanners for container images?
+- Which popular scanners exist?
+- What features do they offer?
+
+## Key Points
+- Identify vulnerabilities and potential security threats in container images **before deployment**.
+- Popular Security Scanners:
+  - Aqua Security
+  - Twistlock
+  - Sysdig Secure
+  - Trivy
+  - Anchore Engine
+  - OpenSCAP
+- Features Offered:
+  - Vulnerability scanning 🔎
+  - Compliance checks ✅
+  - Runtime protection
+- By using these scanners, organizations can ensure **security & integrity** of their Kubernetes (k8s) deployment and minimize the risk of **security breaches & data loss**.
+
+## Summary
+Container security scanners help **detect vulnerabilities & enforce compliance** in container images before deployment. Popular tools like Aqua, Twistlock, Sysdig Secure, Trivy, Anchore, and OpenSCAP provide **vulnerability scanning, compliance checks, and runtime protection**, enabling organizations to secure k8s deployments and reduce the risk of breaches or data loss.

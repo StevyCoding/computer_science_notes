@@ -1,0 +1,6 @@
+### Deployment (K8s) 🚀
+
+*   **Resource Objects** to manage **Pods & ReplicaSets** via **declarative configuration**.
+*   Defines **desired state**: #Pods, **deployment strategy**, **container image**, etc.
+*   **Deployment Controllers** ensure **actual state = desired state** (e.g., replace failed pod).
+*   Supports **strategies**: **Recreate**, **Rolling Update**, + advanced options.

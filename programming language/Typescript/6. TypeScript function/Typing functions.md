@@ -1,24 +1,23 @@
-In TypeScript, functions can be typed in a few different ways to indicate the input parameters and return type of the function.
+In TypeScript, functions can be typed in a few different ways to indicate the input parameters and return type of the function. 
 
 Function declaration with types:
-
-```ts
+```typescript
 function add(a: number, b: number): number {
   return a + b;
 }
 ```
 
-Arrow function with types:
 
-```ts
+Arrow function with types:
+```typescript
 const multiply = (a: number, b: number): number => {
   return a * b;
 };
 ```
 
-Function type:
 
-```ts
+Function type:
+```typescript
 let divide: (a: number, b: number) => number;
 
 divide = (a, b) => {

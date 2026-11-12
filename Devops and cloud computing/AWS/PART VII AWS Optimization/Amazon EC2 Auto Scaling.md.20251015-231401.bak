@@ -1,0 +1,49 @@
+Availability and reachability is improved by adding one more server. However, the entire system can again become unavailable if there is a capacity issue. Let’s look at that load issue with both types of systems we discussed, active-passive and active-active.
+
+## **Vertical Scaling**
+
+If there are too many requests sent to a single active-passive system, the active server will become unavailable and hopefully failover to the passive server. But this doesn’t solve anything. With active-passive, you need **vertical scaling**. This means increasing the size of the server. With EC2 instances, you select either a larger type or a different instance type. This can only be done while the instance is in a stopped state. In this scenario, the following steps occur:
+
+1.  Stop the passive instance. This doesn’t impact the application since it’s not taking any traffic.
+
+2.  Change the instance size or type, then start the instance again.
+
+3.  Shift the traffic to the passive instance, turning it active.
+
+4.  The last step is to stop, change the size, and start the previous active instance as both instances should match.
+
+When the amount of requests reduces, the same operation needs to be done. Even though there aren’t that many steps involved, it’s actually a lot of manual work to do. Another disadvantage is that a server can only scale vertically up to a certain limit.
+
+Once that limit is reached, the only option is to create another active-passive system and split the requests and functionalities across them. This could require massive application rewriting. This is where the active-active system can help. When there are too many requests, this system can be scaled horizontally by adding more servers.
+
+## **Horizontal Scaling**
+
+As mentioned above, for the application to work in an active-active system, it’s already created as stateless, not storing any client session on the server. This means that having two servers or having four wouldn’t require any application changes. It would only be a matter of creating more instances when required and shutting them down when the traffic decreases.
+
+The Amazon EC2 Auto Scaling service can take care of that task by automatically creating and removing EC2 instances based on metrics from Amazon CloudWatch.
+
+You can see that there are many more advantages to using an active-active system in comparison with an active-passive. Modifying your application to become stateless enables scalability.
+
+## Integrate ELB with EC2 Auto Scaling
+
+The ELB service integrates seamlessly with EC2 Auto Scaling. As soon as a new EC2 instance is added to or removed from the EC2 Auto Scaling group, ELB is notified. However, before it can send traffic to a new EC2 instance, it needs to validate that the application running on that EC2 instance is available.
+
+This validation is done via the health checks feature of ELB. Monitoring is an important part of load balancers, as it should route traffic to only healthy EC2 instances. That’s why ELB supports two types of health checks.
+
+- Establishing a connection to a backend EC2 instance using TCP, and marking the instance as available if that connection is successful.
+
+- Making an HTTP or HTTPS request to a webpage that you specify, and validating that an HTTP response code is returned.
+
+## Differentiate Between Traditional Scaling and Auto Scaling
+
+With a traditional approach to scaling, you buy and provision enough servers to handle traffic at its peak. However, this means that you’re often over-provisioning, leading to wasted resources. With Auto Scaling, you dynamically adjust the number of servers based on actual demand.
+
+Using Auto Scaling allows you to optimize costs and ensure that your application always has enough capacity to handle peak loads.
+
+## Resources
+
+- [AWS: Amazon EC2 Auto Scaling](https://aws.amazon.com/ec2/autoscaling/)
+- [AWS: Amazon EC2 Auto Scaling FAQs](https://aws.amazon.com/ec2/autoscaling/faqs/)
+- [AWS: Setting capacity limits for your Auto Scaling Group](https://docs.aws.amazon.com/autoscaling/ec2/userguide/asg-capacity-limits.html)
+- [AWS: Step and simple scaling policies for Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scaling-simple-step.html)
+- [AWS: Target tracking scaling policies for Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scaling-target-tracking.html)

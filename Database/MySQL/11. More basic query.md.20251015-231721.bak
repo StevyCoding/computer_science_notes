@@ -1,0 +1,31 @@
+**SQL Queries for Employee Data**
+
+*   **Return Table with Different Column Names**
+    sql
+    SELECT first_name AS forename, last_name AS lastname FROM employee;
+    
+*   **Find all the different genders**
+    sql
+    SELECT DISTINCT sex FROM employee;
+    
+*   **Find the number of employees**
+    sql
+    SELECT COUNT(emp_id) FROM employee;
+    
+*   **Find the number of female employees born after 1970**
+    sql
+    SELECT COUNT(emp_id) FROM employee WHERE sex = 'F' AND birth_date > '1971-01-01';
+    
+*   **Find the average of all employees’ salaries**
+    sql
+    SELECT AVG(salary) FROM employeee WHERE sex = 'M';
+    
+*   **Find the sum of all employee salaries**
+    sql
+    SELECT SUM(SALARY) FROM employee;
+    
+*   **Find out how many males and females there are**
+    sql
+    SELECT COUNT(sex), sex FROM employee GROUP BY sex;
+    
+    #SQL #DataAnalysis #Database

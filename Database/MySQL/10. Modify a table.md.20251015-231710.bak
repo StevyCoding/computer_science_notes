@@ -1,0 +1,39 @@
+## Database Modifications 💾
+
+Here's a collection of SQL modifications for database updates:
+
+### 1. Add Foreign Key 🔑
+
+sql
+ALTER TABLE employee
+ADD FOREIGN KEY(super_id)
+REFERENCES employee(emp_id)
+ON DELETE SET NULL
+
+
+### 2. Add New Column ➕
+
+sql
+ALTER TABLE nom_table
+ADD nom_colonne type_donnees
+
+
+### 3. Delete Column 🗑️
+
+sql
+ALTER TABLE nom_table
+DROP nom_colonne
+
+
+### 4. Modify Column Type 🔄
+
+sql
+ALTER TABLE nom_table
+MODIFY nom_colonne type_donnees
+
+
+### 5. Rename Column 📝
+
+sql
+ALTER TABLE nom_table
+CHANGE colonne_ancien_nom colonne_nouveau_nom type_donnees

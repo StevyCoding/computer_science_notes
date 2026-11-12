@@ -1,8 +1,8 @@
 # ESN
 
-## Processus Metier
+## Processus Métier
 
 - Conseil
-- Integration de service informatique
-- Service Delevery
-- ![[Pasted image 20240208150049.png]]
+- Intégration de service informatique
+- Service de Delivery
+- ![Pasted image 20240208150049.png](../images/Pasted image 20240208150049.png) 🚀

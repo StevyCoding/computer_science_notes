@@ -1,0 +1,25 @@
+# Cue
+- Which metrics are included?
+- What tools are utilized for these metrics?
+
+# Key Points
+  ## Included Metrics
+  - CPU Usage
+  - Network Usage
+  - Disk Usage
+  - API Server Metrics
+  - Pod and Container Metrics
+  - Cluster Level Metrics
+
+  ## Information Provided
+  - Performance and health of the cluster, nodes, and applications running on the cluster.
+
+  ## Tools Used for Metrics
+  - Prometheus
+  - Grafana
+  - Kubernetes Dashboard
+
+  ## Benefits
+  - Assists administrators in identifying performance issues and optimizing the cluster for improved performance and stability.
+# Summary
+Metrics gather information about the performance and health of the cluster, nodes, and applications running on the cluster by measuring CPU usage, network usage, disk usage, API server metrics, pod and container metrics, and cluster level metrics. This enables administrators to identify performance issues and implement actions for improved performance and scalability of the cluster.

@@ -1,11 +1,12 @@
 {
   "accentColor": "#10ebe6",
   "cssTheme": "Things",
-  "baseFontSize": 24,
+  "baseFontSize": 22,
   "theme": "obsidian",
   "monospaceFontFamily": "Fira Code",
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "default"
-  ]
+  ],
+  "showRibbon": true
 }

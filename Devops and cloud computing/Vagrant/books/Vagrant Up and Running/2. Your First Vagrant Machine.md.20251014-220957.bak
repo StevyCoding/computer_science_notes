@@ -1,0 +1,403 @@
+- [[#vagrant Architecture|vagrant Architecture]]
+- [[#The vagrant File|The vagrant File]]
+- [[#V1 and V2 configuration|V1 and V2 configuration]]
+	- [[#V1 and V2 configuration#🆕 Two Configuration Versions**:|🆕 Two Configuration Versions**:]]
+	- [[#V1 and V2 configuration#📜 V1 is Recommended :|📜 V1 is Recommended :]]
+	- [[#V1 and V2 configuration#⚠️ V2 May Cause Issues :|⚠️ V2 May Cause Issues :]]
+- [[#Boxes|Boxes]]
+	- [[#Boxes#📦 What is a Vagrant Box?|📦 What is a Vagrant Box?]]
+	- [[#Boxes#📂 Box Storage & Reuse|📂 Box Storage & Reuse]]
+	- [[#Boxes#⚙️ Specifying a Box in Vagrantfile|⚙️ Specifying a Box in Vagrantfile]]
+	- [[#Boxes#🌍 Global Box Management|🌍 Global Box Management]]
+	- [[#Boxes#🛠 Managing Boxes with Commands|🛠 Managing Boxes with Commands]]
+	- [[#Boxes#🛑 Impact of Removing a Box|🛑 Impact of Removing a Box]]
+- [[#Vagrant Up|Vagrant Up]]
+	- [[#Vagrant Up#Steps During `vagrant up`|Steps During `vagrant up`]]
+	- [[#Vagrant Up#Running in Headless Mode|Running in Headless Mode]]
+	- [[#Vagrant Up#Cross-Platform & Provider Support|Cross-Platform & Provider Support]]
+	- [[#Vagrant Up#Version Control and `.vagrant/` Directory|Version Control and `.vagrant/` Directory]]
+- [[#Working with a vagrant machine|Working with a vagrant machine]]
+	- [[#Working with a vagrant machine#State of the Vagrant Machine|State of the Vagrant Machine]]
+	- [[#Working with a vagrant machine#SSH: Accessing the Vagrant Machine|SSH: Accessing the Vagrant Machine]]
+	- [[#Working with a vagrant machine#Shared Filesystem|Shared Filesystem]]
+	- [[#Working with a vagrant machine#Customizing Shared Folders|Customizing Shared Folders]]
+	- [[#Working with a vagrant machine#Performance Considerations|Performance Considerations]]
+- [[#Basic Networking|Basic Networking]]
+- [[#Suspend|Suspend]]
+- [[#Halt|Halt]]
+- [[#Destroy|Destroy]]
+
+## vagrant Architecture
+
+```d2
+VagrantFile.shape:  document
+User.shape: person
+Vagrant:  {
+icon :https://www.svgrepo.com/show/520935/setting-5.svg
+shape : square
+}
+VagrantCloud.shape : cloud
+VirtualMachine :  {
+icon : https://www.svgrepo.com/show/535618/server.svg
+shape : square
+}
+VirtualBox : {
+shape : square
+icon : https://www.svgrepo.com/show/528877/box.svg
+}
+User -> VagrantFile{
+style.animated: true
+}
+User -> Vagrant{
+style.animated: true
+}
+VagrantFile -> Vagrant{
+style.animated: true
+}
+VagrantCloud <- Vagrant{
+style.animated: true
+}
+VirtualMAchine <- Vagrant{
+style.animated: true
+}
+VirtualBox  <-> Vagrant{
+style.animated: true
+}
+VirtualBox  -> VirtualMachine{
+style.animated: true
+}
+
+```
+
+  ➡️ **Vagrant** is a tool that helps you quickly set up and manage virtual machines so you can work in the same environment on any computer.  
+
+  
+
+➡️ **Vagrantfile** 📄 is a simple text file that tells Vagrant how to create and set up a virtual machine. It includes details like which operating system to use (from a Vagrant Box 📦) and how much memory or CPU to assign.  
+
+  
+
+➡️ **Vagrant** Box 📦 is a ready-made virtual machine image that Vagrant uses to quickly create a working environment. It includes an operating system and basic settings, so you don’t have to install everything from scratch.  
+
+  
+
+➡️ **Vagrant Cloud** ☁️ is an online platform where you can find, share, and manage Vagrant Boxes. It allows users to download pre-made boxes or upload their own for easy sharing and reuse.  
+
+  
+
+➡️ **VirtualBox** 🖥️ is a free software that lets you create and run virtual machines on your computer. It allows you to use multiple operating systems without changing your main system.  
+
+  
+
+# ✨ Basic Vagrant Commands: ✨
+
+🔹**vagrant init**  ||box-name||  – Creates a Vagrantfile for a specific box.  **vagrant up** -  Starts and sets up the virtual machine.  
+🔹 **vagrant ssh** – Connects to the virtual machine via SSH.  
+🔹 **vagrant halt** – Shuts down the virtual machine.  
+🔹 **vagrant destroy** – Deletes the virtual machine.  
+🔹 **vagrant reload** – Restarts the virtual machine and applies changes from the Vagrantfile.  
+🔹 **vagrant status**  – Shows the current state of the virtual machine.
+
+The command `vagrant init precise64 http://files.vagrantup.com/precise64.box` initializes a new Vagrant environment by creating a `Vagrantfile` configured to use the `precise64` box from the specified URL.
+
+```bash
+$ vagrant init precise64 http://files.vagrantup.com/precise64.box
+A `Vagrantfile` has been placed in this directory. You are now
+ready to `vagrant up` your first virtual environment! Please read
+the comments in the Vagrantfile as well as documentation on
+`vagrantup.com` for more information on using Vagrant.
+```
+
+## The vagrant File
+
+- 📁 **Project-based Configuration**: Each project has its own **isolated environment**, defined by a **Vagrantfile**.
+- 📜 **Vagrantfile Role**:
+    - Defines **OS**, **hardware specs** (RAM, CPU), **software**, and **network access**.
+    - Read by Vagrant to create the development environment.
+- 🔄 **Version Control**:
+    - Vagrantfile should be **tracked in version control** (e.g., Git).
+    - Team members can recreate the same environment **without manual setup**.
+- 🛠️ **Low Maintenance**:
+    - **Rarely modified** since development environment settings remain stable.
+    - Only minor updates needed over time.
+- ⚡ **Time Investment vs. Benefits**:
+    - **Small upfront setup** cost.
+    - **Huge long-term efficiency** in environment stability and flexibility.
+- 🚀 **Getting Started**:
+    - Create a **project folder** and navigate to it via the terminal.
+
+Basic vagrantFile  structure
+
+```js
+Vagrant::Config.run do |config| 
+  config.vm.box = "precise64" 
+
+  config.vm.share_folder "v-root", "/vagrant", "." 
+
+  config.vm.provision "shell" do |s| 
+    s.path = "script.sh"
+  end
+end 
+```
+
+- **📌 Configuration Block** (`Vagrant::Config.run do |config| ... end`)
+    - Defines the Vagrant configuration for the project.
+- **📦 Specify the Base Box** (`config.vm.box = "precise64"`)
+    - Sets the **virtual machine (VM) base image** to `"precise64"` (Ubuntu 12.04 64-bit).
+    - This acts as the starting OS for the VM.
+- **📁 Shared Folder** (`config.vm.share_folder "v-root", "/vagrant", "."`)
+    - Maps a folder from the **host machine** to the **VM**:
+        - `"v-root"` → Internal name for the shared folder.
+        - `"/vagrant"` → Path inside the VM where the folder will be mounted.
+        - `"."` → Current directory (project folder) on the host machine.
+    - Allows easy file sharing between host and VM.
+- **⚙️ Provisioning with Shell Script** (`config.vm.provision "shell" do |s| ... end`)
+    - Automates VM setup by running a **shell script** (`script.sh`).
+    - The script can install software, update packages, configure settings, etc.
+- **🔄 End of Configuration** (`end`)
+    - Closes the Vagrant configuration block.
+
+And that’s all there is to configuring Vagrant. No Ruby-specific knowledge is necessary, since the Vagrantfile is composed only of variable assignment, function calls, and configuration blocks.
+
+## V1 and V2 configuration
+
+### 🆕 Two Configuration Versions**:
+
+    
+- **V1 (Stable)** → Used in **Vagrant 1.0.x**, backward-compatible, and fully supported.
+- **V2 (Experimental)** → Intended for **Vagrant 2.0**, still evolving, not stable yet.
+
+### 📜 V1 is Recommended :
+
+    
+-  The book uses **V1 configuration** to ensure **stability** and avoid errors.
+- V1 configurations **start with** `Vagrant::Config.run`.
+
+### ⚠️ V2 May Cause Issues :
+
+    
+- Some **V1 configurations** may not work properly in a **V2 block**.
+- Errors might appear if trying to use V1 examples in V2 format.
+
+You can verify you using vagrantFile cause the vagrantFile stat the configuration with 
+
+```ruby
+Vagrant::Config.run do |config|
+  # ... configuration here
+end
+```
+
+## Boxes
+
+### 📦 What is a Vagrant Box?
+
+- A **box** is a **prebuilt virtual machine image** used as a **base template** for Vagrant environments.
+- It **prevents** the need to build VMs **from scratch**, saving time and system resources.
+
+### 📂 Box Storage & Reuse
+
+- Boxes are **large** (hundreds of MBs to GBs).
+- Once **downloaded**, Vagrant **stores** them for **future use**, avoiding repeated downloads.
+- **Multiple Vagrant environments** can share the **same box** without conflicts.
+
+### ⚙️ Specifying a Box in Vagrantfile
+
+- Defined using `config.vm.box = "box_name"`.
+- Example:
+    
+    ```ruby
+    Vagrant::Config.run do |config|
+      config.vm.box = "precise64"
+      config.vm.box_url = "http://files.vagrantup.com/precise64.box"
+    end
+    ```
+    
+- The optional `config.vm.box_url` tells Vagrant where to **download the box** if it's not available locally.
+
+### 🌍 Global Box Management
+
+- Boxes are **shared across multiple projects** (unlike Vagrantfiles, which are project-specific).
+- Changes inside one VM **do not affect** other environments using the same box.
+
+### 🛠 Managing Boxes with Commands
+
+- **Add a box:** `vagrant box add <name> <url>`
+- **List installed boxes:** `vagrant box list`
+- **Remove a box:** `vagrant box remove <name>`
+
+### 🛑 Impact of Removing a Box
+
+- **Running projects** using the box **won’t be affected**.
+- **Stopped projects** using the removed box will need to **re-download it** before starting again.
+
+## Vagrant Up
+
+- Once the **box** and **Vagrantfile** are configured, run `vagrant up` to start the virtual machine.
+- This command sets up a **fully self-contained development environment** in **about a minute**.
+
+### Steps During `vagrant up`
+
+1️⃣ **Importing the Base Box**
+
+- Vagrant creates a **new virtual machine** based on the box image.
+- Copies large virtual hard disk files, which **can take time**.
+
+2️⃣ **Matching MAC Address for Networking**
+
+- VirtualBox generates a **random MAC address**, but Vagrant restores the one from the box to ensure **network stability**.
+
+3️⃣ **Setting VM Name**
+
+- Vagrant assigns a **name** to the VM based on the **project directory** to make it easily identifiable.
+
+4️⃣ **Clearing Existing Forwarded Ports**
+
+- Vagrant manages **port forwarding**, so it **removes any existing rules** before adding new ones.
+
+5️⃣ **Creating Shared Folder Metadata**
+
+- Vagrant configures **shared folders** to allow **file sharing** between the host and VM.
+
+6️⃣ **Clearing Network Interfaces**
+
+- Vagrant resets **network configurations** before setting up new interfaces.
+
+7️⃣ **Setting Up Port Forwarding**
+
+- Metadata for **forwarded ports** is created, enabling **SSH and network access**.
+
+8️⃣ **Booting the VM**
+
+- The VM **starts up**, and Vagrant **waits** for SSH to become available.
+
+9️⃣ **Configuring Network Interfaces**
+
+- Vagrant **automatically configures network settings** based on the OS inside the VM.
+
+🔟 **Mounting Shared Folders**
+
+- The VM **mounts shared directories** to sync files between the host and virtual machine.
+
+### Running in Headless Mode
+
+- Vagrant VMs run **without a graphical interface** (headless).
+- Check the running VM by looking for the **VBoxHeadless process** in your system.
+
+### Cross-Platform & Provider Support
+
+- Works on **Mac, Windows, and Linux**.
+- **Newer Vagrant versions** support **VMware, AWS, and other providers** with minimal changes.
+
+### Version Control and `.vagrant/` Directory
+
+- Vagrant creates a `.vagrant/` directory in the project folder to **store VM state**.
+- **Do not commit** `.vagrant/` to version control—it can **corrupt** VM configurations if shared.
+
+## Working with a vagrant machine
+
+Once the Vagrant environment is set up, you can interact with it in various ways. Here’s how you can manage the state of the machine, access it, share files, and perform other tasks:
+
+---
+
+### State of the Vagrant Machine
+
+- **Check Current Status**: To see the state of the Vagrant machine, use `vagrant status`. This command shows whether the machine is running or not.  
+    Example output:
+    
+    ```
+    $ vagrant status
+    Current machine states:
+    default                  running (virtualbox)
+    ```
+    
+- **Stop or Suspend**:
+    - `vagrant halt` stops the VM.
+    - `vagrant suspend` pauses the VM.
+    - To restart, use `vagrant up`.
+
+---
+
+### SSH: Accessing the Vagrant Machine
+
+- **SSH Access**: To log into the Vagrant VM, use `vagrant ssh`. This automatically connects you to the VM via SSH and provides a command line inside the machine. Example:
+    
+    ```
+    $ vagrant ssh
+    Welcome to your Vagrant-built virtual machine.
+    ```
+    
+- **Full Control**: Once inside, you can install software, modify files, or reset the system. If anything goes wrong, the VM can be recreated.
+
+---
+
+### Shared Filesystem
+
+- **Shared Folders**: Vagrant allows you to share folders between your host and guest machine. This means any changes made in the shared folder on the host system will automatically be reflected inside the VM, and vice versa.
+    - By default, the project folder (where the Vagrantfile is) is shared with `/vagrant` inside the VM.
+- **Benefits**:
+    - **Editing Convenience**: Edit code on the host system using your preferred editor while the changes are reflected inside the VM.
+    - **Persistent Storage**: Files in the shared folder are not destroyed when you destroy the VM, allowing persistence across environments.
+    - **Backup-Friendly**: Shared folders are treated like regular files by the host system, making them easier to back up compared to large VM disks.
+
+---
+
+### Customizing Shared Folders
+
+- You can customize or add new shared folders by modifying the `Vagrantfile`. For example:
+    
+    ```ruby
+    Vagrant::Config.run do |config|
+      config.vm.share_folder "v-root", "/foo", "."
+    end
+    ```
+    
+    - This will share the project root folder with `/foo` in the guest VM.
+- **Reloading for Changes**: If you modify the shared folders, use `vagrant reload` to apply the changes. This restarts the VM while preserving your files.
+- **Multiple Shared Folders**: You can define multiple shared folders:
+    
+    ```ruby
+    Vagrant::Config.run do |config|
+      config.vm.share_folder "data", "/data", "./data"
+    end
+    ```
+    
+
+---
+
+### Performance Considerations
+
+- **I/O Performance**: Shared folders can incur performance penalties during heavy I/O operations. To avoid this, use shared folders for source code only. Avoid storing large files like databases or compiled files in shared folders.
+
+This makes it easy to manage and manipulate files between the host and guest systems while maintaining the integrity of the development environment! 🌱
+
+## Basic Networking
+
+Vagrant automatically configures networking to allow communication between the host and the virtual machine, making it easier for developers to use their preferred tools, such as browsers, while the app runs in the VM.
+
+A common networking setup is **port forwarding**, where a guest machine port is exposed on the host machine. For example, to expose port 80 from the VM to port 8080 on the host, modify the Vagrantfile like so:
+
+```ruby
+Vagrant::Config.run do |config|
+  config.vm.forward_port 80, 8080
+end
+```
+
+After running `vagrant reload`, this forwards the VM’s port 80 to the host’s port 8080.
+
+To test, SSH into the VM, start a simple web server, and access it via the browser on the host by going to `localhost:8080`.
+
+Forwarded ports enable easy access to web services in the VM while using host tools for development, improving productivity.
+
+## Suspend
+
+Suspending a Vagrant machine saves its current state, effectively freezing it, and then stops it. When resumed, it picks up exactly where it left off, preserving web services and processes. The suspension process is quick (5–20 seconds), but it requires disk space for both the guest machine’s hard drive and its RAM.
+
+Suspending stops CPU and RAM usage on the host but keeps disk usage. To suspend, use `vagrant suspend`, and to resume, use `vagrant up` or `vagrant resume`. The resume is typically fast, taking just a few seconds.
+
+## Halt
+
+Halting shuts down the guest machine fully, releasing CPU and RAM resources on the host. While it preserves disk space, the guest machine is powered off, so any running services need to be manually restarted. To halt, use `vagrant halt`.
+
+## Destroy
+
+Destroying the machine removes all traces of it, including virtual hard disks and state files. This results in no resource usage, but it deletes any unsaved data. To destroy, use `vagrant destroy`, which will ask for confirmation before deleting.

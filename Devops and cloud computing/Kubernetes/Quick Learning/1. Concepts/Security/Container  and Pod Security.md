@@ -1,16 +1,16 @@
-# Question
-* How to secure container and pods?
-# Key points
-* k8s can secure containers and pods by:
-  * Using **trusted container img**
-  * Limiting **container privileges**
-  * Enforcing **pod lvl security policies**
-  * Implementing **network security measures**
-  * Using **access controls with RBAC**
-  * Managing **sensitive info with Secret & ConfigMaps**
-* Helps org **reduce risk of security incidents**
-# Summary
-K8s can secure containers & pods by using trusted imgs, limiting privileges, enforcing pod lvl security policies, implementing network security, applying RBAC, and managing sensitive info via Secret & ConfigMaps. These practices help orgs **reduce risk of security incidents**.
+# How to Secure Containers and Pods in Kubernetes (k8s)? ❓
 
+**Key Points**
+- Utilizing trusted container images ✅
+- Limiting container privileges 🔒
+- Enforcing pod-level security policies 🛡️
+- Implementing network security measures 🌐
+- Applying **Role-Based Access Control (RBAC)** 🔑
+- Managing sensitive information with **Secret** & **ConfigMaps** 🎁
 
+- These practices help organizations minimize the risk of security incidents.
 
+**Summary**
+Kubernetes (k8s) can secure containers and pods by using trusted images, limiting privileges, enforcing pod-level security policies, implementing network security measures, applying Role-Based Access Control (RBAC), and managing sensitive information via Secret and ConfigMaps. 
+
+#tags: kubernetes, containers, pods, security, RBAC, secrets, configmaps

@@ -1,0 +1,107 @@
+
+- It's important to have a backup plan that can help you restoring data in case of data corruption
+- backing up data should happen periodically in short time frame to avoid long loosing historical data as possible
+
+# Using the etcd Administration Utilities
+-  the etcd store the data in the so called snapshot file
+- this snapshot file can be used to restore the etcd data any time
+- you can encrypt the snapshot file to hide sensitive information
+- The snapshot file need to use the tool etcdutl.
+
+```merm
+---
+title: Restoration process
+---
+flowchart LR
+	subgraph Backup["Backup"]
+		direction TB
+		n1("SSh into machine")
+		n2("Check etc Prod status")
+		n3("Describe etcd Pod for config")
+		n4("etcdutl snapshot save")
+		n5("exit machine")
+		n1 --> n2
+		n2 --> n3
+		n3 --> n4
+		n4 --> n5
+	end
+	Disaster{"Disaster"}
+	subgraph Restoration["Restoration"]
+		direction TB
+		n6("SSH into machine")
+		n7("etcdutl snapshot restore")
+		n8("Point etcd Pod to snapshot file")
+		n9("Check etc Pod status")
+		n10("Exit machine")
+		n6 --> n7
+		n7 --> n8
+		n8 --> n9
+		n9 --> n10
+	end
+	Backup --> Disaster
+	Disaster --> Restoration
+```
+# Backing Up etcd
+Here's a concise summary of the etcd backup process described:
+
+1. **SSH Access:** Connected to the `kube-control-plane` node (Ubuntu 24.04 LTS) via SSH.
+    
+2. **Version Check:** Verified `etcdctl` and etcd Pod versions (both 3.5.15).
+    
+3. **Configuration Details:** Retrieved etcd configuration using `kubectl describe pod`, including:
+    
+    - Client URL: `localhost:2379`
+        
+    - Certificates and key paths:
+        
+        - CA cert: `/etc/kubernetes/pki/etcd/ca.crt`
+            
+        - Server cert: `/etc/kubernetes/pki/etcd/server.crt`
+            
+        - Server key: `/etc/kubernetes/pki/etcd/server.key`
+            
+4. **Creating Backup:** Used `etcdctl` with `ETCDCTL_API=3` to create a snapshot:
+    
+    - Output file: `/opt/etcd-backup.db`
+        
+    - Authenticated using the specified cert, key, and CA files.
+        
+5. **Session Ended:** Closed the SSH session with `exit`.
+    
+# Restoring etcd
+### **etcd Restore from Backup – Summary**
+
+1. **Purpose of Backup:**  
+    The etcd backup serves as a recovery tool in case of data corruption or physical storage failure.
+    
+2. **Restoration Tool:**  
+    Use `etcdutl snapshot restore` instead of the deprecated `etcdctl` restore command (removed in etcd 3.6+).
+    
+3. **Restore Command:**  
+    Restore the snapshot to a new data directory, e.g.:
+    
+    ```bash
+    sudo ETCDCTL_API=3 etcdutl --data-dir=/var/lib/from-backup snapshot restore /opt/etcd-backup.db
+    ```
+    
+4. **Verify Restored Data:**  
+    After restoration, the directory `/var/lib/from-backup` should contain a `member` folder.
+    
+5. **Update etcd Pod Manifest:**  
+    Edit `/etc/kubernetes/manifests/etcd.yaml`:
+    
+    - Change the `spec.volumes.hostPath.path` for volume `etcd-data` from `/var/lib/etcd` to `/var/lib/from-backup`.
+        
+6. **Pod Recreation:**  
+    The `etcd-kube-control-plane` Pod will automatically restart using the restored data.
+    
+    - If it fails to start, delete the Pod manually:
+        
+        ```bash
+        kubectl delete pod etcd-kube-control-plane -n kube-system
+        ```
+        
+7. **Exit Node:**  
+    Use `exit` to leave the SSH session.
+
+    

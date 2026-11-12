@@ -1,0 +1,48 @@
+# Obsidian Workflow - Initial Setup 🚀
+
+## Getting Started 🛠️
+
+*   Install Obsidian: Download from [https://obsidian.md](https://obsidian.md) and install.
+*   Create a vault: A vault is a folder that holds all your notes. Think of it as your digital brain.
+*   Choose a theme: Customize the look and feel of your Obsidian workspace. 🎨
+*   Explore the interface: Familiarize yourself with the different panels and menus.
+
+## Core Concepts 🧠
+
+*   **Notes**: The fundamental building blocks. Plain text files (.md).
+*   **Vault**: A container for your notes.
+*   **Links**: Connect notes together using `[[ ]]`. 🔗
+*   **Tags**: Organize notes using `#tag`. 🏷️
+*   **Backlinks**: See which notes link *to* the current note.
+*   **Graph View**: Visualize the connections between your notes. 🕸️
+
+## Essential Plugins ➕
+
+*   **Daily notes**: Create a new note each day.
+*   **Templates**: Quickly create notes with predefined structures.
+*   **Zotero Integration**: Connect Obsidian to your Zotero library. 📚
+*   **Kanban**: Create and manage boards. 🗂️
+*   **Calendar**: View and navigate your notes by date. 📅
+
+## Basic Markdown Syntax ✍️
+
+*   Headers: `# Heading 1`, `## Heading 2`, `### Heading 3`
+*   Bold: `**bold text**`
+*   Italic: `*italic text*`
+*   Lists:
+    *   Unordered: `- Item 1`
+    *   Ordered: `1. Item 1`
+*   Links: `[Link text](URL)`
+*   Code: `` `inline code` ``
+*   Code blocks:
+
+    code block
+*   Checkboxes: `- [ ] Task`
+
+## Workflow Tips 💡
+
+*   Start small: Don't try to build a massive knowledge base overnight.
+*   Link everything: Connect your notes liberally.
+*   Review your graph: Identify gaps and opportunities.
+*   Experiment with plugins: Find tools that fit your workflow.
+*   Don't be afraid to refactor: Your knowledge base will evolve. 🌱

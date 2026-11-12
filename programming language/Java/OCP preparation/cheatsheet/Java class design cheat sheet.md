@@ -1,12 +1,8 @@
-Here's a more polished and formatted version of your cheat sheet for Java Class Design, optimized for clarity and structure:
+# Cheat Sheet: Java Class Design for OCP 17 Exam 🚀
 
 ---
 
-### Cheat Sheet: Java Class Design for OCP 17 Exam
-
----
-
-#### 1. Key Principles of Class Design
+### 1. Key Principles of Class Design 💡
 
 - **Encapsulation**: Use private fields with public getters/setters.
 - **Inheritance**: Extend classes and override methods where appropriate.
@@ -16,7 +12,7 @@ Here's a more polished and formatted version of your cheat sheet for Java Class 
 
 ---
 
-#### 2. Access Modifiers
+### 2. Access Modifiers 🚦
 
 |Modifier|Class|Package|Subclass|World|
 |---|---|---|---|---|
@@ -27,7 +23,7 @@ Here's a more polished and formatted version of your cheat sheet for Java Class 
 
 ---
 
-#### 3. Abstract Classes vs. Interfaces
+### 3. Abstract Classes vs. Interfaces 🆚
 
 |Feature|Abstract Class|Interface|
 |---|---|---|
@@ -38,30 +34,30 @@ Here's a more polished and formatted version of your cheat sheet for Java Class 
 
 ---
 
-#### 4. Rules for `final` Keyword
+### 4. Rules for `final` Keyword 🔑
 
 - **Final Class**: Cannot be extended.
     
-    ```java
+    ```javascript
     public final class FinalClass {}
     ```
     
 - **Final Method**: Cannot be overridden.
     
-    ```java
+    ```javascript
     public final void myMethod() {}
     ```
     
 - **Final Variable**: Value cannot be reassigned after initialization.
     
-    ```java
+    ```javascript
     final int MAX = 10;
     ```
     
 
 ---
 
-#### 5. Overloading vs. Overriding
+### 5. Overloading vs. Overriding 🆚
 
 |Feature|Overloading|Overriding|
 |---|---|---|
@@ -73,7 +69,7 @@ Here's a more polished and formatted version of your cheat sheet for Java Class 
 
 ---
 
-#### 6. Static and Instance Members
+### 6. Static and Instance Members 💫
 
 - **Static Methods**:
     - Accessed without an instance.
@@ -84,7 +80,7 @@ Here's a more polished and formatted version of your cheat sheet for Java Class 
 
 ---
 
-#### 7. Nested Classes
+### 7. Nested Classes 📚
 
 - **Static Nested Class**:
     - Does not have access to the outer class’s instance variables.
@@ -92,7 +88,7 @@ Here's a more polished and formatted version of your cheat sheet for Java Class 
     
     - Can access the outer class’s members.
     
-    ```java
+    ```javascript
     class Outer {
         class Inner {}
     }
@@ -104,7 +100,7 @@ Here's a more polished and formatted version of your cheat sheet for Java Class 
     
     - Created during instantiation of a class or interface.
     
-    ```java
+    ```javascript
     Runnable r = new Runnable() {
         public void run() {}
     };
@@ -113,13 +109,13 @@ Here's a more polished and formatted version of your cheat sheet for Java Class 
 
 ---
 
-#### 8. Important Design Patterns
+### 8. Important Design Patterns 🧩
 
 - **Singleton**:
     
     - Ensure a class has only one instance.
     
-    ```java
+    ```javascript
     public class Singleton {
         private static Singleton instance = new Singleton();
         private Singleton() {}
@@ -136,7 +132,7 @@ Here's a more polished and formatted version of your cheat sheet for Java Class 
 
 ---
 
-#### 9. Object Class Methods
+### 9. Object Class Methods 📦
 
 |Method|Purpose|
 |---|---|
@@ -148,12 +144,12 @@ Here's a more polished and formatted version of your cheat sheet for Java Class 
 
 ---
 
-#### 10. Sealed Classes
+### 10. Sealed Classes 🔒
 
 - Restrict which classes can extend/implement the class/interface.
 - Introduced in Java 17.
     
-    ```java
+    ```javascript
     public sealed class Shape permits Circle, Rectangle {}
     public final class Circle extends Shape {}
     public non-sealed class Rectangle extends Shape {}
@@ -162,14 +158,10 @@ Here's a more polished and formatted version of your cheat sheet for Java Class 
 
 ---
 
-#### 11. Best Practices
+### 11. Best Practices 🌟
 
 - Favor composition over inheritance.
 - Use interfaces for type definitions.
 - Minimize the use of mutable fields.
 - Avoid circular dependencies.
 - Use meaningful class and method names.
-
----
-
-Let me know if you'd like this formatted as a PDF carousel!

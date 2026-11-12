@@ -1,10 +1,9 @@
-Role-Based Access Control (RBAC) in AWS, implemented through AWS Identity and Access Management (IAM), is a security model that assigns permissions to users, groups, or systems based on their roles within an organization. This approach ensures that individuals or systems have access only to the resources necessary for their specific responsibilities. Here's an overview of Role-Based Access in AWS:
+Role-Based Access Control (RBAC) in AWS, implemented through AWS Identity and Access Management (IAM), is a security model that assigns permissions to users, groups, or systems based on their roles within an organization. 🛡️ This approach ensures individuals or systems have access only to the resources necessary for their specific responsibilities.
 
 ## Key Concepts:
 
 ### 1. Roles:
 
-  
    - **Definition:** IAM roles are entities with policies attached that define what actions are allowed or denied. Roles do not have their own credentials but are assumed by IAM users, AWS services, or identity federation.
 
    - **Use Cases:**
@@ -29,7 +28,6 @@ Role-Based Access Control (RBAC) in AWS, implemented through AWS Identity and Ac
 
 ### 4. Trust Relationships:
 
-  
    - **Definition:** Trust relationships define who or what entities are allowed to assume a role. Trust policies specify the trusted entities and conditions for access.
 
    - **Use Cases:**

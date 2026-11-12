@@ -1,0 +1,164 @@
+# Core Concepts (13%)
+
+## kubectl Cheat Sheet
+- [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+
+## Monitoring, Logging, and Debugging
+### Get a Shell to a Running Container
+- [Get a Shell to a Running Container](https://kubernetes.io/docs/tasks/debug-application-cluster/get-shell-running-container/)
+
+## Access Applications in a Cluster
+### Configure Access to Multiple Clusters
+- [Configure Access to Multiple Clusters](https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/)
+
+### Accessing Clusters
+- [Accessing Clusters](https://kubernetes.io/docs/tasks/access-application-cluster/access-cluster/) using API
+
+### Use Port Forwarding to Access Applications in a Cluster
+- [Use Port Forwarding to Access Applications in a Cluster](https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/)
+
+---
+
+### Create namespace 'mynamespace' and pod with image nginx called 'nginx' on this namespace
+
+<details><summary>show</summary>
+
+bash
+kubectl create namespace mynamespace
+kubectl run nginx --image=nginx --restart=Never -n mynamespace
+
+</details>
+
+---
+
+### Create the pod that was just described using YAML
+
+<details><summary>show</summary>
+
+bash
+kubectl run nginx --image=nginx --restart=Never --dry-run=client -n mynamespace -o yaml > pod.yaml
+cat pod.yaml
+
+
+yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: nginx
+  name: nginx
+  namespace: mynamespace
+spec:
+  containers:
+  - image: nginx
+    imagePullPolicy: IfNotPresent
+    name: nginx
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Never
+status: {}
+
+
+bash
+kubectl create -f pod.yaml
+
+
+Alternatively, you can run in one line:
+
+bash
+kubectl run nginx --image=nginx --restart=Never --dry-run=client -o yaml | kubectl create -n mynamespace -f -
+
+</details>
+
+---
+
+### Create a busybox pod (using kubectl command) that runs the command "env". Run it and see the output
+
+<details><summary>show</summary>
+
+bash
+kubectl run busybox --image=busybox --command --restart=Never -it --rm -- env # -it will help in seeing the output, --rm will immediately delete the pod after it exits
+# or, just run it without -it
+kubectl run busybox --image=busybox --command --restart=Never -- env
+# and then, check its logs
+kubectl logs busybox
+
+</details>
+
+---
+
+### Create a busybox pod (using YAML) that runs the command "env". Run it and see the output
+
+<details><summary>show</summary>
+
+bash
+# create a  YAML template with this command
+kubectl run busybox --image=busybox --restart=Never --dry-run=client -o yaml --command -- env > envpod.yaml
+cat envpod.yaml
+
+
+yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: busybox
+  name: busybox
+spec:
+  containers:
+  - image: busybox
+    command: [ "env" ]
+    restartPolicy: Never
+  dnsPolicy: ClusterFirst
+status: {}
+
+
+bash
+kubectl create -f envpod.yaml
+# then
+kubectl exec -it busybox -- /bin/sh
+
+</details>
+
+---
+
+### Get pod's YAML
+
+- `kubectl get po nginx -o yaml`
+- `kubectl get po nginx -oyaml`
+- `kubectl get po nginx --output yaml`
+- `kubectl get po nginx --output=yaml`
+
+---
+
+### Get information about the pod, including details about potential issues (e.g. pod hasn't started)
+
+- `kubectl describe po nginx`
+
+---
+
+### Get pod logs
+
+- `kubectl logs nginx`
+
+---
+
+### If pod crashed and restarted, get logs about the previous instance
+
+- `kubectl logs nginx -p`
+- `kubectl logs nginx --previous`
+
+---
+
+### Execute a simple shell on the nginx pod
+
+- `kubectl exec -it nginx -- /bin/sh`
+
+---
+
+### Create an nginx pod and set an env value as 'var1=val1'. Check the env value existence within the pod
+
+- `kubectl run nginx --image=nginx --restart=Never --env=var1=val1`
+- `kubectl exec -it nginx -- env | grep val1`

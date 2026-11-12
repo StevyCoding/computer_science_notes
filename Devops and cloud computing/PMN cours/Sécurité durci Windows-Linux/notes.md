@@ -1,4 +1,4 @@
-- Iptables : filtre
-- Debsum : vériife l'intégralité
-- umask :  
-- lowatch 
+- **Iptables**: 🛡️ Filtre
+- Debsum: Vérifie ✅ l’intégralité
+- umask:
+- lowatch

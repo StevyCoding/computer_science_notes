@@ -1,0 +1,9 @@
+```shell
+git commit -m "fix bug"
+```
+
+```shell
+git commit -m "fix(auth): \ 
+prevent null pointer \
+when login response is empty"
+```

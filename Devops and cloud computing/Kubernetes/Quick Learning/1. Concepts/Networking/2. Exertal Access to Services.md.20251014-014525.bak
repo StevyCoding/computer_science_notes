@@ -1,0 +1,40 @@
+
+# External Access to Kubernetes Cluster
+
+This section covers methods for external clients to access Pods and Services within a Kubernetes cluster.
+
+## Methods of Access
+
+The following options are available:
+
+1. **NodePort**: Enables communication with a Kubernetes node on a fixed port.
+2. **LoadBalancer**: Offers an external load balancer for distributing traffic across multiple nodes.
+3. **Ingress** (Highly Recommended for scalability and reliability): Allows flexible routing by URL/host to Services. This method is preferred due to its scalable and reliable nature.
+
+## Ingress Resource
+
+The Ingress resource plays a crucial role in achieving scalability and reliability within deployments. By using the Ingress resource, you can configure custom rules for routing traffic to various services based on the incoming host or URL.
+
+For example:
+
+```yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: my-ingress
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.org/rewrite-target: /
+spec:
+  rules:
+    - host: my-app.example.com
+      http:
+        paths:
+          - pathType: Prefix
+            path: "/"
+            backend:
+              service:
+                name: my-service
+                port:
+                  number: 80
+```

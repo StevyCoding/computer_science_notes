@@ -4,9 +4,11 @@ For example, the following is a literal type that represents a value of 42:
 
 ```ts
 type Age = 42;
+```
 
+```ts
 let age: Age = 42; // ok
 let age: Age = 43; // error
 ```
 
-In this example, the `Age` literal type is created by using the number `42` as a type. This type can then be used to enforce that a value must be of type `number` and have the value `42`.
+💡 In this example, the `Age` literal type is created by using the number `42` as a type. This type can then be used to enforce that a value must be of type `number` and have the value `42`.

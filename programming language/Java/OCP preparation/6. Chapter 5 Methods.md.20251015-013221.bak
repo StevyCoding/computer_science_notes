@@ -1,0 +1,108 @@
+## Designing Methods
+
+![[Pasted image 20241022132144.png]]
+
+| Element | Value in `nap()` example | Required? |
+|---|---|---|
+| Access modifier | `public` | No |
+| Optional specifier | `final` | No |
+| Return type | `void` | Yes |
+| Method name | `nap` | Yes |
+| Parameter list | `(int minutes)` | Yes, but can be empty parentheses |
+| Method signature | `nap(int minutes)` | Yes |
+| Exception list | `throws InterruptedException` | No |
+| Method body | `{ <br> // take a nap <br> }` | Yes, except for abstract methods |
+
+### Access Modifiers
+
+An access modifier determines what classes a method can be accessed from. Think of it like a security guard. Some classes are good friends, some are distant relatives, and some are complete strangers. Access modifiers help to enforce when these components are allowed to talk to each other. Java offers four choices of access modifier:
+
+- **private** The `private` modifier means the method can be called only from within the same class.
+- **Package Access** With package access, the method can be called only from a class in the same package. This one is tricky because there is no keyword. You simply omit the access modifier. Package access is sometimes referred to as package-private or default access (even within this book!).
+- **protected** The `protected` modifier means the method can be called only from a class in the same package or a subclass.
+- **public** The `public` modifier means the method can be called from anywhere.
+
+### Instance Variable Modifiers
+
+Like methods, instance variables can use access modifiers, such as `private`, package, `protected`, and `public`. Remember, package access is indicated by the lack of any modifiers. We cover each of the different access modifiers shortly in this chapter. Instance variables can also use optional specifiers, described in Table 5.3.
+
+[TABLE 5.3](https://learning.oreilly.com/library/view/ocp-oracle-certified/9781119864585/c05.xhtml#R_c05-tbl-0003) Optional specifiers for instance variables
+
+| Modifier | Description | Chapter Covered |
+|---|---|---|
+| `final` | Specifies that the instance variable must be initialized with each instance of the class exactly once | Chapter 5 |
+| `volatile` | Instructs the JVM that the value in this variable may be modified by other threads | [Chapter 13](https://learning.oreilly.com/library/view/ocp-oracle-certified/9781119864585/c13.xhtml) |
+| `transient` | Used to indicate that an instance variable should not be serialized with the class | [Chapter 14](https://learning.oreilly.com/library/view/ocp-oracle-certified/9781119864585/c14.xhtml) |
+
+Since Java passes object references by value, it is essential to understand how data is copied and modified. Let's explore a more detailed look at this topic.
+
+## Passing Object References By Value
+
+When you pass an object reference to a method in Java, you are not passing the object itself. Instead, you are passing a *copy of the reference*. This means that the method receives a copy of the reference that points to the same object in memory.
+
+Here's a breakdown of what happens when you pass an object reference:
+
+1.  **Copy of the Reference:** Java creates a copy of the object's reference.
+2.  **Method Receives Copy:** The method receives this copy of the reference.
+3.  **Changes Inside Method:** Any modifications made to the object's fields inside the method affect the original object because both the original reference and the copy reference point to the same object in memory.
+4.  **No Change to Original Reference:** The original reference in the calling method remains unchanged.
+
+Let's illustrate this with an example:
+
+java
+class Dog {
+    String name;
+
+    public Dog(String name) {
+        this.name = name;
+    }
+}
+
+public class PassByReferenceExample {
+    public static void main(String[] args) {
+        Dog myDog = new Dog("Buddy");
+        changeDogName(myDog);
+        System.out.println(myDog.name); // Output: Champ
+    }
+
+    static void changeDogName(Dog dog) {
+        dog.name = "Champ"; // Modifies the object's name
+    }
+}
+
+
+In this example, the `changeDogName` method modifies the `name` field of the `Dog` object. Because we are passing a copy of the reference, the change is reflected in the original `Dog` object in the `main` method.
+
+## Understanding the Key Difference
+
+The key difference between passing by value and passing by reference is that in passing by value, a copy of the value is created, while in passing by reference, the original variable is directly accessed.
+
+To further solidify this concept, let's consider another example:
+
+java
+class Person {
+    String name;
+
+    public Person(String name) {
+        this.name = name;
+    }
+}
+
+public class PassByReferenceExample {
+    public static void main(String[] args) {
+        Person person1 = new Person("Alice");
+        modifyPerson(person1);
+        System.out.println(person1.name); // Output: Bob
+    }
+
+    static void modifyPerson(Person p) {
+        p.name = "Bob"; // Modifies the object's name
+    }
+}
+
+
+In this example, the `modifyPerson` method modifies the `name` field of the `Person` object. Because we are passing a copy of the reference, the change is reflected in the original `Person` object in the `main` method.
+
+## Conclusion
+
+Passing object references by value is a fundamental concept in Java. It's crucial to understand this mechanism to avoid unexpected behavior when modifying objects within methods.

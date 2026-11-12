@@ -1,0 +1,18 @@
+A wildcard character is used to substitute one or more characters in a string. Wildcard characters are used with the LIKE operator. The LIKE operator is used in a WHERE clause to search for a specified pattern in a column. 
+
+sql
+-- % = any number of characters
+-- _ = one character
+
+-- Find any client who are an LLC 
+SELECT * FROM client WHERE client_name LIKE '%LLC*';
+
+-- Find any branch supplier who are in the label business 
+SELECT * FROM branch_supplier WHERE supplier_name LIKE '% Label%';
+
+-- Find any employee born in october
+SELECT * FROM employee
+WHERE birth_date LIKE '____-10%';
+
+-- Find any client where are schools
+SELECT * FROM cleint WHERE client_name LIKE '%school%';

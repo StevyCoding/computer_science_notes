@@ -1,0 +1,1 @@
+With ESLint you can impose the coding standard using a certain set of standalone rules.

@@ -1,0 +1,19 @@
+```markdown
+# Scheduling
+
+## Cue
+
+This document provides an overview of scheduling in Kubernetes (k8s).
+
+## Key Points
+
+1. **Pod Assignment**: Pods are assigned to worker nodes based on resource availability, labels, affinity/anti-affinity, taints, and tolerations.
+
+   - Pods: The smallest deployable units in k8s, consisting of one or more containers that share the same network namespace.
+   - Scheduler: Assigns pods to nodes while labels are used for matching.
+   - Affinity and Anti-affinity Rules: These dictate how pods are scheduled based on their relationship with other pods or nodes.
+
+## Summary
+
+Scheduling in Kubernetes is the process of assigning pods to worker nodes, considering resource availability, labels, affinity-anti affinity, taints, and tolerations.
+```

@@ -1,0 +1,16 @@
+# The Introduction: Orienting Beginners to Kubernetes
+
+The introduction section of the book touches on the most important aspects of the exam and orients beginners to Kubernetes, providing a high-level overview of the lay of the land without introducing too much complexity.
+
+## Chapter Breakdown
+
+### Chapter 1: Exam Objectives and Preparation
+This chapter discusses the exam objectives, curriculum, and tips and tricks for passing the exam. It provides a roadmap for the topics covered in the book and helps readers understand what to expect from the certification exam.
+
+### Chapter 2: Kubernetes Overview
+This chapter is a short and sweet overview of Kubernetes. It summarizes the purpose and benefits of Kubernetes, and provides an overview of its architecture and components. This chapter serves as a foundation for the more detailed topics covered in the following chapters.
+
+### Chapter 3: Interacting with Kubernetes
+This chapter discusses how to interact with a Kubernetes cluster using the command-line tool kubectl. As the primary user interface during the exam, readers will learn about imperative and declarative commands, their pros and cons, as well as time-saving techniques for the exam.
+
+By covering these introductory topics, the book aims to provide beginners with a solid understanding of Kubernetes and the exam requirements, preparing them for the more advanced concepts and hands-on skills covered in the subsequent chapters.

@@ -1,0 +1,21 @@
+## What is Kubernetes?
+
+* A **portable and extensible open-source platform** for managing containerized workloads and services.
+* Facilitates **declarative configuration** and **automation**.
+* **Created by Google**.
+
+## Why use Kubernetes?
+
+* A powerful platform to **deploy and manage containerized applications at scale**.
+* Enables **easy scalability**, **application portability**, **high resilience**, and **automation**.
+* **Reduces complexity and workload** for operations teams.
+
+## Key Concepts and Architecture
+
+* **Cluster Architecture**: The fundamental architectural concepts behind Kubernetes.
+* **Container**: Technology that **packages an application with its runtime dependencies**.
+* **Workloads**: Understanding **Pods**, the smallest deployable compute objects in Kubernetes, and the higher-level abstractions used to run them.
+* **Services, Load Balancing, and Networking**: Concepts and resources behind **networking and communication between pods**.
+* **Storage**: Ways to provide both **temporary and persistent storage** to pods in your cluster.
+* **Configuration**: Mechanisms Kubernetes provides for **configuring pods**.
+* **Cluster Administration**: Low-level details relevant to **creating and managing a Kubernetes cluster**.

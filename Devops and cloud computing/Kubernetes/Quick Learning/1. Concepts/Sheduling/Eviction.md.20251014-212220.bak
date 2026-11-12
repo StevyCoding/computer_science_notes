@@ -1,0 +1,28 @@
+# Cue ℹ️
+
+- What are evictions in Kubernetes?
+- Why do they occur?
+- Who can initiate them?
+- How does Kubernetes handle them?
+
+# Definition
+* **Evictions** terminate or delete running pods from a node in Kubernetes.
+
+# Reasons
+- **Resource constraints**: such as CPU, memory, or disk usage.
+- **Pod failures** or issues with the nodes themselves. 
+
+# Initiation
+- Evictions can be triggered by the **system** automatically.
+- They can also be done **manually** by administrators via the API.
+
+# Types
+* **Graceful evictions**: These allow pods to clean up resources before termination, providing an orderly shutdown process.
+* **Forceful evictions**: These immediately terminate pods without giving them a chance to clean up resources. 
+
+# Mechanisms to manage
+- **Preemption**: Higher-priority pods can evict lower-priority ones.
+- **Pod Disruption Budgets (PDBs)**: Limit voluntary evictions to minimize service impact. 
+
+# Importance
+Evictions play a crucial role in maintaining the **health**, **stability**, and **resource management** of a Kubernetes cluster. 🚀

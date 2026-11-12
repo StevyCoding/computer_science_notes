@@ -1,0 +1,7 @@
+### Deployment (K8s)
+
+* **Res obj** to manage **Pods & RS** via **decl conf**.
+* Defines **desired state**: #Pods, **deploy strat**, **container image**, etc.
+* **Deploy ctrl** ensures **actual = desired state** (e.g., replace failed pod).
+* Supports **strats**: **Recreate**, **Rolling Update**, + advanced options.
+

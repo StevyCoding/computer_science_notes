@@ -1,0 +1,30 @@
+# Cue 💡
+
+- **Definition**: What is scheduling?
+- **Explanation**: How does it work?
+
+# Key Points
+## Scheduling ⚙️
+- Definition: The process of assigning workloads to specific nodes in a cluster.
+- Factors Considered: The scheduling decision is based on factors such as resource availability, node suitability, and workload priorities.
+
+## Benefits ✅
+- Ensures efficient resource usage by avoiding overloading nodes.
+- Takes into account factors like geographic location, hardware requirements, and app-specific needs.
+
+# Summary 📝
+Scheduling refers to the process of assigning a workload to specific nodes in a cluster. The scheduling decision is dependent on resource availability, suitability, and workload priorities, aiming to ensure efficient resource usage across the cluster and avoid overloading nodes.
+
+# Mindmap 🗺️
+markmap
+---
+title: Scheduling
+markmap:
+  colorFreezeLevel: 2
+---
+# Scheduling
+## Basic Concepts
+## Taints and Tolerations
+## Topology Spread Constraints
+## Pod Priorities
+## Eviction Strategies

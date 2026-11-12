@@ -4,4 +4,4 @@ Earlier in this lesson, we compared the Agile approach to the Waterfall methodol
 
 Now, describe a personal or professional project. In which parts of the project did you follow the Agile approach and in which parts did you follow the Waterfall methodology?
 
-Please include 5-10 sentences in your written response. Then, visit the [discussion forums](https://www.coursera.org/learn/agile-project-management/discussions/) to check out what others shared, and choose two or more posts to comment on and discuss.
+Please include 5-10 sentences in your written response. Then, visit the [discussion forums](https://www.coursera.org/learn/agile-project-management/discussions/) to check out what others shared, and choose two or more posts to comment on and discuss. 💬

@@ -1,7 +1,7 @@
-## 5 scrum events
+## 5 Scrum Events 🚀
 
 - Sprint
-- Sprints planning
-- Daily Scrum
-- Sprint review
+- **Sprints Planning**
+- Daily Scrum 🗓️
+- Sprint Review
 - Sprint Retrospective

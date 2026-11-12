@@ -1,0 +1,10 @@
+# Working with operators
+
+Operators extend Kubernetes functionality without modifying its core code. They act like plugins, automating tasks such as deploying, configuring, scaling, upgrading, and managing applications.
+
+# The operator Pattern
+
+An operator typically includes two parts: Custom Resource Definitions (CRDs) and a controller. CRDs define the structure for custom objects, while their instances are called Custom Resources (CRs). A controller is needed to manage these CRs by interacting with the Kubernetes API and handling reconciliation logic. Together, CRDs and controllers form the operator pattern. Since the exam doesn’t cover controllers, their implementation is not discussed here. 
+![[Pasted image 20250622144105.png| The Kubernetes operator pattern]]
+## Discovering Operators
+

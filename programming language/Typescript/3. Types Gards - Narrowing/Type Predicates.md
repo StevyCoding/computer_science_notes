@@ -1,6 +1,6 @@
-Type predicates are functions that return a boolean value. They are used to narrow the type of a variable. Type predicates are used in type guards.
+Type predicates are functions that return a boolean value. They are used to narrow the type of a variable and are frequently employed in **type guards**. 
 
-```ts
+```javascript
 function isString(value: unknown): value is string {
   return typeof value === 'string';
 }

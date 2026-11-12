@@ -1,6 +1,6 @@
-Function Overloading in TypeScript allows multiple functions with the same name but with different parameters to be defined. The correct function to call is determined based on the number, type, and order of the arguments passed to the function at runtime.
+Function Overloading in TypeScript allows multiple functions with the same name but with different parameters to be defined. The correct function to call is determined based on the number, type, and order of the arguments passed to the function at runtime. 
 
-```ts
+```typescript
 function add(a: number, b: number): number;
 function add(a: string, b: string): string;
 

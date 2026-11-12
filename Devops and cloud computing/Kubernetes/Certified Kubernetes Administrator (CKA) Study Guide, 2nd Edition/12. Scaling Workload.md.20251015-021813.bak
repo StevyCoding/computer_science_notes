@@ -1,0 +1,60 @@
+# Obsidian Workflow 🛠️
+
+## Daily Notes 🗓️
+
+*   Use the **Daily Notes** plugin to create a new note each day.
+*   Template:
+    *   Date: `YYYY-MM-DD`
+    *   Tasks:
+        *   [ ] Task 1
+        *   [ ] Task 2
+    *   Quotes:
+        *   “Quote 1”
+        *   “Quote 1”
+*   **Templates** are used for Daily Notes.
+
+## Tasks 📝
+
+*   Use the **Tasks** plugin to manage tasks.
+*   Tasks are stored in the **Tasks** folder.
+*   **Recurring Tasks:**
+    *   `due: 2024-01-01 recur: weekly`
+*   **Tasks** can be filtered and sorted.
+
+## Plugins 🔌
+
+*   **Daily Notes**
+*   **Tasks**
+*   **Dataview**
+*   **Templater**
+
+## File Structure 📁
+
+*   **Notes:** General notes, ideas, and thoughts.
+*   **Attachments:** Images, PDFs, and other files.
+*   **Templates:** Templates for Daily Notes and other notes.
+*   **Tasks:** Tasks and task lists.
+
+## Dataview Queries 📊
+
+dataview
+TABLE file.mtime AS "Last Modified"
+FROM ""
+WHERE file.mtime > date("2023-01-01")
+SORT file.mtime DESC
+
+
+dataview
+LIST
+FROM #tag
+
+
+## Wiki Links 🔗
+
+*   Use `[[Note Name]]` to create **wiki-links** to other notes.
+*   **Internal Links**: `[[Note Name|Display Text]]`
+
+## Tags 🏷️
+
+*   Use `#tag` to categorize notes.
+*   **Example Tags**: `#project`, `#idea`, `#meeting`

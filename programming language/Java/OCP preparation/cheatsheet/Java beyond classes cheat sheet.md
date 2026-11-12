@@ -1,4 +1,6 @@
-Here's a **Java OCP 17 Cheat Sheet** covering all the requested concepts. This guide will focus on **Enums**, **Records**, **Inner Classes**, **Polymorphism**, and other advanced object-oriented principles, along with some exam essentials.
+**Java OCP 17 Cheat Sheet**
+
+This guide focuses on Enums, Records, Inner Classes, Polymorphism, and other advanced object-oriented principles, along with some exam essentials.
 
 ---
 
@@ -122,7 +124,7 @@ Person person = new Person("John", 25);
 System.out.println(person.name()); // Getter method for name
 ```
 
-#### Declaringb Constructors
+#### Declaring Constructors
 
 - Records can have custom constructors, and they automatically generate the constructor matching the fields.
 
@@ -329,7 +331,3 @@ animal.sound();  // Outputs "Bark"
 - **Lambda Expressions**: Practice using functional interfaces and stream operations.
 - **Stream API**: Familiarize with common methods like `map()`, `filter()`, `collect()`, and `reduce()`.
 - **Concurrency**: Know how to use `ExecutorService` and `CompletableFuture` for concurrent programming.
-
----
-
-This cheat sheet is designed to help you understand the advanced Java concepts that are essential for the **OCP 17 exam**. Ensure you practice with examples and understand the underlying principles behind each topic.

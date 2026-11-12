@@ -1,17 +1,20 @@
-We can create document api in hjava by the help of javadoc. In the java file we must use comment `/**..**/` top post information for the class, method, constructor, fileds etc.
+We can create a Document API in HJava by the help of Javadoc. In the Java file, we must use comment `/**...*/` to document class, method, constructor, fields, etc.
 
 ```java
-package com.abc;  
-/** This class is a user-defined class that contains one methods cube.*/  
-public class M{  
-  
-/** The cube method prints cube of the given number */  
-public static void  cube(int n){System.out.println(n*n*n);}  
-}  
+package com.abc;
+
+/** This class is a user-defined class that contains one method: cube. */
+public class M {
+
+    /** The cube method prints the cube of the given number. */
+    public static void cube(int n) {
+        System.out.println(n * n * n);
+    }
+}
 ```
 
-to generate de doc use this command
+to generate documentation, use this command:
 
 ```cmd
-javadoc M.jva
+javadoc M.java
 ```

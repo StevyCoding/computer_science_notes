@@ -1,0 +1,110 @@
+- **📦 Packaging and deploying Java code**
+    - Use the **Java Platform Module System (JPMS)** 🛠️ to structure and deploy Java applications.
+
+- **🔧 Define modules and their dependencies**
+    - Understand how to define **modules** in Java 🔑 and manage **dependencies** 🔗.
+
+- **🔍 Expose module content, including for reflection**
+    - Know how to expose **module content** for use with **reflection** 🪞 and other mechanisms.
+
+- **🛠️ Define services, producers, and consumers**
+    - Learn how to define **services** 🏢, **producers** 🎭, and **consumers** 📡 within the module system.
+
+- **🖥️ Compile Java code, produce modular and non-modular JARs**
+    - Know how to **compile Java code** 📝 into **modular** and **non-modular JARs** 📦.
+
+- **🚀 Create runtime images and implement migration**
+    - Learn to **produce runtime images** 🔥 for efficient application execution.
+    - Implement **migration** techniques using **unnamed modules** and **automatic modules** 🔄.
+
+# Chapter Summary:
+
+- **Modules**: Packages can be grouped into modules. This chapter explains how to build, run, and discover modules.
+- **Migration & Dependencies**: Strategies for migrating applications to modules, handling partially modularized apps, and managing dependencies.
+- **Services**: Discussion on services and service locators within modules.
+- **Runtime Image**: Instructions on creating a runtime image for your application.
+- **Code Availability**: The chapter’s code is available online on GitHub, with commands provided for easy copying and comparison.
+
+# Introducing Modules
+
+<u>Definiton</u>
+
+- A **module** in Java is a collection of related **packages** and **resources**.
+- Introduced in **Java 9** through the **Java Platform Module System (JPMS)**.
+- Modules help organize **code** and manage **dependencies**.
+- A module declares:
+    - Which **packages** it **exports** (making them accessible to other modules).
+    - Which **modules** it **depends on**.
+- Provides better **encapsulation**, **maintainability**, and **security**.
+- Enables more **scalable**, **testable**, and **maintainable** applications.
+
+<u>Detail</u>
+
+- **Exam code**: Typically involves small classes, whereas real projects have hundreds or thousands of classes grouped into **Java Archive (JAR) files**, which are **ZIP** files with extra information.
+- **Open Source**: Java applications often use open-source code, also distributed as JAR files, with libraries for tasks like file handling or database connections.
+- **JAR Hell**: The complex dependency chain of different libraries with incompatible versions, causing issues like incorrect class loading or **ClassNotFoundException**.
+- **Java Platform Module System (JPMS)**: Organizes code at a higher level, grouping related **packages** into **modules**, where developers control which packages are accessible outside the module.
+- **JPMS Features**: Includes a format for module JAR files, partitioning of the JDK into modules, and new command-line options for Java tools.
+
+## Exploring a Module
+
+- A **module** is a group of one or more **packages** plus a **module-info.java** file that declares the module.
+- In a larger application, like an automated zoo, various modules would handle different functionalities (e.g., animal interactions, visitors, website).
+- **Dependencies**: Modules often rely on other modules, represented by arrows, indicating one module's code is used by another (e.g., `zoo.staff` depends on `zoo.animal.feeding`).
+
+![[Pasted image 20241129062130.png]]
+
+- The **zoo.animal.talks module** contains **three packages**, each with **two classes**.
+- It includes a **module-info.java** file, which is required in all modules. Further explanation of this file is provided later in the chapter.
+
+![[Pasted image 20241129062306.png]]
+
+## Benefits of Modules
+
+Modules in Java solve several key problems:
+
+- **Better access control** 🔒: Allows packages to be accessible only within the module, enhancing encapsulation.
+- **Clearer dependency management** 📦: Ensures missing dependencies are identified at startup, not at runtime.
+- **Custom Java builds** 🛠️: Enables creation of lightweight runtimes with only necessary JDK parts.
+- **Improved security** 🔐: Reduces risk by excluding unused JDK components with potential vulnerabilities.
+- **Improved performance** ⚡: Smaller Java packages result in faster startup times and lower memory usage.
+- **Unique package enforcement** 📂: Ensures each package is uniquely tied to a module, avoiding confusion.
+
+# Creating and Running a Modular Program
+
+In this section, we create, build, and run the **zoo.animal.feeding** module, which is central as other modules depend on it. The module includes a **module-info.java** file and one **package** containing a single **class**.
+
+![[Pasted image 20241129062700.png|Module zoo.animal.feeding directory structure]]
+
+## Creating the Files
+
+To create the **zoo.animal.feeding** module, we start with a simple class:
+
+java
+package zoo.animal.feeding;
+
+public class Task {
+   public static void main(String… args) {
+      System.out.println("All fed!");
+   }
+}
+
+
+Next, we create the **module-info.java** file:
+
+java
+module zoo.animal.feeding {
+}
+
+
+Key differences between module and class declarations:
+
+- **module-info.java** must be in the module's root directory, unlike regular Java classes which are in packages.
+	- The `module-info.java` file is used to define a Java module in the Java Platform Module System (JPMS). It specifies the module's name, required modules, and exported packages.
+- Without the module-info.java file, the module cannot be compiled or run.
+
+## Updating Our Example for Multiple Modules
+
+The `zoo.animal.feeding` module is now complete, and the other three modules in the system depend on it, as shown in the figure.
+
+![[Pasted image 20241129075339.png| Modules depending on zoo.animal.feeding]]

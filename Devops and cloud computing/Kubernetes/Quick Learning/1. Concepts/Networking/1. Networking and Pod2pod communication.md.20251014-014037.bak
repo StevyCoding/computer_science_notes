@@ -1,0 +1,22 @@
+# Networking in Kubernetes (K8s) is Crucial for Pod & Cluster Resource Communication
+
+## Importance of Networking
+- Enables **scalability, reliability**, and **flexibility** in clusters.
+
+## Key Components
+1. Each **Pod** has a **unique IP**, allowing it to communicate directly with other Pods.
+2. **CNI plugins** configure **Pod Network Interface Cards (NICs)** and provide **isolation**.
+3. K8s offers various **network services**:
+    - **Load Balancing**
+    - **Service Discovery**
+    - **Ingress**
+
+These network services facilitate **external traffic access**.
+
+## Implementation
+- Utilize the following **Kubernetes objects**:
+    - **Services**
+    - **Ingress**
+    - **NetworkPolicies**
+
+![Pod and Network Diagram](Pasted_image_20250924230836.png)

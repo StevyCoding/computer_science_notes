@@ -1,0 +1,16 @@
+# Cue 💡
+- **Definition**: What are traces?
+- **Purpose**: Understanding their utility in Kubernetes (k8s) systems
+
+# Key Points
+- **Tracing in k8s** 🔍
+    - Monitoring the flow of requests through various system components
+    - **Tools used** 🛠️
+        - Jaeger
+        - Zipkin
+    - OpenTracing and OpenCensus: Standard methods for capturing traces across different components and applications.
+    - Traces aid in identifying performance bottlenecks, debugging issues, and optimizing the system for improved performance and scalability.
+    - By monitoring traces, administrators can identify problems and take corrective actions to ensure efficient system performance.
+
+# Summary
+Tracing involves monitoring the flow of requests within system components and applications, using tools like Jaeger, Zipkin, OpenTracing, and OpenCensus. This practice allows administrators to detect issues and implement corrective actions to ensure optimal system performance.

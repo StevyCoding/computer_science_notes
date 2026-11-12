@@ -1,0 +1,19 @@
+# Cue
+- What metric include ?
+- Tool use for metric ?
+#  Key points
+- Metric include :
+	- cpu usage
+	- network usage
+	- disk usage
+	- API server metrics
+	- pod and container metrics
+	- cluster level metric
+- provide info about the perf & the <3 of the cluster, nodes & apps running on the cluster.
+- tool used for metrics :
+	- Prometheus
+	- Grafana
+	- Kubernetes Dashboard
+- it help the admin indentify performance issue and optimize  the cluster for better perf and stability
+# Summary
+Metric provide information about the performance and the <3 of the cluster, nodes & apps by  collecting cpu usage, network usage, disk usage, API server metrics , pod and container metric, cluster lvl metrics. It help the admin to identify the perf isse & apply action for better perf and scalability of the cluster.

@@ -1,0 +1,28 @@
+# Cue
+- What's scheduling ?
+- how it work ?
+
+# Key points
+- **Scheduling**
+	- process of assigning workloads to specific nodes in cluster
+	- scheduling decision is based on factors such as res availability, node suitability  and workload priorities
+- **Benefits**
+	- ensure efficient res usage and avoid overloading nodes
+- it take into account factors like geographic location, hardware requirements, and app specific needs
+# Summary
+Scheduling => process  to assign workload to specific nodes in a cluster. Scheduling  decision depends of res availability, suitability, and workload priorities. it Ensure efficient res usage across the cluster and avoid nodes overloading.
+# Mindmap
+
+```markmap
+---
+title: Scheduling
+markmap:
+  colorFreezeLevel: 2
+---
+# Scheduling
+## Basic
+## Taints and Tolerations
+##  Topology Spread Constraints
+## Pod Priorities 
+## Eviction
+```

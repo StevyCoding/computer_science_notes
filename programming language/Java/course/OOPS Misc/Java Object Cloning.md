@@ -1,39 +1,41 @@
-Th object cloning is a way to create exact copy of an object.  The clone() method of Object class is used to clone an object.
+## Object Cloning 🥠
 
-The java.Cloneable interface must be implemented by the class whose object clone we want to create. If we don't implement Cloneable interface , clone( method generated CloneNotSupportedException.
+Object cloning is a way to create an exact copy of an object. The `clone()` method of the `Object` class is used to clone an object.
 
-The **clone() method** is defined in the Object class. Syntax of the clone() method is as follows
+The `java.Cloneable` interface must be implemented by the class whose object clone we want to create. If we don't implement the `Cloneable` interface, the `clone()` method generates a `CloneNotSupportedException`.
+
+The **`clone()` method** is defined in the `Object` class. Syntax of the `clone()` method is as follows:
 
 ```java
-protected Object clone() throw CloneNotSupportedException
+protected Object clone() throws CloneNotSupportedException
 ```
 
-## Example of clone() method (Object cloning)
+## Example of `clone()` method (Object cloning)
 
 ```java
 class Student18 implements Cloneable{
-int rollno;  
-String name;  
-  
-Student18(int rollno,String name){  
-this.rollno=rollno;  
-this.name=name;  
-}  
-  
-public Object clone()throws CloneNotSupportedException{  
-return super.clone();  
-}  
-  
-public static void main(String args[]){  
-try{  
-Student18 s1=new Student18(101,"amit");  
-  
-Student18 s2=(Student18)s1.clone();  
-  
-System.out.println(s1.rollno+" "+s1.name);  
-System.out.println(s2.rollno+" "+s2.name);  
-  
-}catch(CloneNotSupportedException c){}  
-}  
+    int rollno;
+    String name;
+
+    Student18(int rollno, String name) {
+        this.rollno = rollno;
+        this.name = name;
+    }
+
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
+
+    public static void main(String args[]) {
+        try {
+            Student18 s1 = new Student18(101, "amit");
+
+            Student18 s2 = (Student18) s1.clone();
+
+            System.out.println(s1.rollno + " " + s1.name);
+            System.out.println(s2.rollno + " " + s2.name);
+
+        } catch (CloneNotSupportedException c) {}
+    }
 }
 ```

@@ -1,5 +1,3 @@
-Here’s the corrected version without bold on titles:
-
 ### Java Streams Cheat Sheet (Java 17 OCP)
 
 ---
@@ -33,31 +31,30 @@ A stream pipeline consists of:
 #### 4. Stream Creation
 
 - **From Collections**:
-    
+
     ```java
     List<String> list = Arrays.asList("apple", "banana", "cherry");
     Stream<String> stream = list.stream(); // Sequential Stream
     ```
-    
+
 - **From Arrays**:
-    
+
     ```java
     String[] array = {"apple", "banana", "cherry"};
     Stream<String> stream = Arrays.stream(array);
     ```
-    
+
 - **From Specific Values**:
-    
+
     ```java
     Stream<String> stream = Stream.of("apple", "banana", "cherry");
     ```
-    
+
 - **From a Range** (for primitive types):
-    
+
     ```java
     IntStream stream = IntStream.range(1, 10); // Exclusive of 10
     ```
-    
 
 ---
 
@@ -130,6 +127,7 @@ Collectors are used to accumulate the elements of a stream into collections, sum
         Stream<String> parallelStream = list.stream().parallel();
         ```
         
+        
     - Terminal operations on parallel streams are often more efficient, but they require caution regarding thread safety and ordering.
 
 ---
@@ -180,7 +178,3 @@ System.out.println(groupedByLength); // {5=[apple], 6=[banana], 7=[cherry], 4=[d
 |`forEach(Consumer)`|Performs an action for each element.|
 |`reduce(BinaryOperator)`|Performs a reduction on the elements.|
 |`toArray()`|Converts the stream into an array.|
-
----
-
-This cheat sheet should cover all the key **Stream API** concepts and methods that you will need to master for the **Java 17 OCP Exam**. Understanding streams and functional-style programming will significantly improve your ability to write efficient and clean Java code.

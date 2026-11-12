@@ -1,0 +1,18 @@
+The Java Collection framework provides an architecture for storing and manipulating objects. It offers a wide range of data structures like ArrayList, LinkedList, HashSet, and TreeSet. These are based on interfaces such as Collection, List, Set, and Map, alongside classes like AbstractCollection, AbstractList, and AbstractMap.
+
+The core interfaces define how to work with groups of objects.  List stores ordered collections, Set manages unique elements, and Map maps unique keys to values.
+
+Key classes include:
+
+*   **ArrayList:** A dynamic array implementation of List.
+*   **LinkedList:** An implementation of List using a linked list.
+*   **HashSet:** A Set implementation using a hash table for fast lookups.
+*   **TreeSet:** A Set implemented using a tree, maintaining elements in sorted order.
+*   **HashMap:** A Map implementation using a hash table for fast key-value lookups.
+*   **TreeMap:** A Map implementation using a tree, maintaining keys in sorted order.
+
+The framework offers several abstract classes like AbstractCollection, AbstractList, and AbstractMap, which provide skeletal implementations to minimize development effort.  Legacy classes like Vector, Stack, Hashtable, and Properties were also part of the original java.util.
+
+The Collections class provides static methods for working with collections and maps, although some methods can throw exceptions like ClassCastException or UnsupportedOperationException.  Important static variables include EMPTY\_SET, EMPTY\_LIST, and EMPTY\_MAP.
+
+The framework also supports other data structures such as Queue and Deque.

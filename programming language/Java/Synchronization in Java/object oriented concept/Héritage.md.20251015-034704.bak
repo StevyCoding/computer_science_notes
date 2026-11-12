@@ -1,0 +1,1 @@
+L'héritage permet à une classe (appelée sous-classe ou classe dérivée) de hériter des propriétés et des méthodes d'une autre classe (appelée classe de base ou superclasse). Cela favorise la réutilisabilité du code, car les sous-classes peuvent étendre ou modifier le comportement de la classe de base.

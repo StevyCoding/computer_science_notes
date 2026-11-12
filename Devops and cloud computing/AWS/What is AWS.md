@@ -1,6 +1,6 @@
 Amazon Web Services (AWS) is a comprehensive, on-demand cloud computing platform provided by Amazon.com. Launched in 2006, AWS offers a vast array of cloud services, including computing power, storage options, networking, databases, machine learning, analytics, security, and more. AWS enables businesses and individuals to access and utilize computing resources without the need to invest in and maintain physical infrastructure.
 
-![[Pasted image 20231121021406.png]]
+![Pasted image 20231121021406.png]
 
 ## Compute Services:
 
@@ -38,14 +38,14 @@ Amazon Web Services (AWS) is a comprehensive, on-demand cloud computing platform
 
 ## Artificial Intelligence and Machine Learning:
 
-- **Amazon SageMaker:** Fully managed service for building, training, and deploying machine learning models.
+- **Amazon SageMaker:** Fully managed service for building, training, and deploying machine learning models. 🤖
 
 ## Internet of Things (IoT):
 
-- **AWS IoT:** Provides services to securely connect and manage IoT devices.
+- **AWS IoT:** Provides services to securely connect and manage IoT devices. 📡
 
 ## Serverless Computing:
 
-- **AWS Step Functions:** Coordinates the components of distributed applications and microservices using visual workflows.
+- **AWS Step Functions:** Coordinates the components of distributed applications and microservices using visual workflows. ⚙️
 
-AWS has a global presence with data centers (regions) in various geographical locations, allowing users to deploy applications and services close to their end-users for reduced latency. The platform is widely used by businesses of all sizes for its flexibility, scalability, and cost-effectiveness. AWS certifications are also available, allowing individuals to demonstrate their expertise in different AWS services and solutions.
+AWS has a global presence with data centers (regions) in various geographical locations, allowing users to deploy applications and services close to their end-users for reduced latency. The platform is widely used by businesses of all sizes for its flexibility, scalability, and cost-effectiveness. AWS certifications are also available, allowing individuals to demonstrate their expertise in different AWS services and solutions. 🏆

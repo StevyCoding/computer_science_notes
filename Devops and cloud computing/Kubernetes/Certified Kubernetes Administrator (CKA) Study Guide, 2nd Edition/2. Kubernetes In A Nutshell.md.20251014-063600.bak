@@ -1,0 +1,72 @@
+# What Is Kubernetes?
+To understand Kubernetes, let's first define microservices and containers.
+Microservice architectures call for developing and executing application pieces as individual services that communicate with each other. If these services are run in containers, you'll need to manage many containers while considering scalability, security, persistence, and load balancing.
+
+Container tools like buildkit, Podman, and container runtimes like Docker Engine and containerd package and run software in containers, great for development and CI/CD.
+## Kubernetes: Container Orchestration
+Kubernetes is a container orchestration tool that helps operate hundreds or thousands of containers on physical, virtual, or cloud infrastructure. It integrates with container runtimes to manage the lifecycle of containers.
+The fundamental unit in Kubernetes is a Pod, which can run one or more containers while adding cross-cutting concerns like security and resource consumption.
+## Key Kubernetes Features
+### Declarative Model
+Kubernetes uses a declarative model - you define the desired state in a YAML/JSON manifest, and Kubernetes maintains that state.
+### Autoscaling
+Kubernetes can automatically scale resources up and down based on application load.
+### Application Management
+Kubernetes makes it easy to roll out application changes and roll back if needed.
+### Persistent Storage
+Kubernetes provides the ability to mount persistent storage for application workloads.
+### Networking
+Kubernetes handles internal and external load balancing for container networking.
+
+# High Level architecture
+
+Kubernetes consists  of :
+- Control plane nodes (master nodes)
+	- API server
+	- Controller Manager
+	- Scheduler
+- Worker nodes
+	- kubelet
+	- pods
+		- container
+	- Addons
+	- Container Runtime
+	- Kube Proxy (Network proxy)
+	
+- Those nodes can run in a physical machine or virtual  machine
+![[Pasted image 20250503113007.png]]
+## Control pane
+- expose the the kubernetes API with the API server
+- Manage the nodes
+- Respond to the cluster events( adding more nodes, sclaling etc)
+- Production cluster uses **highly available architecture (HA architecture)** involve 3 or more control pane nodes.
+## Worker node
+- execute app in container managed by pods
+- every worker node needs a container runtime engine to be able to manage containers
+
+## Control  Pane Node Components
+- the control pane need a  set of component to perform its job 
+	- **API sever**
+		- allow the user to communicate with the kubernetes cluster
+		- for example with kubectl, a command line bases kubernetes client, allow us to make some kubernetes  Restful API call
+		- procedure in the API server ensure aspect like authentication, authorization, ans admission control.
+	- **Scheduler**
+		- a background process watching for new Kubernetes Pods with no assigned nodes and assigns them to a worker node for execution.
+	- **Controller manager**
+		- watching state of the cluster and making changes where needed
+		- For ex if you make a cfg change to a existing object, the controller manager will try to bring the object into the desired state.
+	- **Etcd**
+		- ensure cluster state data consistency.
+		- a key value store uses to persist all data related to the Kubernetes cluster
+
+## Common Node Components
+- **Kubelet**
+	- a node agent ensuring that the necessary containers are running in a pod and they are are healthy.
+	- a glue between container runtime engine and kubernetes
+- **Kube Proxy**
+	- A networ proxy running on each node
+	- maintain netwok rules nd enable network communication
+	- this component is responsible to implement the service concept
+- **Container runtime**
+	- Kubernetes can support a lot of contairner engine
+	- it's a software to manage  containers

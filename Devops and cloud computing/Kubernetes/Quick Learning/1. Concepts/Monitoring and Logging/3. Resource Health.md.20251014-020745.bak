@@ -1,0 +1,25 @@
+# Title: Resource Health Monitoring (RHM) in Kubernetes
+
+## Cue
+- **What is Resource Health Monitoring (RHM)?**
+- **Why is it important?**
+- **Tools used for this?**
+
+## Key Points
+### Definition of RHM
+- Monitors the health and availability of resources such as pods, nodes, and containers.
+- Helps administrators identify and troubleshoot issues affecting system performance and availability.
+- Common Tools:
+    - Dashboard
+    - Prometheus
+    - Grafana
+
+### Significance of RHM
+- Ensures that the system is **resilient to failures** and can quickly **recover from any disruptions.**
+- It plays a crucial role in managing a cluster, ensuring:
+    - **Reliability**
+    - **Availability**
+    - **Scalability**
+
+## Summary
+Resource Health Monitoring (RHM) is the practice of tracking the health and availability of Kubernetes resources. By utilizing tools like Dashboard, Prometheus, and Grafana, administrators can maintain reliable, available, and scalable clusters even during failures.

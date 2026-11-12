@@ -1,0 +1,17 @@
+```markdown
+# Question / Cue
+1. What is a resource request?
+2. Where can they be configured?
+3. Is it important?
+
+# Key Point
+- A resource request specifies the minimum and maximum amount of CPU and memory a container requires to run.
+- Resource requests help in scheduling containers on nodes with sufficient resources.
+- Limits enforce resource quotas and prevent containers from consuming too much.
+- These settings can be configured at the pod or container level using the `resources` field in YAML.
+
+# Summary
+Resource requests allow specifying the amount of CPU and memory a container needs to run, ensuring it runs with enough resources. On the other hand, resource limits enforce resource quotas and prevent containers from consuming excessive resources. It's crucial to set resource requests and limits correctly to ensure optimal resource usage in a Kubernetes (k8s) cluster.
+
+![example of res req and limit](Pasted image 20250925222355.png)
+```

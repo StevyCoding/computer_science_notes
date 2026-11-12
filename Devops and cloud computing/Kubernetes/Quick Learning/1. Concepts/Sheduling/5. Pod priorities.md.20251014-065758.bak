@@ -1,0 +1,22 @@
+# Cue: Pod Priorities in Kubernetes 🚀
+
+Learn about pod priorities, their functionality, significance, and assignment in Kubernetes.
+
+## Key Points
+- **Definition:**
+    - Pod priorities define the order of scheduling when multiple pods compete for resources.
+- **How it works:**
+    - Each pod is assigned a **numeric priority value**.
+      Higher values signify **higher priority**.
+    - The scheduler aims to maximize the **total priority** of scheduled pods, considering other factors such as:
+        - **Node suitability**
+        - **Taints and tolerations**
+        - **Affinity/anti-affinity rules**
+- **Assignment:**
+    - Can be set either **manually** or **automatically**, based on business logic or requirements.
+- **Benefits:**
+    - Ensures that **critical workloads** are scheduled first.
+    - Lower priority workloads run when resources become **available**.
+
+## Summary
+In Kubernetes, pod priorities assign numeric values to pods, influencing the order in which they are scheduled. This ensures critical workloads get scheduled first, while less important pods wait until resources are available. ⏳

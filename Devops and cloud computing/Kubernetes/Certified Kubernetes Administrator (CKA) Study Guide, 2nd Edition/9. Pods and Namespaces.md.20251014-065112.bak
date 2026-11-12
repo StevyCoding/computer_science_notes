@@ -1,0 +1,46 @@
+# Obsidian Setup ⚙️
+
+## Core Plugins ➕
+
+- **Daily notes** - Essential for journaling and tracking daily tasks.
+- **Backlinks** - Vital for connecting notes and understanding relationships.
+- **Outgoing Links** - Helps discover connections between notes.
+- **Tag Pane** - Quick access to tags.
+- **Search** - Obviously... 🔍
+- **File Recovery** - Just in case! 💾
+- **Quickswitch** - Quickly switch between vaults.
+- **Open Link with Editor** - Opens links in the editor.
+
+## Useful Plugins ✨
+
+- **Breadcrumbs** - Visualize note hierarchy. 🗺️
+- **Dataview** - Query and display data from your notes. 📊
+- **Templater** - Automate note creation. 🤖
+- **QuickAdd** - Capture information quickly. ✍️
+- **Calendar** - View notes by date. 🗓️
+- **Periodic Notes** - Recurring notes (daily, weekly, monthly). 🔁
+- **Note Refactor** - Rename and reorganize notes.
+- **Table Editor** - Easier table editing. 🔭
+- **Excalidraw** - Drawing and diagramming. ✏️
+
+## Appearance 🎨
+
+- **Minimal Theme** - Clean and uncluttered.
+- **Better Font Handling** - Improved font rendering.
+- **Smooth Scrolling** - More pleasant scrolling experience.
+
+## Custom CSS 💅
+
+css
+/* Example CSS */
+body {
+  font-family: sans-serif;
+}
+
+
+## Keyboard Shortcuts ⌨️
+
+- `Ctrl/Cmd + P` - Quick search.
+- `Ctrl/Cmd + Shift + P` - Open command palette.
+- `Ctrl/Cmd + E` - Open the second pane.
+- `Ctrl/Cmd + B` - Toggle bold.

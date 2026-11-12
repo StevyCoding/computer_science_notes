@@ -1,0 +1,10 @@
+# Amazon Virtual Private Cloud (VPC) ☁️
+
+Amazon Virtual Private Cloud (VPC) is a fundamental networking service provided by Amazon Web Services (AWS) that allows users to create isolated and customizable network environments within the AWS cloud. VPC enables users to launch AWS resources, such as Amazon EC2 instances, into a virtual network that closely resembles a traditional on-premises network.
+
+## Key Aspects and Features:
+
+### 1. **Isolation and Customization** 🛡️
+
+- **Definition:** VPC provides logical isolation for your resources within the AWS Cloud. You can create multiple VPCs, each with its own IP address range, route tables, and network gateways.
+- **Use Case:** This allows you to create segmented and isolated environments ([[Network segmentation is an architectural approach that divides a network into multiple segments or subnets, each acting as its own small network]]) for different applications or business units.

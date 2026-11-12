@@ -1,0 +1,21 @@
+# RBAC (Role-Based Access Control) for Kubernetes 🚀
+
+This note provides information about **Role-Based Access Control** (RBAC) for Kubernetes.
+
+## Questions
+- What is RBAC?
+- How to use it?
+- Why is it important?
+
+## Key Points
+### Role-Based Access Control (RBAC)
+- It is a method of controlling access to Kubernetes resources based on the roles assigned to users or groups.
+  - Creating roles and binding them to users or groups
+  - Roles are defined as a set of rules that determine what actions can be performed on a specific resource.
+  - Resources can be restricted/granted based on the permissions defined in the role.
+  - Helps ensure the security and integrity of Kubernetes cluster.
+
+## Summary
+RBAC is a method to control access to the Kubernetes cluster based on the roles of users & groups. It allows you to create roles and assign them to users or groups. A role consists of a defined set of rules that specify what actions can be performed on a specific resource. Resources can be restricted/granted based on the permissions listed in the role.
+
+![Pasted image 20250926115910](https://example.com/image.png)

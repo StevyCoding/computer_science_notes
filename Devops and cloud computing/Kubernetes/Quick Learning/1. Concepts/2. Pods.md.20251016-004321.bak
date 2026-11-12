@@ -1,0 +1,5 @@
+# What’s a **Pod** 🐳
+
+- Smallest deployable unit that represents a single instance running a process in a cluster.
+- A **pod** can contain one or more **containers** that share the same network namespace and can access the same storage volumes. 
+![Pasted image 20250924224151.png]

@@ -1,18 +1,19 @@
 TypeScript has several built-in types, including:
 
-- number
-- string
-- boolean
-- any
-- void
-- null and undefined
-- never
-- object
-- symbol
-- Enumerated types (enum)
-- Tuple types
-- Array types
-- Union types
-- Intersection types
-- Type aliases
-- Type assertions
+-   **number**
+-   **string**
+-   **boolean**
+-   `any`
+-   `void`
+-   `null` and `undefined`
+-   `never`
+-   `object`
+-   `symbol`
+-   Enumerated types (**enum**)
+-   Tuple types
+-   Array types
+-   Union types
+-   Intersection types
+-   Type aliases 
+
+🎉  Explore these types for robust type safety!

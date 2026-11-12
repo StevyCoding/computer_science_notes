@@ -66,48 +66,48 @@ The `java.nio.file` package provides better file handling with Path, Files, and 
 
 - **Byte Stream (InputStream):**
     
-    ```java
+    java
     InputStream in = new FileInputStream("file.txt");
     int data = in.read();
     in.close();
-    ```
+    
     
 - **Character Stream (Reader):**
     
-    ```java
+    java
     Reader reader = new FileReader("file.txt");
     int data = reader.read();
     reader.close();
-    ```
+    
     
 
 ##### 4.2. Writing Files
 
 - **Byte Stream (OutputStream):**
     
-    ```java
+    java
     OutputStream out = new FileOutputStream("file.txt");
     out.write(data);
     out.close();
-    ```
+    
     
 - **Character Stream (Writer):**
     
-    ```java
+    java
     Writer writer = new FileWriter("file.txt");
     writer.write(data);
     writer.close();
-    ```
+    
     
 
 ##### 4.3. Buffered I/O
 
 - Improves efficiency by reducing the number of I/O operations.
     
-    ```java
+    java
     BufferedReader reader = new BufferedReader(new FileReader("file.txt"));
     BufferedWriter writer = new BufferedWriter(new FileWriter("file.txt"));
-    ```
+    
     
 
 ---
@@ -116,16 +116,16 @@ The `java.nio.file` package provides better file handling with Path, Files, and 
 
 - **Serializable** interface marks a class as serializable.
     
-    ```java
+    java
     public class MyClass implements Serializable {
         private int id;
         private String name;
     }
-    ```
+    
     
 - **Object Streams** allow serialization/deserialization of objects:
     
-    ```java
+    java
     ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("object.dat"));
     out.writeObject(myObject);
     out.close();
@@ -133,7 +133,7 @@ The `java.nio.file` package provides better file handling with Path, Files, and 
     ObjectInputStream in = new ObjectInputStream(new FileInputStream("object.dat"));
     MyClass myObject = (MyClass) in.readObject();
     in.close();
-    ```
+    
     
 
 ---
@@ -142,11 +142,11 @@ The `java.nio.file` package provides better file handling with Path, Files, and 
 
 - Used for printing formatted text to files or consoles.
     
-    ```java
+    java
     PrintWriter writer = new PrintWriter(new FileWriter("file.txt"));
     writer.println("Hello, World!");
     writer.close();
-    ```
+    
     
 
 ---
@@ -163,23 +163,23 @@ The `java.nio.file` package provides better file handling with Path, Files, and 
 
 - Used for reading and writing files with performance optimizations.
     
-    ```java
+    java
     FileChannel channel = new RandomAccessFile("file.txt", "rw").getChannel();
     ByteBuffer buffer = ByteBuffer.allocate(1024);
     channel.read(buffer);
     channel.close();
-    ```
+    
     
 
 ##### 7.3. ByteBuffer
 
 - A container for data used in NIO.
     
-    ```java
+    java
     ByteBuffer buffer = ByteBuffer.allocate(256);
     buffer.put("Hello".getBytes());
     buffer.flip();
-    ```
+    
     
 
 ---
@@ -190,7 +190,7 @@ The `java.nio.file` package provides better file handling with Path, Files, and 
 
 - Walk through directory trees using `Files.walkFileTree`.
     
-    ```java
+    java
     Files.walkFileTree(Paths.get("/path"), new SimpleFileVisitor<Path>() {
         @Override
         public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) {
@@ -198,7 +198,7 @@ The `java.nio.file` package provides better file handling with Path, Files, and 
             return FileVisitResult.CONTINUE;
         }
     });
-    ```
+    
     
 
 ---
@@ -209,13 +209,13 @@ The `java.nio.file` package provides better file handling with Path, Files, and 
 
 - **IOException** is the parent exception for file I/O errors.
     
-    ```java
+    java
     try {
         Files.copy(Paths.get("source.txt"), Paths.get("target.txt"));
     } catch (IOException e) {
         e.printStackTrace();
     }
-    ```
+    
     
 
 ##### 9.2. Checked vs. Unchecked Exceptions
@@ -231,22 +231,22 @@ The `java.nio.file` package provides better file handling with Path, Files, and 
 
 - Streams in Java 8+ can be used with file I/O to process large volumes of data efficiently.
     
-    ```java
+    java
     List<String> lines = Files.lines(Paths.get("file.txt"))
                                .filter(line -> line.contains("example"))
                                .collect(Collectors.toList());
-    ```
+    
     
 
 ##### 10.2. Using `Files.lines()`
 
 - Efficiently read large files line by line.
     
-    ```java
+    java
     try (Stream<String> lines = Files.lines(Paths.get("file.txt"))) {
         lines.forEach(System.out::println);
     }
-    ```
+    
     
 
 ---
@@ -271,7 +271,3 @@ The `java.nio.file` package provides better file handling with Path, Files, and 
 - **Reader / Writer**: Character-based input/output.
 - **Serializable**: For object serialization.
 - **Closeable**: Interface for resources that need closing.
-
----
-
-This cheat sheet should cover the essential topics for Java I/O in **Java 17 OCP exam**. For any specific topic, try practicing related questions or scenarios for better comprehension.

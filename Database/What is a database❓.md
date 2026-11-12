@@ -1,20 +1,17 @@
-- Any collection of related information
-- Database can be stored in different way
+## CRUD 📝
 
-## crud
+- Create
+- Read
+- Update
+- Delete
 
-- create
-- read
-- update
-- delete
+## Two Types of Database in Computer Systems 💻
 
-## two types of database in computer system
-
-- Relational Database (SQL)
-	- each Table has columns and rows
-	- A unique key identifies each row
-- Non relational (NoSQL / No just SQL)
-	- Key values stores
-	- Document (JSON, XML, etc.)
-	- Graphs
-	- Flexible Tables
+- **Relational Database (SQL)** 🗒
+    - Each table has columns and rows.
+    - A unique key identifies each row.
+- **Non-Relational (NoSQL / No Just SQL)** 🚀
+    - Key-value stores
+    - Document (JSON, XML, etc.)
+    - Graphs
+    - Flexible Tables 📊

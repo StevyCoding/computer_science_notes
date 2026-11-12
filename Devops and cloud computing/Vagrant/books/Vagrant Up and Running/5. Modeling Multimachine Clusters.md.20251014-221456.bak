@@ -1,0 +1,134 @@
+Modern web applications often use multiple services, requiring a **service-oriented architecture**. Instead of running all services on a single machine (which can cause "works on my machine" bugs and make failure testing difficult), **Vagrant** allows developers to model production-like environments with **multimachine setups** using a single **Vagrantfile**.
+
+### Key Concepts:
+
+- **Multimachine Environments:** Vagrant can define and provision multiple virtual machines (VMs) in one configuration file.
+- **Configuration via Vagrantfile:** Using `config.vm.define`, each VM (e.g., web server, database server) can have distinct settings.
+- **Isolation & Testing:** This setup mimics production more accurately, allowing for network failure simulations and service isolation.
+- **Performance Considerations:** Running many VMs is resource-intensive, so careful planning is needed.
+
+## Running multiple machine
+
+### Example Setup:
+
+A **Vagrantfile** defining two machines:
+
+- **Web server** (forwards port 80 to 8080, runs a provisioning script)
+- **Database server** (to be configured later)
+
+```ruby
+Vagrant::Config.run do |config|
+  config.vm.box = "precise64"
+
+  config.vm.define "web" do |web|
+    web.vm.forward_port 80, 8080
+    web.vm.provision :shell, path: "provision.sh"
+  end
+
+  config.vm.define "db" do |db|
+    # Configuration to be added
+  end
+end
+```
+
+### Running VMs:
+
+1. **Destroy existing VMs** (`vagrant destroy`) to avoid conflicts.
+2. **Start new VMs** (`vagrant up`), bringing up both "web" and "db" machines.
+
+### Output Highlights:
+
+- Vagrant boots both VMs, assigning different port mappings.
+- Shows logs for provisioning and shared folder mounting.
+
+## Controlling Multiple Machines
+
+With multiple machines in a Vagrant environment, commands like `up`, `destroy`, and `reload` require specifying a machine name to target a specific VM; otherwise, they apply to all machines.
+
+```bash
+$ vagrant reload web
+```
+
+## Communication between machine
+
+## Host-Only Networks
+
+Host-only networking allows Vagrant machines on the same subnet to communicate using static IP addresses. By default, Vagrant assigns a subnet mask of **255.255.255.0**, meaning machines with the same first three octets (e.g., **192.168.33.X**) share a network.
+
+To enable this, the **Vagrantfile** is modified to assign static IPs:
+
+```ruby
+Vagrant::Config.run do |config|
+  config.vm.box = "precise64"
+
+  config.vm.define "web" do |web|
+    web.vm.forward_port 80, 8080
+    web.vm.provision :shell, path: "provision.sh"
+    web.vm.network :hostonly, "192.168.33.10"
+  end
+
+  config.vm.define "db" do |db|
+    db.vm.network :hostonly, "192.168.33.11"
+  end
+end
+```
+
+After running `vagrant reload`, both machines can **ping** each other using their assigned IPs, ensuring successful communication. SSH into one machine (`vagrant ssh web`) and test connectivity to the other (`ping 192.168.33.11`).
+
+This setup allows services (e.g., a database on **db**) to be accessible from other VMs, simulating real-world networked environments.
+
+### Bridged Networks
+
+In addition to host-only networking, multiple machines can communicate with bridged networking as well, technically, as long as they are all bridged onto the same device. In this case, you’ll have to manually look up the IP that the router gives to the machines and communicate that way. This is not ideal, however. The preferred method of communication between machines in a multimachine environment is host-only networking.
+
+## Real Example: MySQL
+
+To demonstrate a practical use case, we'll provision the **db** machine with MySQL and allow the **web** machine to connect to it using the MySQL client.
+
+1. **Create a `db_provision.sh` script** to install and configure MySQL on the **db** machine:
+
+```sh
+export DEBIAN_FRONTEND=noninteractive
+apt-get update
+apt-get install -y mysql-server
+sed -i -e 's/127.0.0.1/0.0.0.0/' /etc/mysql/my.cnf
+restart mysql
+mysql -uroot mysql <<< "GRANT ALL ON *.* TO 'root'@'%'; FLUSH PRIVILEGES;"
+```
+
+2. **Modify the `Vagrantfile`** to set up MySQL on **db** and install the MySQL client on **web**:
+
+```ruby
+Vagrant::Config.run do |config|
+  config.vm.box = "precise64"
+
+  config.vm.define "web" do |web|
+    web.vm.forward_port 80, 8080
+    web.vm.provision :shell, path: "provision.sh"
+    web.vm.provision :shell, inline: "apt-get -y install mysql-client"
+    web.vm.network :hostonly, "192.168.33.10"
+  end
+
+  config.vm.define "db" do |db|
+    db.vm.provision :shell, path: "db_provision.sh"
+    db.vm.network :hostonly, "192.168.33.11"
+  end
+end
+```
+
+1. **Destroy and restart the environment** to ensure a clean setup:
+    
+    ```sh
+    vagrant destroy -f
+    vagrant up
+    ```
+    
+2. **Verify connectivity** by SSH-ing into the web machine and connecting to the MySQL server on **db**:
+    
+    ```sh
+    vagrant ssh web
+    mysql -uroot -h192.168.33.11
+    ```
+    
+
+This setup mimics real-world architectures, where services run on separate machines while remaining connected within a network.

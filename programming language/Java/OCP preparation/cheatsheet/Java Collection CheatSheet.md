@@ -3,7 +3,6 @@
 ---
 
 #### 1. Collection Framework Overview
-
 - Collection Interface: Root of the collection hierarchy.
 - List: Ordered, allows duplicates. (`ArrayList`, `LinkedList`)
 - Set: Unordered, no duplicates. (`HashSet`, `TreeSet`, `LinkedHashSet`)
@@ -14,25 +13,19 @@
 ---
 
 #### 2. List Interface
-
 - ArrayList: Resizable array implementation.
-    
     - Operations: `add()`, `get()`, `set()`, `remove()`, `size()`, `clear()`
     - Example: `List<String> list = new ArrayList<>();`
 - LinkedList: Doubly linked list implementation.
-    
     - Operations: `addFirst()`, `addLast()`, `removeFirst()`, `removeLast()`
     - Example: `List<Integer> list = new LinkedList<>();`
 - Vector: Synchronized version of `ArrayList`. Rarely used.
-    
 - Stack: LIFO (Last In, First Out) implementation.
-    
     - Example: `Stack<Integer> stack = new Stack<>();`
 
 ---
 
 #### 3. Set Interface
-
 - HashSet: Unordered, no duplicates.
     - Example: `Set<String> set = new HashSet<>();`
 - LinkedHashSet: Maintains insertion order.
@@ -43,7 +36,6 @@
 ---
 
 #### 4. Queue Interface
-
 - PriorityQueue: Queue where elements are ordered by priority.
     - Example: `Queue<String> queue = new PriorityQueue<>();`
 - LinkedList: Implements both `List` and `Queue` interfaces.
@@ -55,7 +47,6 @@
 ---
 
 #### 5. Map Interface
-
 - HashMap: No order, allows null keys and values.
     - Example: `Map<String, Integer> map = new HashMap<>();`
 - LinkedHashMap: Maintains insertion order.
@@ -66,7 +57,6 @@
 ---
 
 #### 6. Common Collection Methods
-
 - add(E): Adds element to a collection.
 - remove(E): Removes specific element.
 - size(): Returns the number of elements.
@@ -79,18 +69,14 @@
 ---
 
 #### 7. Common Collection Operations (Java 17)
-
 - Sorting:
-    
     - `Collections.sort(list)`: Sorts `List` (uses `Comparable` or `Comparator`).
     - `TreeSet`: Automatically sorted.
 - Iterating:
-    
     - For-Each Loop: `for (String item : list) {...}`
     - Iterator: `Iterator<E> iterator = collection.iterator(); while (iterator.hasNext()) {...}`
     - Lambda: `list.forEach(item -> System.out.println(item));`
 - Conversion Between Collections:
-    
     - List to Set: `Set<T> set = new HashSet<>(list);`
     - Set to List: `List<T> list = new ArrayList<>(set);`
     - Collection to Stream: `Stream<T> stream = collection.stream();`
@@ -99,7 +85,6 @@
 ---
 
 #### 8. Collection Utilities (Java 17)
-
 - `Collections.synchronizedList(list)`: Synchronized access to a list.
 - `Collections.reverse(list)`: Reverses the order of elements.
 - `Collections.sort(list)`: Sorts a list.
@@ -110,7 +95,6 @@
 ---
 
 #### 9. New Features in Java 17
-
 - Set.of(): Immutable set creation.
     - Example: `Set<String> set = Set.of("A", "B", "C");`
 - List.of(): Immutable list creation.
@@ -123,7 +107,6 @@
 ---
 
 #### 10. Performance Considerations
-
 - ArrayList: Best for random access, worst for insertion/removal at the start.
 - LinkedList: Best for insertion/removal at ends, slow random access.
 - HashSet: O(1) for add/remove, poor ordering.
@@ -133,7 +116,6 @@
 ---
 
 #### 11. Best Practices
-
 - Avoid: Using `Vector` or `Stack` (use `ArrayList` and `Deque` instead).
 - Use: `LinkedHashMap` for maintaining insertion order.
 - Immutable Collections: Use `List.of()`, `Set.of()`, and `Map.of()` for immutable collections.
@@ -141,12 +123,7 @@
 ---
 
 #### 12. Key Takeaways
-
 - Thread-Safety: Use `Collections.synchronizedX()` for thread safety.
 - Performance: Choose the right collection type based on usage pattern.
 - Immutability: Prefer immutable collections for safety and efficiency.
 - Lambda Expressions: Leverage lambdas with `forEach`, `filter`, and other Stream operations.
-
----
-
-This cheat sheet should serve as a quick reference for mastering the Java Collection Framework in Java 17, covering all essential types, methods, and best practices needed for the OCP exam.

@@ -1,8 +1,8 @@
-To define an `object` type, we simply list its properties and their types.
+To define an `object` type, we simply list its properties and their types.
 
 For example, here’s a function that takes a point-like object:
 
-```ts
+```typescript
 // The parameter's type annotation is an object type
 function printCoord(pt: { x: number; y: number }) {
   console.log("The coordinate's x value is " + pt.x);

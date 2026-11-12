@@ -1,8 +1,8 @@
-In TypeScript, namespace augmentation is a way to extend or modify existing namespaces. This is useful when you want to add new functionality to existing namespaces or to fix missing or incorrect declarations in third-party libraries.
+In TypeScript, namespace augmentation is a way to extend or modify existing namespaces. This is useful when you want to add new functionality to existing namespaces or to fix missing or incorrect declarations in third-party libraries. 🚀
 
 Here’s an example of how you can use namespace augmentation in TypeScript:
 
-```ts
+```typescript
 // myModule.d.ts
 declare namespace MyModule {
   export interface MyModule {
@@ -24,4 +24,4 @@ const obj = new MyModule.MyModule();
 obj.newFunction(); // Output: "I am a new function in MyModule!"
 ```
 
-In this example, we use namespace augmentation to add a new function “newFunction” to the “MyModule” namespace. This is done in the declaration file `myModule.d.ts` by declaring a new interface “MyModule” within the “MyModule” namespace and adding the “newFunction” function to it.
+In this example, we use namespace augmentation to add a new function “newFunction” to the “MyModule” namespace. This is done in the declaration file `myModule.d.ts` by declaring a new interface “MyModule” within the “MyModule” namespace and adding the “newFunction” function to it.

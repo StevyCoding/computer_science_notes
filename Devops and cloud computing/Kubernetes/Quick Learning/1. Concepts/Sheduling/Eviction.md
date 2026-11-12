@@ -1,25 +1,30 @@
-# Cue
-* What are evictions in Kubernetes?
-* Why do they happen?
-* Who can initiate them?
-* How does Kubernetes handle them?
-# Key Points
-* **Definition:**
-  * Evictions terminate or delete running pods from a node.
-* **Reasons:**
-  * **Resource constraints** (CPU, memory, disk).
-  * **Pod failures** or node issues.
-* **Initiation:**
-  * Can be triggered by the **system** automatically.
-  * Can be done **manually** by administrators via the API.
-* **Types:**
-  * **Graceful evictions:** Allow pods to clean up resources before termination.
-  * **Forceful evictions:** Immediately terminate pods.
-* **Mechanisms to manage:**
-  * **Preemption:** Higher-priority pods can evict lower-priority ones.
-  * **Pod Disruption Budgets (PDBs):** Limit voluntary evictions to minimize service impact.
-* **Importance:**
-  * Necessary for cluster **health, stability, and resource management**.
-# Summary
-Evictions in Kubernetes remove pods from nodes when resources are constrained or failures occur. They can be graceful or forceful, initiated by the system or admins. Tools like preemption and pod disruption budgets help manage evictions while minimizing service disruption.
+## Evictions in Kubernetes 🚀
 
+ℹ️
+
+- What are evictions in Kubernetes?
+- Why do they occur?
+- Who can initiate them?
+- How does Kubernetes handle them?
+
+### Definition
+* **Evictions** terminate or delete running pods from a node in Kubernetes.
+
+### Reasons
+- **Resource constraints**: such as CPU, memory, or disk usage.
+- **Pod failures** or issues with the nodes themselves. 
+
+### Initiation
+- Evictions can be triggered by the **system** automatically.
+- They can also be done **manually** by administrators via the API.
+
+### Types
+* **Graceful evictions**: These allow pods to clean up resources before termination, providing an orderly shutdown process.
+* **Forceful evictions**: These immediately terminate pods without giving them a chance to clean up resources. 
+
+### Mechanisms to manage
+- **Preemption**: Higher-priority pods can evict lower-priority ones.
+- **Pod Disruption Budgets (PDBs)**: Limit voluntary evictions to minimize service impact. 
+
+### Importance
+Evictions play a crucial role in maintaining the **health**, **stability**, and **resource management** of a Kubernetes cluster.

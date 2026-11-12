@@ -1,0 +1,14 @@
+# Distributing Network Traffic (in Kubernetes) 🚦
+
+This process involves distributing network traffic across **Pods or Nodes** using a **Service**.
+
+## Service Definition
+A **Service** acts as a **stable network endpoint (IP + DNS)** for a group of Pods.
+
+## Traffic Distribution Algorithms
+- **Round-Robin**: A simple algorithm that evenly distributes traffic among available targets in a rotating manner.
+- Least Connections: Directs traffic to the pod with the fewest active connections.
+- IP Hash: Distributes traffic based on the client's IP address making the request.
+
+## Ensuring Efficient & Reliable Traffic Flow
+This ensures that network traffic flows efficiently and reliably across the cluster.

@@ -1,0 +1,11 @@
+# Cue
+- What are <mark style="background: #FFB8EBA6;">taints</mark> and <mark style="background: #FFB8EBA6;">tolerations</mark> ?
+- why is important ?
+# Key notes
+- Taints & tolerations are used in k8s to restrict/allow pods to be scheduled on certain nodes based on labels.
+- Taint => a label applied to a node to indicate certain limitations or requirements.
+- toleration => a label applied to a pod to indicate that it can tolerate certain taints
+- this feature is useful for various purpose, like ensuring separation of critical and non critical workloads, reserving nodes for certain task, and protecting nodes from overloading.
+# Summary
+Taint & toleration in k8s are used to restrict/allow pod to  be scheduled on certain nodes based on labels (taints, toleration). taints => indicate certaint limitation or requirement
+tolerations

@@ -1,0 +1,16 @@
+# External Access
+
+This section discusses how clients outside the Kubernetes cluster can access Pods and Services.
+
+## Methods
+
+The following methods are available:
+
+1. **NodePort**: Allows communication with a Kubernetes node on a fixed port.
+2. **LoadBalancer**: Provides an external load balancer to distribute traffic across multiple nodes.
+3. **Ingress** (Recommended for scalability and reliability): Enables flexible routing by URL/host to Services.
+
+## Ingress
+
+The Ingress resource is essential for achieving scalability and reliability in deployments. With Ingress, you can define custom rules for routing traffic to different services based on the incoming host or URL.
+

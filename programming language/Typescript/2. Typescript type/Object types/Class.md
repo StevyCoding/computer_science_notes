@@ -1,6 +1,6 @@
 In TypeScript, a class is a blueprint for creating objects with specific properties and methods. Classes are a fundamental concept in object-oriented programming. Here is an example of a simple class in TypeScript:
 
-```ts
+```typescript
 class Car {
   make: string;
   model: string;
@@ -17,3 +17,5 @@ class Car {
   }
 }
 ```
+
+#Car 🚗

@@ -12,36 +12,22 @@ In this Google Project Management Certificate program, you will learn the founda
 
 Course 5 covers four modules of material. Each module includes a series of lessons with many types of learning opportunities, such as:
 
-- **Videos** with a Google employee as your instructor. 
-    
-- **Readings** to introduce new ideas and case studies and to build on the concepts from the videos. 
-    
-- **Discussion forums** to explore course topics for better understanding and chat with peers in the program. 
-    
-- **In-video questions** that will pop up from time to time. They’re designed for you to check your learning as you go! 
-    
+- **Videos** with a Google employee as your instructor.
+- **Readings** to introduce new ideas and case studies and to build on the concepts from the videos.
+- **Discussion forums** to explore course topics for better understanding and chat with peers in the program.
+- **In-video questions** that will pop up from time to time. They’re designed for you to check your learning as you go!
 - **Practice quizzes** to check your understanding and give you valuable feedback. **Practice activities** will provide you with a hands-on opportunity to apply skills you are working to master. You will assess your work by answering quiz questions about it or by comparing it to an exemplar built by our course team. _Note: these activities will not count towards your final course grade, but you are strongly encouraged to complete them as they will help prepare you for the graded quizzes and peer reviews._
-    
-- **Graded quizzes** on video and reading content to measure your progress. 
-    
-- Ungraded **peer-review activities** on video and reading content  that provide you the opportunity to practice applying skills you are working to master. Other learners in your course will see the work you submit and give you feedback based on a rubric. 
-    
+- **Graded quizzes** on video and reading content to measure your progress.
+- Ungraded **peer-review activities** on video and reading content that provide you the opportunity to practice applying skills you are working to master. Other learners in your course will see the work you submit and give you feedback based on a rubric.
 - **Graded peer-review activities** on video and reading content that assess your ability to apply skills you are working to master. Other learners in your course will grade your work and give you feedback based on a rubric.
-    
 
 Everyone learns differently, so we designed this program to let you work at your own pace. Although your personalized deadlines start when you enroll, they’re just a guide. Feel free to move through the program however it works best for you. Keep in mind, you can always reset your deadlines by clicking the blue **reset my deadlines** button. There’s no penalty for late assignments. To earn your certificate, all you have to do is complete all of the work.
 
 ## **Tips**
 
-- We strongly recommend you take all six courses—and complete the items in each lesson—in the order they appear, as new information and concepts build on previous ones. 
-    
-- Make the most of the readings and additional resources throughout the program. They’re designed to support your learning. 
-    
-- If something is confusing, don’t hesitate to rewatch a video, go through a reading again, or ask your classmates for advice in the discussion forum. 
-    
-- Take part in all learning opportunities to gain as much knowledge and experience possible. 
-    
+- We strongly recommend you take all six courses—and complete the items in each lesson—in the order they appear, as new information and concepts build on previous ones.
+- Make the most of the readings and additional resources throughout the program. They’re designed to support your learning.
+- If something is confusing, don’t hesitate to rewatch a video, go through a reading again, or ask your classmates for advice in the discussion forum.
+- Take part in all learning opportunities to gain as much knowledge and experience possible.
 
 Congratulations on choosing to take this first step toward becoming a part of the wonderful world of project management. Enjoy the journey!
-
-_*Source: PMI (2017). Project Management Job Growth and Talent Gap 2017–2027._

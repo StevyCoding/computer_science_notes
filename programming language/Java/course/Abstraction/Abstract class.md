@@ -1,6 +1,6 @@
-**Abstraction** is a process of hiding the implementation detail and showing only  functionality to the user.
+**Abstraction** is a process of hiding implementation details and showing only functionality to the user. 🚀
 
-```java
+```javascript
+// java
 abstract class {}
 ```
-

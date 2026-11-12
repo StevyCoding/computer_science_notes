@@ -1,0 +1,4 @@
+**Abstraction** is a process of hiding implementation details and showing only functionality to the user. 🚀
+
+java
+abstract class {}

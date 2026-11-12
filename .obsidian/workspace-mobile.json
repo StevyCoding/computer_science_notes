@@ -4,47 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "1d93f8dd809e9eac",
-        "type": "split",
+        "id": "47b0dc1ccf5f0f07",
+        "type": "tabs",
         "children": [
           {
-            "id": "47b0dc1ccf5f0f07",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "bec5b39a6ccbca44",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/4. Deployments.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "4. Deployments"
-                }
-              }
-            ]
+            "id": "bec5b39a6ccbca44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Devops and cloud computing/Kubernetes/CKA/CKA_Fiche_Revision_Obsidian.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CKA_Fiche_Revision_Obsidian"
+            }
           },
           {
-            "id": "b2f46bccac9a76c6",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "dbfb75f81ce6f6a5",
-                "type": "leaf",
-                "state": {
-                  "type": "mindmap",
-                  "state": {},
-                  "icon": "lucide-ghost",
-                  "title": "mindmap"
-                }
-              }
-            ]
+            "id": "dbfb75f81ce6f6a5",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "mindmap"
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -60,7 +47,9 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": false
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
           },
           "icon": "lucide-folder-closed",
           "title": "Files"
@@ -180,6 +169,26 @@
           "icon": "lucide-ghost",
           "title": "khoj-chat-view"
         }
+      },
+      {
+        "id": "12fce0f3f370c54f",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-ghost",
+          "title": "review-queue-list-view"
+        }
+      },
+      {
+        "id": "1384cd65b4151953",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "SpacedRepIcon",
+          "title": "Notes Review Queue"
+        }
       }
     ],
     "currentTab": 3
@@ -187,9 +196,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "copilot:Open Copilot Chat": false,
-      "obsidian-git:Open Git source control": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -197,11 +203,23 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "copilot:Open Copilot Chat": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
   "active": "bec5b39a6ccbca44",
   "lastOpenFiles": [
+    "Database/What is a database❓.md",
+    "Database/Database design/Relational Database Design - Complete Cheatsheet.md",
+    "Database/Database design",
+    "programming language/Java/OCP preparation/8. Chapter 7 beyond classes.md",
+    "programming language/Java/OCP preparation/4. Chapter 3 Making Decision.md",
+    "programming language/Java/OCP preparation/1. OCP exam objectives.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/CheatSheet.md",
+    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/4. Deployments.md",
     "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/3. Replicaset.md",
     "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/2. Pods.md",
     "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/2. Kubernetes In A Nutshell.md",
@@ -227,13 +245,6 @@
     "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Networking/3. Load Balancing.md",
     "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Networking/2. Exertal Access to Services.md",
     "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Networking/1. Networking and Pod2pod communication.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging/6. Logs.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging/5. Metrics.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging/4. Traces.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging/3. Resource Health.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging/2. Obervability Engines.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging/1. Monitoring and Logging.md",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/AutoSCaling/4. Cluster autoscaling.md",
     "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/assets/Pasted image 20250924225907.png",
     "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/assets/Pasted image 20250924224151.png",
     "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Sheduling",
@@ -242,7 +253,6 @@
     "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Networking",
     "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/Monitoring and Logging",
     "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/AutoSCaling",
-    "Devops and cloud computing/Kubernetes/Quick Learning/1. Concepts/assets",
     "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250503164857.png",
     "Devops and cloud computing/Kubernetes/Certified Kubernetes Administrator (CKA) Study Guide, 2nd Edition/assets/Pasted image 20250503150128.png",
     "Untitled.canvas",

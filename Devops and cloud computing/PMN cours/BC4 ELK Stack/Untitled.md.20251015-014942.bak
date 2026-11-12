@@ -1,0 +1,23 @@
+## Théorème de CAP 🚀
+
+This note explores the CAP theorem.
+
+**What is the CAP Theorem?** 🧐
+
+The CAP theorem states that a distributed database system can only satisfy two out of the following three guarantees:
+
+*   **Consistency (C)**: All nodes see the same data at the same time.
+*   **Availability (A)**: The system remains operational even if some nodes fail.
+*   **Partition Tolerance (P)**: The system continues to operate despite network partitions (where nodes cannot communicate with each other).
+
+**Essentially:**
+
+You can have:
+
+*   Consistency and Availability (but not Partition Tolerance)
+*   Availability and Partition Tolerance (but not Consistency)
+*   Consistency and Partition Tolerance (but not Availability)
+
+**Example:**
+
+Imagine a distributed database with three nodes. If a network partition occurs, the system must choose between ensuring data consistency and remaining available.
